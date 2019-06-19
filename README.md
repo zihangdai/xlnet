@@ -40,7 +40,7 @@ We use dev results in the table to exclude other factors such as multi-task lear
 ### Released Models
 
 As of <u>June 19, 2019</u>, the following model has been made available:
-* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
+* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
 
 Each .zip file contains three items:
 *   A TensorFlow checkpoint (`xlnet_model.ckpt`) containing the pre-trained weights (which is actually 3 files).
