@@ -1,8 +1,19 @@
 ## Introduction
 
-**XLNet** is a new unsuperivsed language representation learning method based on a novel generalized permutation language modeling objective. Additionally, XLNet employs Transformer-XL as the backbone model, exhibiting excellent performance for language tasks involving long context. Overall, XLNet achieves state-of-the-art (SOTA) results on various downstream language tasks including question answering, natural language inference, sentiment analysis, and document ranking.
+**XLNet** is a new unsuperivsed language representation learning method based on a novel generalized permutation language modeling objective. Additionally, XLNet employs [Transformer-XL](https://arxiv.org/abs/1901.02860) as the backbone model, exhibiting excellent performance for language tasks involving long context. Overall, XLNet achieves state-of-the-art (SOTA) results on various downstream language tasks including question answering, natural language inference, sentiment analysis, and document ranking.
 
-For a detailed description of technical details and experimental results, please refer to our paper.
+For a detailed description of technical details and experimental results, please refer to our paper:
+
+​        [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/abs/1906.08237)
+
+​        Zhilin Yang\*, Zihang Dai\*, Yiming Yang, Jaime Carbonell, Ruslan Salakhutdinov, Quoc V. Le 
+
+​        (*: equal contribution) 
+
+​        Preprint 2019
+
+
+
 
 ## Results
 
@@ -10,12 +21,12 @@ As of June 19, 2019, XLNet outperforms BERT on 20 tasks and achieves state-of-th
 
 ### Results on Reading Comprehension
 
-Model | RACE accuracy | SQuAD1.1 EM | SQuAD2.0 EM
+Model | [RACE accuracy](http://www.qizhexie.com/data/RACE_leaderboard.html) | SQuAD1.1 EM | SQuAD2.0 EM
 --- | --- | --- | ---
 BERT | 72.0 | 84.1 | 78.98
 XLNet | **81.75** | **88.95** | **86.12**
 
-We use SQuAD dev results in the table to exclude other factors such as using additional training data or other data augmentation techniques.
+We use SQuAD dev results in the table to exclude other factors such as using additional training data or other data augmentation techniques. See [SQuAD leaderboard](https://rajpurkar.github.io/SQuAD-explorer/) for test numbers.
 
 ### Results on Text Classification
 
@@ -33,7 +44,7 @@ Model | MNLI | QNLI | QQP | RTE | SST-2 | MRPC | CoLA | STS-B
 BERT | 86.6 | 92.3 | 91.3 | 70.4 | 93.2 | 88.0 | 60.6 | 90.0
 XLNet | **89.8** | **93.9** | **91.8** | **83.8** | **95.6** | **89.2** | **63.6** | **91.8**
 
-We use dev results in the table to exclude other factors such as multi-task learning or using ensembles.
+We use single-task dev results in the table to exclude other factors such as multi-task learning or using ensembles.
 
 ## Pre-trained models
 
@@ -222,9 +233,9 @@ wget https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json
 wget https://rajpurkar.github.io/SQuAD-explorer/dataset/dev-v2.0.json
 ```
 
-(2) Perform data preprocessing using the script `scripts/prepro_squad.sh`. 
+(2) Perform data preprocessing using the script `scripts/prepro_squad.sh`.
 
-- This will take quite some time in order to accurately map character positions (raw data) to sentence piece positions (used for training). 
+- This will take quite some time in order to accurately map character positions (raw data) to sentence piece positions (used for training).
 
 - For faster parallel preprocessing, please refer to the flags `--num_proc` and `--proc_id` in `run_squad.py`.
 
