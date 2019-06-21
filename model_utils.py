@@ -17,7 +17,7 @@ import tensorflow as tf
 def configure_tpu(FLAGS):
   if FLAGS.use_tpu:
     tpu_cluster = tf.contrib.cluster_resolver.TPUClusterResolver(
-        FLAGS.tpu)
+        FLAGS.tpu, zone=FLAGS.tpu_zone, project=FLAGS.gcp_project)
     master = tpu_cluster.get_master()
   else:
     tpu_cluster = None
