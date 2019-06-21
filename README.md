@@ -321,7 +321,7 @@ python data_utils.py \
 	--num_passes=20 \
 	--bi_data=True \
 	--sp_path=spiece.model \
-	--mask_alpht=6 \
+	--mask_alpha=6 \
 	--mask_beta=1 \
 	--num_predict=85
 ```
