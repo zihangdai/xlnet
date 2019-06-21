@@ -677,6 +677,7 @@ def main(_):
     text = preprocess_text(text, lower=FLAGS.uncased)
     return encode_ids(sp, text)
 
+  print(FLAGS.tpu)
   tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(FLAGS.tpu)
   is_per_host = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
   run_config = tf.contrib.tpu.RunConfig(
