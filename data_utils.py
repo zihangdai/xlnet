@@ -13,9 +13,11 @@ import absl.logging as _logging  # pylint: disable=unused-import
 
 import numpy as np
 
+
 import tensorflow as tf
-import sentencepiece as spm
+
 from prepro_utils import preprocess_text, encode_ids
+import sentencepiece as spm
 
 
 special_symbols = {
@@ -75,7 +77,6 @@ def format_filename(prefix, bsz_per_host, seq_len, bi_data, suffix,
 
 
 def _create_data(idx, input_paths):
-
   # Load sentence-piece model
   sp = spm.SentencePieceProcessor()
   sp.Load(FLAGS.sp_path)
@@ -85,10 +86,10 @@ def _create_data(idx, input_paths):
   for input_path in input_paths:
     input_data, sent_ids = [], []
     sent_id, line_cnt = True, 0
-    tf.logging.info("Processing {}".format(input_path))
+    tf.logging.info("Processing %s", input_path)
     for line in tf.gfile.Open(input_path):
       if line_cnt % 100000 == 0:
-        tf.logging.info("Loading line {}".format(line_cnt))
+        tf.logging.info("Loading line %d", line_cnt)
       line_cnt += 1
 
       if not line.strip():
@@ -98,14 +99,17 @@ def _create_data(idx, input_paths):
         else:
           continue
       else:
-        cur_sent = preprocess_text(line.strip(), lower=FLAGS.uncased)
-        cur_sent = encode_ids(sp, cur_sent)
+        if FLAGS.from_raw_text:
+          cur_sent = preprocess_text(line.strip(), lower=FLAGS.uncased)
+          cur_sent = encode_ids(sp, cur_sent)
+        else:
+          cur_sent = list(map(int, line.strip().split()))
 
       input_data.extend(cur_sent)
       sent_ids.extend([sent_id] * len(cur_sent))
       sent_id = not sent_id
 
-    tf.logging.info("Finish with line {}".format(line_cnt))
+    tf.logging.info("Finish with line %d", line_cnt)
     if line_cnt == 0:
       continue
 
@@ -115,7 +119,7 @@ def _create_data(idx, input_paths):
     total_line_cnt += line_cnt
     input_shards.append((input_data, sent_ids))
 
-  tf.logging.info("[Task {}] Total number line: {}".format(idx, total_line_cnt))
+  tf.logging.info("[Task %d] Total number line: %d", idx, total_line_cnt)
 
   tfrecord_dir = os.path.join(FLAGS.save_dir, "tfrecords")
 
@@ -125,8 +129,8 @@ def _create_data(idx, input_paths):
   np.random.seed(100 * FLAGS.task + FLAGS.pass_id)
 
   perm_indices = np.random.permutation(len(input_shards))
-  tf.logging.info("Using perm indices {} for pass {}".format(
-      perm_indices.tolist(), FLAGS.pass_id))
+  tf.logging.info("Using perm indices %s for pass %d",
+                  perm_indices.tolist(), FLAGS.pass_id)
 
   input_data_list, sent_ids_list = [], []
   prev_sent_id = None
@@ -204,16 +208,16 @@ def create_data(_):
 
   # Interleavely split the work into FLAGS.num_task splits
   file_paths = sorted(tf.gfile.Glob(FLAGS.input_glob))
-  tf.logging.info("Use glob: {}".format(FLAGS.input_glob))
-  tf.logging.info("Find {} files: {}".format(len(file_paths), file_paths))
+  tf.logging.info("Use glob: %s", FLAGS.input_glob)
+  tf.logging.info("Find %d files: %s", len(file_paths), file_paths)
 
   task_file_paths = file_paths[FLAGS.task::FLAGS.num_task]
   if not task_file_paths:
-    tf.logging.info("Exit: task {} has no file to process.".format(FLAGS.task))
+    tf.logging.info("Exit: task %d has no file to process.", FLAGS.task)
     return
 
-  tf.logging.info("Task {} process {} files: {}".format(
-      FLAGS.task, len(task_file_paths), task_file_paths))
+  tf.logging.info("Task %d process %d files: %s",
+                  FLAGS.task, len(task_file_paths), task_file_paths)
   record_info = _create_data(FLAGS.task, task_file_paths)
 
   record_prefix = "record_info-{}-{}-{}".format(
@@ -254,8 +258,8 @@ def _split_a_and_b(data, sent_ids, begin_idx, tot_len, extend_target=False):
   data_len = data.shape[0]
   if begin_idx + tot_len >= data_len:
     tf.logging.info("[_split_a_and_b] returns None: "
-                    "begin_idx {} + tot_len {} >= data_len {}".format(
-                        begin_idx, tot_len, data_len))
+                    "begin_idx %d + tot_len %d >= data_len %d",
+                    begin_idx, tot_len, data_len)
     return None
 
   end_idx = begin_idx + 1
@@ -305,8 +309,8 @@ def _split_a_and_b(data, sent_ids, begin_idx, tot_len, extend_target=False):
   if extend_target:
     if a_end >= data_len or b_end >= data_len:
       tf.logging.info("[_split_a_and_b] returns None: "
-                      "a_end {} or b_end {} >= data_len {}".format(
-                          a_end, b_end, data_len))
+                      "a_end %d or b_end %d >= data_len %d",
+                      a_end, b_end, data_len)
       return None
     a_target = data[a_begin + 1: a_end + 1]
     b_target = data[b_begin: b_end + 1]
@@ -376,8 +380,6 @@ def _sample_mask(sp, seg, reverse=False, max_gram=5, goal_num_predict=None):
 
     cur_len = end + r_ctx
 
-    # print(n, sp.DecodeIds(seg[beg:end].tolist()), seg[beg:end].tolist())
-
   while goal_num_predict is not None and num_predict < goal_num_predict:
     i = np.random.randint(seg_len)
     if not mask[i]:
@@ -391,7 +393,7 @@ def _sample_mask(sp, seg, reverse=False, max_gram=5, goal_num_predict=None):
 
 
 def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
-                         bi_data, sp):
+                     bi_data, sp):
   data, sent_ids = data[0], data[1]
 
   num_core = FLAGS.num_core_per_host
@@ -414,7 +416,7 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
   else:
     data, sent_ids = batchify(data, bsz_per_host, sent_ids)
 
-  tf.logging.info("Raw data shape {}".format(data.shape))
+  tf.logging.info("Raw data shape %s.", data.shape)
 
   file_name = format_filename(
       prefix=basename,
@@ -430,7 +432,7 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
   )
   save_path = os.path.join(save_dir, file_name)
   record_writer = tf.python_io.TFRecordWriter(save_path)
-  tf.logging.info("Start writing {}.".format(save_path))
+  tf.logging.info("Start writing %s.", save_path)
 
   num_batch = 0
   reuse_len = FLAGS.reuse_len
@@ -445,7 +447,7 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
   i = 0
   while i + seq_len <= data_len:
     if num_batch % 500 == 0:
-      tf.logging.info("Processing batch {}".format(num_batch))
+      tf.logging.info("Processing batch %d", num_batch)
 
     all_ok = True
     features = []
@@ -460,7 +462,7 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
           tot_len=seq_len - reuse_len - 3,
           extend_target=True)
       if results is None:
-        tf.logging.info("Break out with seq idx {}".format(i))
+        tf.logging.info("Break out with seq idx %d", i)
         all_ok = False
         break
 
@@ -477,14 +479,14 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
       mask_0 = _sample_mask(sp, inp, reverse=reverse,
                             goal_num_predict=num_predict_0)
       mask_1 = _sample_mask(sp, np.concatenate([a_data, sep_array, b_data,
-                            sep_array, cls_array]),
+                                                sep_array, cls_array]),
                             reverse=reverse, goal_num_predict=num_predict_1)
 
       # concatenate data
       cat_data = np.concatenate([inp, a_data, sep_array, b_data,
-          sep_array, cls_array])
-      seg_id = ([0] * (reuse_len + a_data.shape[0]) + [0] + [1] * b_data.shape[0]
-          + [1] + [2])
+                                 sep_array, cls_array])
+      seg_id = ([0] * (reuse_len + a_data.shape[0]) + [0] +
+                [1] * b_data.shape[0] + [1] + [2])
       assert cat_data.shape[0] == seq_len
       assert mask_0.shape[0] == seq_len // 2
       assert mask_1.shape[0] == seq_len // 2
@@ -518,7 +520,7 @@ def create_tfrecords(save_dir, basename, data, bsz_per_host, seq_len,
     i += reuse_len
 
   record_writer.close()
-  tf.logging.info("Done writing {}. batches: {}".format(save_path, num_batch))
+  tf.logging.info("Done writing %s. Num of batches: %d", save_path, num_batch)
 
   return save_path, num_batch
 
@@ -550,7 +552,7 @@ def parse_files_to_dataset(parser, file_names, split, num_batch, num_hosts,
   if host_id == num_hosts - 1:
     my_end_file_id = num_files
   file_paths = file_names[my_start_file_id: my_end_file_id]
-  tf.logging.info("Host {} handles {} files".format(host_id, len(file_paths)))
+  tf.logging.info("Host %d handles %d files", host_id, len(file_paths))
 
   assert split == "train"
   dataset = tf.data.Dataset.from_tensor_slices(file_paths)
@@ -651,7 +653,7 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
   else:
     host_id = 0
 
-  #### Function used to parse tfrecord
+    #### Function used to parse tfrecord
   def parser(record):
     """function used to parse tfrecord."""
 
@@ -668,16 +670,7 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
         serialized=record,
         features=record_spec)
 
-    # convert seg_id from 2 to 0
-    # change the last two tokens to be [SEP] and [CLS]
-    seg_id = example["seg_id"]
-    inputs = example["input"]
-
-    # segment ids: [ 0, ...,   0,  1, ...,   1,   2]
-    # input token: [a1, ..., SEP, b1, ..., SEP, CLS]
-
-    del example["input"]
-
+    inputs = example.pop("input")
     target = example.pop("target")
     is_masked = tf.cast(example.pop("is_masked"), tf.bool)
 
@@ -699,9 +692,9 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
         non_reuse_len)
 
     perm_mask_0 = tf.concat([perm_mask_0, tf.ones([reuse_len, non_reuse_len])],
-        axis=1)
+                            axis=1)
     perm_mask_1 = tf.concat([tf.zeros([non_reuse_len, reuse_len]), perm_mask_1],
-        axis=1)
+                            axis=1)
     perm_mask = tf.concat([perm_mask_0, perm_mask_1], axis=0)
     target = tf.concat([target_0, target_1], axis=0)
     target_mask = tf.concat([target_mask_0, target_mask_1], axis=0)
@@ -722,7 +715,7 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
       paddings = tf.zeros([pad_len, seq_len], dtype=target_mapping.dtype)
       target_mapping = tf.concat([target_mapping, paddings], axis=0)
       example["target_mapping"] = tf.reshape(target_mapping,
-                                                 [num_predict, seq_len])
+                                             [num_predict, seq_len])
 
       ##### target
       target = tf.boolean_mask(target, bool_target_mask)
@@ -748,7 +741,7 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
     _convert_example(example, use_bfloat16)
 
     for k, v in example.items():
-      tf.logging.info("{}: {}".format(k, v))
+      tf.logging.info("%s: %s", k, v)
 
     return example
 
@@ -799,25 +792,25 @@ def get_input_fn(
   record_info = {"num_batch": 0, "filenames": []}
 
   tfrecord_dirs = tfrecord_dir.split(",")
-  tf.logging.info("Use the following tfrecord dirs: {}".format(tfrecord_dirs))
+  tf.logging.info("Use the following tfrecord dirs: %s", tfrecord_dirs)
 
   for idx, record_dir in enumerate(tfrecord_dirs):
     record_glob = os.path.join(record_dir, record_glob_base)
-    tf.logging.info("[{}] Record glob: {}".format(idx, record_glob))
+    tf.logging.info("[%d] Record glob: %s", idx, record_glob)
 
     record_paths = sorted(tf.gfile.Glob(record_glob))
-    tf.logging.info("[{}] Num of record info path: {}".format(
-        idx, len(record_paths)))
+    tf.logging.info("[%d] Num of record info path: %d",
+                    idx, len(record_paths))
 
     cur_record_info = {"num_batch": 0, "filenames": []}
 
     for record_info_path in record_paths:
       if num_passes is not None:
         record_info_name = os.path.basename(record_info_path)
-        fileds = record_info_name.split(".")[0].split("-")
-        pass_id = int(fileds[-1])
-        if len(fileds) == 5 and pass_id >= num_passes:
-          tf.logging.info("Skip pass {}: {}".format(pass_id, record_info_name))
+        fields = record_info_name.split(".")[0].split("-")
+        pass_id = int(fields[-1])
+        if len(fields) == 5 and pass_id >= num_passes:
+          tf.logging.info("Skip pass %d: %s", pass_id, record_info_name)
           continue
 
       with tf.gfile.Open(record_info_path, "r") as fp:
@@ -839,20 +832,20 @@ def get_input_fn(
       new_filenames.append(new_filename)
     cur_record_info["filenames"] = new_filenames
 
-    tf.logging.info("[Dir {}] Number of chosen batches: {}".format(
-        idx, cur_record_info["num_batch"]))
-    tf.logging.info("[Dir {}] Number of chosen files: {}".format(
-        idx, len(cur_record_info["filenames"])))
+    tf.logging.info("[Dir %d] Number of chosen batches: %s",
+                    idx, cur_record_info["num_batch"])
+    tf.logging.info("[Dir %d] Number of chosen files: %s",
+                    idx, len(cur_record_info["filenames"]))
     tf.logging.info(cur_record_info["filenames"])
 
     # add `cur_record_info` to global `record_info`
     record_info["num_batch"] += cur_record_info["num_batch"]
     record_info["filenames"] += cur_record_info["filenames"]
 
-  tf.logging.info("Total number of batches: {}".format(
-      record_info["num_batch"]))
-  tf.logging.info("Total number of files: {}".format(
-      len(record_info["filenames"])))
+  tf.logging.info("Total number of batches: %d",
+                  record_info["num_batch"])
+  tf.logging.info("Total number of files: %d",
+                  len(record_info["filenames"]))
   tf.logging.info(record_info["filenames"])
 
   def input_fn(params):
@@ -882,7 +875,7 @@ def get_input_fn(
 if __name__ == "__main__":
   FLAGS = flags.FLAGS
   flags.DEFINE_bool("use_tpu", True, help="whether to use TPUs")
-  flags.DEFINE_integer("bsz_per_host", 16, help="batch size per host.")
+  flags.DEFINE_integer("bsz_per_host", 32, help="batch size per host.")
   flags.DEFINE_integer("num_core_per_host", 8, help="num TPU cores per host.")
 
   flags.DEFINE_integer("seq_len", 512,
@@ -899,23 +892,24 @@ if __name__ == "__main__":
                        help="How many tokens to mask within each group.")
   flags.DEFINE_bool("use_eod", True,
                     help="whether to append EOD at the end of a doc.")
-  flags.DEFINE_integer("num_predict", default=None,
-                      help="Num of tokens to predict.")
+  flags.DEFINE_bool("from_raw_text", True,
+                    help="Whether the input is raw text or encoded ids.")
+  flags.DEFINE_integer("num_predict", default=85,
+                       help="Num of tokens to predict.")
 
   flags.DEFINE_string("input_glob", "data/example/*.txt",
-                      help="Input file glob")
+                      help="Input file glob.")
   flags.DEFINE_string("sp_path", "", help="Path to the sentence piece model.")
   flags.DEFINE_string("save_dir", "proc_data/example",
                       help="Directory for saving the processed data.")
   flags.DEFINE_enum("split", "train", ["train", "dev", "test"],
                     help="Save the data as which split.")
 
-  flags.DEFINE_integer("num_task", 1, help="Number of total tasks.")
-  flags.DEFINE_integer("task", 0,
-                       help="The Task ID. This value is used when using "
-                       "multiple workers to identify each worker.")
   flags.DEFINE_integer("pass_id", 0, help="ID of the current pass."
                        "Different passes sample different negative segment.")
+  flags.DEFINE_integer("num_task", 1, help="Number of total tasks.")
+  flags.DEFINE_integer("task", 0, help="The Task ID. This value is used when "
+                       "using multiple workers to identify each worker.")
 
   tf.logging.set_verbosity(tf.logging.INFO)
   tf.app.run(create_data)

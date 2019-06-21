@@ -16,9 +16,6 @@ import random
 from copy import copy
 from collections import defaultdict as dd
 
-from scipy.stats import pearsonr, spearmanr
-from sklearn.metrics import matthews_corrcoef, f1_score
-
 import absl.logging as _logging  # pylint: disable=unused-import
 import tensorflow as tf
 
@@ -207,21 +204,6 @@ class GLUEProcessor(DataProcessor):
     self.test_text_a_column = None
     self.test_text_b_column = None
     self.test_contains_header = True
-
-  def get_fold_examples(self, data_dir, fold_id, set_type):
-    assert fold_id > 0
-    train_examples = self.get_train_examples(data_dir)
-    dev_examples = self.get_dev_examples(data_dir)
-    cat_examples = train_examples + dev_examples
-
-    np.random.seed(fold_id)
-    np.random.shuffle(cat_examples)
-    num_dev = len(dev_examples)
-
-    if set_type == "train":
-      return cat_examples[num_dev:]
-    elif set_type == "dev":
-      return cat_examples[:num_dev]
 
   def get_train_examples(self, data_dir):
     """See base class."""
@@ -424,11 +406,14 @@ def file_based_convert_examples_to_features(
 
   writer = tf.python_io.TFRecordWriter(output_file)
 
-  examples *= num_passes
+  np.random.shuffle(examples)
+  if num_passes > 1:
+    examples *= num_passes
 
   for (ex_index, example) in enumerate(examples):
     if ex_index % 10000 == 0:
-      tf.logging.info("Writing example %d of %d" % (ex_index, len(examples)))
+      tf.logging.info("Writing example {} of {}".format(ex_index,
+                                                        len(examples)))
 
     feature = convert_single_example(ex_index, example, label_list,
                                      max_seq_length, tokenize_fn)
@@ -512,7 +497,6 @@ def file_based_input_fn_builder(input_file, seq_length, is_training,
     if is_training:
       d = d.shuffle(buffer_size=FLAGS.shuffle_buffer)
       d = d.repeat()
-      # d = d.shuffle(buffer_size=100)
 
     d = d.apply(
         tf.contrib.data.map_and_batch(
