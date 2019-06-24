@@ -144,7 +144,7 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
   gradients, variables = zip(*grads_and_vars)
   clipped, gnorm = tf.clip_by_global_norm(gradients, FLAGS.clip)
 
-  if FLAGS.lr_layer_decay_rate != 1.0:
+  if getattr(FLAGS, "lr_layer_decay_rate", 1.0) != 1.0:
     n_layer = 0
     for i in range(len(clipped)):
       m = re.search(r"model/transformer/layer_(\d+?)/", variables[i].name)
