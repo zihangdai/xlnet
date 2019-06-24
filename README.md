@@ -1,8 +1,8 @@
 ## WORKS ON COLAB TPU
 I have built a colab notebook along to allow for easy use of Google's TPUs available on Google Colaboratory.
-https://github.com/zihangdai/xlnet
+
 ## Introduction
-Author's repo available here
+Author's repo available here:https://github.com/zihangdai/xlnet
 **XLNet** is a new unsuperivsed language representation learning method based on a novel generalized permutation language modeling objective. Additionally, XLNet employs [Transformer-XL](https://arxiv.org/abs/1901.02860) as the backbone model, exhibiting excellent performance for language tasks involving long context. Overall, XLNet achieves state-of-the-art (SOTA) results on various downstream language tasks including question answering, natural language inference, sentiment analysis, and document ranking.
 
 For a detailed description of technical details and experimental results, please refer to the paper:
