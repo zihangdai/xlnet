@@ -361,7 +361,6 @@ After preprocessing, we are ready to pretrain an XLNet. Below are the hyperparam
 
 ```shell
 python train.py
-  --corpus_info_path=$DATA/corpus_info.json \
   --record_info_dir=$DATA/tfrecords \
   --train_batch_size=2048 \
   --seq_len=512 \
