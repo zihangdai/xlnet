@@ -16,7 +16,7 @@ For a detailed description of technical details and experimental results, please
 
 
 ## Colab Notebook:
-A colab notebook available here:  has been integrated with this repo to allow for quick prototyping on the Google TPUs available at colab.
+A colab notebook available has been integrated with this repo to allow for quick prototyping on the Google TPUs available at colab. Open the said Colab Notebook from this repo using Colab to proceed
 
 
 ## Pre-trained models
