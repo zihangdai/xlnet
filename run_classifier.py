@@ -4,6 +4,7 @@ from __future__ import print_function
 
 from os.path import join
 from absl import flags
+from utils import preprocess
 import os
 import sys
 import csv
@@ -76,7 +77,7 @@ flags.DEFINE_integer("num_core_per_host", default=8,
       help="8 for TPU v2 and v3-8, 16 for larger TPU v3 pod. In the context "
       "of GPU training, it refers to the number of GPUs used.")
 flags.DEFINE_string("tpu_job_name", default=None, help="TPU worker job name.")
-flags.DEFINE_string("tpu", default=None, help="TPU name.")
+flags.DEFINE_string("tpu_address", default=None, help="TPU name.")
 flags.DEFINE_string("tpu_zone", default=None, help="TPU zone.")
 flags.DEFINE_string("gcp_project", default=None, help="gcp project.")
 flags.DEFINE_string("master", default=None, help="master")
@@ -270,30 +271,6 @@ class GLUEProcessor(DataProcessor):
     return examples
 
 
-class Yelp5Processor(DataProcessor):
-  def get_train_examples(self, data_dir):
-    return self._create_examples(os.path.join(data_dir, "train.csv"))
-
-  def get_dev_examples(self, data_dir):
-    return self._create_examples(os.path.join(data_dir, "test.csv"))
-
-  def get_labels(self):
-    """See base class."""
-    return ["1", "2", "3", "4", "5"]
-
-  def _create_examples(self, input_file):
-    """Creates examples for the training and dev sets."""
-    examples = []
-    with tf.gfile.Open(input_file) as f:
-      reader = csv.reader(f)
-      for i, line in enumerate(reader):
-
-        label = line[0]
-        text_a = line[1].replace('""', '"').replace('\\"', '"')
-        examples.append(
-            InputExample(guid=str(i), text_a=text_a, text_b=None, label=label))
-    return examples
-
 
 class ImdbProcessor(DataProcessor):
   def get_labels(self):
@@ -406,6 +383,7 @@ def file_based_convert_examples_to_features(
 
   writer = tf.python_io.TFRecordWriter(output_file)
 
+  np.random.shuffle(examples)
   if num_passes > 1:
     examples *= num_passes
 
@@ -650,7 +628,7 @@ def main(_):
       "mnli_mismatched": MnliMismatchedProcessor,
       'sts-b': StsbProcessor,
       'imdb': ImdbProcessor,
-      "yelp5": Yelp5Processor
+      "trac": TracProcessor
   }
 
   if not FLAGS.do_train and not FLAGS.do_eval and not FLAGS.do_predict:
@@ -675,8 +653,19 @@ def main(_):
     text = preprocess_text(text, lower=FLAGS.uncased)
     return encode_ids(sp, text)
 
-  run_config = model_utils.configure_tpu(FLAGS)
-
+  tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(FLAGS.tpu_address)
+  is_per_host = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
+  run_config = tf.contrib.tpu.RunConfig(
+      cluster=tpu_cluster_resolver,
+      model_dir=FLAGS.output_dir,
+      save_checkpoints_steps=FLAGS.iterations,
+      keep_checkpoint_max=20,
+      tpu_config=tf.contrib.tpu.TPUConfig(
+          iterations_per_loop=FLAGS.iterations,
+          num_shards=8,
+          per_host_input_for_training=is_per_host))
+      
+      
   model_fn = get_model_fn(len(label_list) if label_list is not None else None)
 
   spm_basename = os.path.basename(FLAGS.spiece_model_file)
@@ -703,7 +692,6 @@ def main(_):
     tf.logging.info("Use tfrecord file {}".format(train_file))
 
     train_examples = processor.get_train_examples(FLAGS.data_dir)
-    np.random.shuffle(train_examples)
     tf.logging.info("Num of train samples: {}".format(len(train_examples)))
 
     file_based_convert_examples_to_features(
@@ -762,9 +750,12 @@ def main(_):
       if filename.endswith(".index"):
         ckpt_name = filename[:-6]
         cur_filename = join(FLAGS.model_dir, ckpt_name)
-        global_step = int(cur_filename.split("-")[-1])
-        tf.logging.info("Add {} to eval list.".format(cur_filename))
-        steps_and_files.append([global_step, cur_filename])
+        try:
+            global_step = int(cur_filename.split("-")[-1])
+            tf.logging.info("Add {} to eval list.".format(cur_filename))
+            steps_and_files.append([global_step, cur_filename])
+        except Exception:
+            print(cur_filename+" skipped")
     steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
 
     # Decide whether to evaluate all ckpts
