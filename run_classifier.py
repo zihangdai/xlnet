@@ -670,7 +670,6 @@ def main(_):
   label_list = processor.get_labels() if not FLAGS.is_regression else None
 
   sp = spm.SentencePieceProcessor()
-
   sp.Load(FLAGS.spiece_model_file)
   def tokenize_fn(text):
     text = preprocess_text(text, lower=FLAGS.uncased)
