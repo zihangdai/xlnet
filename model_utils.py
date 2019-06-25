@@ -3,6 +3,7 @@ from __future__ import division
 from __future__ import print_function
 
 import collections
+import os
 import re
 import numpy as np
 import six
@@ -142,6 +143,23 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
     grads_and_vars = optimizer.compute_gradients(total_loss)
   gradients, variables = zip(*grads_and_vars)
   clipped, gnorm = tf.clip_by_global_norm(gradients, FLAGS.clip)
+
+  if getattr(FLAGS, "lr_layer_decay_rate", 1.0) != 1.0:
+    n_layer = 0
+    for i in range(len(clipped)):
+      m = re.search(r"model/transformer/layer_(\d+?)/", variables[i].name)
+      if not m: continue
+      n_layer = max(n_layer, int(m.group(1)) + 1)
+
+    for i in range(len(clipped)):
+      for l in range(n_layer):
+        if "model/transformer/layer_{}/".format(l) in variables[i].name:
+          abs_rate = FLAGS.lr_layer_decay_rate ** (n_layer - 1 - l)
+          clipped[i] *= abs_rate
+          tf.logging.info("Apply mult {:.4f} to layer-{} grad of {}".format(
+              abs_rate, l, variables[i].name))
+          break
+
   train_op = optimizer.apply_gradients(
       zip(clipped, variables), global_step=global_step)
 
