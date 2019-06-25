@@ -582,6 +582,9 @@ def main(_):
   if not tf.gfile.Exists(FLAGS.output_dir):
     tf.gfile.MakeDirs(FLAGS.output_dir)
 
+  if not tf.gfile.Exists(FLAGS.model_dir):
+    tf.gfile.MakeDirs(FLAGS.model_dir)
+
   task_name = FLAGS.task_name.lower()
 
   if task_name not in processors:
