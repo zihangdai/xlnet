@@ -95,7 +95,7 @@ flags.DEFINE_bool("do_train", default=False, help="whether to do training")
 flags.DEFINE_integer("train_steps", default=1000,
       help="Number of training steps")
 flags.DEFINE_integer("warmup_steps", default=0, help="number of warmup steps")
-flags.DEFINE_integer("iterations", default=10,
+flags.DEFINE_integer("iterations", default=100,
       help="Number of iterations per repeat loop.")
 flags.DEFINE_float("learning_rate", default=1e-5, help="initial learning rate")
 flags.DEFINE_float("lr_layer_decay_rate", 1.0,
@@ -106,7 +106,7 @@ flags.DEFINE_float("min_lr_ratio", default=0.0,
 flags.DEFINE_float("clip", default=1.0, help="Gradient clipping")
 flags.DEFINE_integer("max_save", default=0,
       help="Max number of checkpoints to save. Use 0 to save all.")
-flags.DEFINE_integer("save_steps", default=None,
+flags.DEFINE_integer("save_steps", default=100,
       help="Save the model for every save_steps. "
       "If None, not to save any model.")
 flags.DEFINE_integer("train_batch_size", default=8,
@@ -147,7 +147,11 @@ flags.DEFINE_string("cls_scope", default=None,
 flags.DEFINE_bool("is_regression", default=False,
       help="Whether it's a regression task.")
 
+flags.DEFINE_string('server_ip', default='', help="Can be used for distant debugging.")
+flags.DEFINE_string('server_port', default='', help="Can be used for distant debugging.")
+
 FLAGS = flags.FLAGS
+
 
 
 class InputExample(object):
@@ -532,6 +536,8 @@ def get_model_fn(n_class):
           ) = function_builder.get_classification_loss(
           FLAGS, features, n_class, is_training)
 
+    tf.summary.scalar('loss', total_loss)
+
     #### Check model parameters
     num_params = sum([np.prod(v.shape) for v in tf.trainable_variables()])
     tf.logging.info('#params: {}'.format(num_params))
@@ -555,6 +561,13 @@ def single_core_graph(is_training, features, label_list=None):
   return model_ret
 
 def main(_):
+  if FLAGS.server_ip and FLAGS.server_port:
+      # Distant debugging - see https://code.visualstudio.com/docs/python/debugging#_attach-to-a-local-script
+      import ptvsd
+      print("Waiting for debugger attach")
+      ptvsd.enable_attach(address=(FLAGS.server_ip, FLAGS.server_port), redirect_output=True)
+      ptvsd.wait_for_attach()
+
   tf.logging.set_verbosity(tf.logging.INFO)
 
   #### Validate flags
@@ -601,7 +614,7 @@ def main(_):
 
   # run_config = model_utils.configure_tpu(FLAGS)
 
-  model_fn = get_model_fn(len(label_list) if label_list is not None else None)
+#   model_fn = get_model_fn(len(label_list) if label_list is not None else None)
 
   spm_basename = os.path.basename(FLAGS.spiece_model_file)
 
@@ -674,6 +687,9 @@ def main(_):
       loss = tower_losses[0]
       grads_and_vars = tower_grads_and_vars[0]
 
+    # Summaries
+    merged = tf.summary.merge_all()
+
     ## get train op
     train_op, learning_rate, gnorm = model_utils.get_train_op(FLAGS, None,
         grads_and_vars=grads_and_vars)
@@ -685,13 +701,14 @@ def main(_):
     gpu_options = tf.GPUOptions(allow_growth=True)
 
     #### load pretrained models
-    model_utils.init_from_checkpoint(FLAGS)
+    model_utils.init_from_checkpoint(FLAGS, global_vars=True)
 
+    writer = tf.summary.FileWriter(logdir=FLAGS.model_dir, graph=tf.get_default_graph())
     with tf.Session(config=tf.ConfigProto(allow_soft_placement=True,
         gpu_options=gpu_options)) as sess:
       sess.run(tf.global_variables_initializer())
 
-      fetches = [loss, global_step, gnorm, learning_rate, train_op]
+      fetches = [loss, global_step, gnorm, learning_rate, train_op, merged]
 
       total_loss, prev_step = 0., -1
       while True:
@@ -701,21 +718,22 @@ def main(_):
         #     for m, m_np in zip(tower_mems[i][key], tower_mems_np[i][key]):
         #       feed_dict[m] = m_np
 
-        fetched = sess.run(fetches, feed_dict=feed_dict)
+        fetched = sess.run(fetches)
 
-        loss_np, curr_step, _, learning_rate_np = fetched[:4]
+        loss_np, curr_step, gnorm_np, learning_rate_np, _, summary_np = fetched
         total_loss += loss_np
 
         if curr_step > 0 and curr_step % FLAGS.iterations == 0:
           curr_loss = total_loss / (curr_step - prev_step)
           tf.logging.info("[{}] | gnorm {:.2f} lr {:8.6f} "
               "| loss {:.2f} | pplx {:>7.2f}, bpc {:>7.4f}".format(
-              curr_step, fetched[-3], fetched[-2],
+              curr_step, gnorm_np, learning_rate_np,
               curr_loss, math.exp(curr_loss), curr_loss / math.log(2)))
           total_loss, prev_step = 0., curr_step
+          writer.add_summary(summary_np, global_step=curr_step)
 
         if curr_step > 0 and curr_step % FLAGS.save_steps == 0:
-          save_path = os.path.join(FLAGS.model_dir, "model.ckpt")
+          save_path = os.path.join(FLAGS.model_dir, "model.ckpt-{}".format(curr_step))
           saver.save(sess, save_path)
           tf.logging.info("Model saved in path: {}".format(save_path))
 

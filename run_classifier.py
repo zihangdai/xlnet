@@ -600,6 +600,8 @@ def get_model_fn(n_class):
     #### Configuring the optimizer
     train_op, learning_rate, _ = model_utils.get_train_op(FLAGS, total_loss)
 
+    tf.summary.scalar('learning_rate', learning_rate)
+
     monitor_dict = {}
     monitor_dict["lr"] = learning_rate
 
