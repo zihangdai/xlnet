@@ -536,7 +536,7 @@ def get_model_fn(n_class):
           ) = function_builder.get_classification_loss(
           FLAGS, features, n_class, is_training)
 
-    tf.summary.scalar('loss', total_loss)
+    tf.summary.scalar('total_loss', total_loss)
 
     #### Check model parameters
     num_params = sum([np.prod(v.shape) for v in tf.trainable_variables()])
@@ -546,7 +546,7 @@ def get_model_fn(n_class):
     grads = tf.gradients(total_loss, all_vars)
     grads_and_vars = list(zip(grads, all_vars))
 
-    return total_loss, grads_and_vars
+    return total_loss, grads_and_vars, features, logits
 
   return model_fn
 
@@ -569,6 +569,24 @@ def main(_):
       ptvsd.wait_for_attach()
 
   tf.logging.set_verbosity(tf.logging.INFO)
+
+  ########################### LOAD PT model
+  ########################### LOAD PT model
+#   import torch
+#   from pytorch_pretrained_bert import CONFIG_NAME, TF_WEIGHTS_NAME, XLNetTokenizer, XLNetConfig, XLNetForSequenceClassification
+
+#   save_path = os.path.join(FLAGS.model_dir, TF_WEIGHTS_NAME)
+#   tf.logging.info("Model loaded from path: {}".format(save_path))
+
+#   device = torch.device("cuda", 4)
+#   config = XLNetConfig.from_pretrained('xlnet-large-cased', finetuning_task=u'sts-b')
+#   config_path = os.path.join(FLAGS.model_dir, CONFIG_NAME)
+#   config.to_json_file(config_path)
+#   pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
+#   pt_model.to(device)
+#   pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
+  ########################### LOAD PT model
+  ########################### LOAD PT model
 
   #### Validate flags
   if FLAGS.save_steps is not None:
@@ -664,28 +682,34 @@ def main(_):
       examples = [example]
 
     ##### Create computational graph
-    tower_losses, tower_grads_and_vars = [], []
+    tower_losses, tower_grads_and_vars, tower_inputs, tower_logits = [], [], [], []
 
     for i in range(FLAGS.num_core_per_host):
       reuse = True if i > 0 else None
       with tf.device(assign_to_gpu(i, "/gpu:0")), \
           tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
 
-        loss_i, grads_and_vars_i = single_core_graph(
+        loss_i, grads_and_vars_i, inputs_i, logits_i = single_core_graph(
             is_training=True,
             features=examples[i],
             label_list=label_list)
 
         tower_losses.append(loss_i)
         tower_grads_and_vars.append(grads_and_vars_i)
+        tower_inputs.append(inputs_i)
+        tower_logits.append(logits_i)
 
     ## average losses and gradients across towers
     if len(tower_losses) > 1:
       loss = tf.add_n(tower_losses) / len(tower_losses)
       grads_and_vars = average_grads_and_vars(tower_grads_and_vars)
+      inputs = dict((n, tf.concat([t[n] for t in tower_inputs], 0)) for n in tower_inputs[0])
+      logits = tf.concat(tower_logits, 0)
     else:
       loss = tower_losses[0]
       grads_and_vars = tower_grads_and_vars[0]
+      inputs = tower_inputs[0]
+      logits = tower_logits[0]
 
     # Summaries
     merged = tf.summary.merge_all()
@@ -708,7 +732,23 @@ def main(_):
         gpu_options=gpu_options)) as sess:
       sess.run(tf.global_variables_initializer())
 
-      fetches = [loss, global_step, gnorm, learning_rate, train_op, merged]
+      ########################### LOAD PT model
+      import torch
+      from pytorch_pretrained_bert import CONFIG_NAME, TF_WEIGHTS_NAME, XLNetTokenizer, XLNetConfig, XLNetForSequenceClassification
+
+      save_path = os.path.join(FLAGS.model_dir, TF_WEIGHTS_NAME)
+      saver.save(sess, save_path)
+      tf.logging.info("Model saved in path: {}".format(save_path))
+
+      device = torch.device("cuda", 4)
+      config = XLNetConfig.from_pretrained('xlnet-large-cased', finetuning_task=u'sts-b')
+      config_path = os.path.join(FLAGS.model_dir, CONFIG_NAME)
+      config.to_json_file(config_path)
+      pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
+      pt_model.to(device)
+      pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
+
+      fetches = [loss, global_step, gnorm, learning_rate, train_op, merged, inputs, logits]
 
       total_loss, prev_step = 0., -1
       while True:
@@ -720,7 +760,16 @@ def main(_):
 
         fetched = sess.run(fetches)
 
-        loss_np, curr_step, gnorm_np, learning_rate_np, _, summary_np = fetched
+        loss_np, curr_step, gnorm_np, learning_rate_np, _, summary_np, inputs_np, logits_np = fetched
+
+        f_inp = torch.tensor(inputs_np["input_ids"], dtype=torch.long, device=device)
+        f_seg_id = torch.tensor(inputs_np["segment_ids"], dtype=torch.long, device=device)
+        f_inp_mask = torch.tensor(inputs_np["input_mask"], dtype=torch.float, device=device)
+        f_label = torch.tensor(inputs_np["label_ids"], dtype=torch.float, device=device)
+        logits_pt, _ = pt_model(f_inp, token_type_ids=f_seg_id, input_mask=f_inp_mask)
+        loss_pt, _ = pt_model(f_inp, token_type_ids=f_seg_id, input_mask=f_inp_mask, labels=f_label)
+        loss_pt = loss_pt.mean()
+
         total_loss += loss_np
 
         if curr_step > 0 and curr_step % FLAGS.iterations == 0:
@@ -739,139 +788,6 @@ def main(_):
 
         if curr_step >= FLAGS.train_steps:
           break
-
-  if FLAGS.do_eval or FLAGS.do_predict:
-    if FLAGS.eval_split == "dev":
-      eval_examples = processor.get_dev_examples(FLAGS.data_dir)
-    else:
-      eval_examples = processor.get_test_examples(FLAGS.data_dir)
-
-    tf.logging.info("Num of eval samples: {}".format(len(eval_examples)))
-
-  if FLAGS.do_eval:
-    # TPU requires a fixed batch size for all batches, therefore the number
-    # of examples must be a multiple of the batch size, or else examples
-    # will get dropped. So we pad with fake examples which are ignored
-    # later on. These do NOT count towards the metric (all tf.metrics
-    # support a per-instance weight, and these get a weight of 0.0).
-    #
-    # Modified in XL: We also adopt the same mechanism for GPUs.
-    while len(eval_examples) % FLAGS.eval_batch_size != 0:
-      eval_examples.append(PaddingInputExample())
-
-    eval_file_base = "{}.len-{}.{}.eval.tf_record".format(
-        spm_basename, FLAGS.max_seq_length, FLAGS.eval_split)
-    eval_file = os.path.join(FLAGS.output_dir, eval_file_base)
-
-    file_based_convert_examples_to_features(
-        eval_examples, label_list, FLAGS.max_seq_length, tokenize_fn,
-        eval_file)
-
-    assert len(eval_examples) % FLAGS.eval_batch_size == 0
-    eval_steps = int(len(eval_examples) // FLAGS.eval_batch_size)
-
-    eval_input_fn = file_based_input_fn_builder(
-        input_file=eval_file,
-        seq_length=FLAGS.max_seq_length,
-        is_training=False,
-        drop_remainder=True)
-
-    # Filter out all checkpoints in the directory
-    steps_and_files = []
-    filenames = tf.gfile.ListDirectory(FLAGS.model_dir)
-
-    for filename in filenames:
-      if filename.endswith(".index"):
-        ckpt_name = filename[:-6]
-        cur_filename = join(FLAGS.model_dir, ckpt_name)
-        global_step = int(cur_filename.split("-")[-1])
-        tf.logging.info("Add {} to eval list.".format(cur_filename))
-        steps_and_files.append([global_step, cur_filename])
-    steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
-
-    # Decide whether to evaluate all ckpts
-    if not FLAGS.eval_all_ckpt:
-      steps_and_files = steps_and_files[-1:]
-
-    eval_results = []
-    for global_step, filename in sorted(steps_and_files, key=lambda x: x[0]):
-      ret = estimator.evaluate(
-          input_fn=eval_input_fn,
-          steps=eval_steps,
-          checkpoint_path=filename)
-
-      ret["step"] = global_step
-      ret["path"] = filename
-
-      eval_results.append(ret)
-
-      tf.logging.info("=" * 80)
-      log_str = "Eval result | "
-      for key, val in sorted(ret.items(), key=lambda x: x[0]):
-        log_str += "{} {} | ".format(key, val)
-      tf.logging.info(log_str)
-
-    key_name = "eval_pearsonr" if FLAGS.is_regression else "eval_accuracy"
-    eval_results.sort(key=lambda x: x[key_name], reverse=True)
-
-    tf.logging.info("=" * 80)
-    log_str = "Best result | "
-    for key, val in sorted(eval_results[0].items(), key=lambda x: x[0]):
-      log_str += "{} {} | ".format(key, val)
-    tf.logging.info(log_str)
-
-  if FLAGS.do_predict:
-    eval_file_base = "{}.len-{}.{}.predict.tf_record".format(
-        spm_basename, FLAGS.max_seq_length, FLAGS.eval_split)
-    eval_file = os.path.join(FLAGS.output_dir, eval_file_base)
-
-    file_based_convert_examples_to_features(
-        eval_examples, label_list, FLAGS.max_seq_length, tokenize_fn,
-        eval_file)
-
-    pred_input_fn = file_based_input_fn_builder(
-        input_file=eval_file,
-        seq_length=FLAGS.max_seq_length,
-        is_training=False,
-        drop_remainder=False)
-
-    predict_results = []
-    with tf.gfile.Open(os.path.join(predict_dir, "{}.tsv".format(
-        task_name)), "w") as fout:
-      fout.write("index\tprediction\n")
-
-      for pred_cnt, result in enumerate(estimator.predict(
-          input_fn=pred_input_fn,
-          yield_single_examples=True,
-          checkpoint_path=FLAGS.predict_ckpt)):
-        if pred_cnt % 1000 == 0:
-          tf.logging.info("Predicting submission for example: {}".format(
-              pred_cnt))
-
-        logits = [float(x) for x in result["logits"].flat]
-        predict_results.append(logits)
-
-        if len(logits) == 1:
-          label_out = logits[0]
-        elif len(logits) == 2:
-          if logits[1] - logits[0] > FLAGS.predict_threshold:
-            label_out = label_list[1]
-          else:
-            label_out = label_list[0]
-        elif len(logits) > 2:
-          max_index = np.argmax(np.array(logits, dtype=np.float32))
-          label_out = label_list[max_index]
-        else:
-          raise NotImplementedError
-
-        fout.write("{}\t{}\n".format(pred_cnt, label_out))
-
-    predict_json_path = os.path.join(predict_dir, "{}.logits.json".format(
-        task_name))
-
-    with tf.gfile.Open(predict_json_path, "w") as fp:
-      json.dump(predict_results, fp, indent=4)
-
 
 if __name__ == "__main__":
   tf.app.run()
