@@ -385,6 +385,7 @@ python train.py
   --train_batch_size=2048 \
   --seq_len=512 \
   --reuse_len=256 \
+  --mem_len=384 \
   --perm_size=256 \
   --n_layer=24 \
   --d_model=1024 \
