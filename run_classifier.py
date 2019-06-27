@@ -627,8 +627,7 @@ def main(_):
       "mnli_matched": MnliMatchedProcessor,
       "mnli_mismatched": MnliMismatchedProcessor,
       'sts-b': StsbProcessor,
-      'imdb': ImdbProcessor,
-      "trac": TracProcessor
+      'imdb': ImdbProcessor
   }
 
   if not FLAGS.do_train and not FLAGS.do_eval and not FLAGS.do_predict:
