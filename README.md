@@ -1,5 +1,5 @@
 ## Introduction
-This fork is an slightly modification to be able to train the large model in the Squad 2.0 dataset using a RTX 2080 (8GB) GPU.
+This fork is an slightly modification to be able to train the large model in the **Squad 2.0** dataset using a **RTX 2080 (8GB) GPU**.
 
 The modifications are:
 - Use FP-16
@@ -9,10 +9,10 @@ The modifications are:
 - Replace the FC layers (1024 -> 1) to a deeper FC layer (512 -> 256 -> 1) for start_logits, end_logits and CLS.
 
 The files changed are:
-- scripts/gpu_squad_base.sh
-- run_squad.py
-- model_utils.py
-- function_builder.py
+- scripts/gpu_squad_base_GPU.sh
+- run_squad_GPU.py
+- model_utils_GPU.py
+- function_builder_GPU.py
 
 With those modifications I could achieve **86,25 F1-Score** on the **Squad-2.0 dev_set**, training por 85000 steps (~ 3 epochs of the full dataset). This training took about 5-6 hours.
 
