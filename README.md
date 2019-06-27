@@ -3,7 +3,7 @@ This fork is an slightly modification to be able to train the large model in the
 
 The modifications are:
 - Use FP-16
-- Reduce batch_size of 4
+- Reduce batch_size to 4
 - Reduce seq_len to 340.
 - Train half of the network, ie, layers 12, 13..., 23. Freeze the others (1, 2, ... 11)
 - Replace the FC layers (1024 -> 1) to a deeper FC layer (512 -> 256 -> 1) for start_logits, end_logits and CLS.
