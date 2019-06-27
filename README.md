@@ -1,4 +1,27 @@
 ## Introduction
+This fork is an slightly modification to be able to train the large model in the Squad 2.0 dataset using a RTX 2080 (8GB) GPU.
+
+The modifications are:
+- Use FP-16
+- Reduce batch_size of 4
+- Reduce seq_len of 340.
+- Train half of the network, ie, layers 12, 13..., 23. Freeze the others (1, 2, ... 11)
+- Replace the FC layers (1024 -> 1) to a deeper FC layer (512 -> 256 -> 1) for start_logits, end_logits and CLS.
+
+The files changed are:
+- scripts/gpu_squad_base.sh
+- run_squad.py
+- model_utils.py
+- function_builder.py
+
+With those modifications I could achieve **86,25 F1-Score** on the **Squad-2.0 dev_set**, training por 85000 steps (~ 3 epochs of the full dataset). This training took about 5-6 hours.
+
+
+
+
+
+
+## Introduction
 
 **XLNet** is a new unsupervised language representation learning method based on a novel generalized permutation language modeling objective. Additionally, XLNet employs [Transformer-XL](https://arxiv.org/abs/1901.02860) as the backbone model, exhibiting excellent performance for language tasks involving long context. Overall, XLNet achieves state-of-the-art (SOTA) results on various downstream language tasks including question answering, natural language inference, sentiment analysis, and document ranking.
 
