@@ -218,7 +218,7 @@ class XLNetModel(object):
     tfm_args.update(input_args)
 
     with tf.variable_scope("model", reuse=tf.AUTO_REUSE):
-      (self.output, self.new_mems, self.lookup_table
+      (self.output, self.new_mems, self.lookup_table, self.hidden_states
           ) = modeling.transformer_xl(**tfm_args)
 
     self.input_mask = input_mask
@@ -264,6 +264,15 @@ class XLNetModel(object):
     """
 
     return self.output
+
+  def get_hidden_states_out(self):
+    """
+    Returns:
+      list of float32 Tensor in shape [len, bsz, d_model]. The hidden states
+      representation of XLNet.
+    """
+
+    return self.hidden_states
 
   def get_new_memory(self):
     """

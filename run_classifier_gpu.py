@@ -572,19 +572,22 @@ def main(_):
 
   ########################### LOAD PT model
   ########################### LOAD PT model
-#   import torch
-#   from pytorch_pretrained_bert import CONFIG_NAME, TF_WEIGHTS_NAME, XLNetTokenizer, XLNetConfig, XLNetForSequenceClassification
+  import torch
+  from pytorch_pretrained_bert import CONFIG_NAME, TF_WEIGHTS_NAME, XLNetTokenizer, XLNetConfig, XLNetForSequenceClassification
 
-#   save_path = os.path.join(FLAGS.model_dir, TF_WEIGHTS_NAME)
-#   tf.logging.info("Model loaded from path: {}".format(save_path))
+  save_path = os.path.join(FLAGS.model_dir, TF_WEIGHTS_NAME)
+  tf.logging.info("Model loaded from path: {}".format(save_path))
 
-#   device = torch.device("cuda", 4)
-#   config = XLNetConfig.from_pretrained('xlnet-large-cased', finetuning_task=u'sts-b')
-#   config_path = os.path.join(FLAGS.model_dir, CONFIG_NAME)
-#   config.to_json_file(config_path)
-#   pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
-#   pt_model.to(device)
-#   pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
+  device = torch.device("cuda", 4)
+  config = XLNetConfig.from_pretrained('xlnet-large-cased', finetuning_task=u'sts-b')
+  config_path = os.path.join(FLAGS.model_dir, CONFIG_NAME)
+  config.to_json_file(config_path)
+  pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
+  pt_model.to(device)
+  pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
+
+  from torch.optim import Adam
+  optimizer = Adam(pt_model.parameters(), lr=0.001, betas=(0.9, 0.999), eps=1e-06, weight_decay=0, amsgrad=False)
   ########################### LOAD PT model
   ########################### LOAD PT model
 
@@ -747,6 +750,7 @@ def main(_):
       pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
       pt_model.to(device)
       pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
+      optimizer = 
 
       fetches = [loss, global_step, gnorm, learning_rate, train_op, merged, inputs, logits]
 
