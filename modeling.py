@@ -573,7 +573,6 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
     hidden_states = []
 
     for i in range(n_layer):
-      hidden_states.append((output_h, output_g))
       # cache new mems
       new_mems.append(_cache_mem(output_h, mems[i], mem_len, reuse_len))
 
@@ -587,6 +586,7 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
 
       with tf.variable_scope('layer_{}'.format(i)):
         if inp_q is not None:
+          hidden_states.append((output_h, output_g))
           output_h, output_g = two_stream_rel_attn(
               h=output_h,
               g=output_g,
@@ -609,6 +609,7 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
               kernel_initializer=initializer)
           reuse = True
         else:
+          hidden_states.append(output_h)
           reuse = False
 
           output_h = rel_multihead_attn(
@@ -650,10 +651,11 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
             is_training=is_training,
             reuse=reuse)
 
-    hidden_states.append((output_h, output_g))
     if inp_q is not None:
+      hidden_states.append((output_h, output_g))
       output = tf.layers.dropout(output_g, dropout, training=is_training)
     else:
+      hidden_states.append(output_h)
       output = tf.layers.dropout(output_h, dropout, training=is_training)
     return output, new_mems, lookup_table, hidden_states
 

@@ -529,10 +529,10 @@ def get_model_fn(n_class):
 
     #### Get loss from inputs
     if FLAGS.is_regression:
-      (total_loss, per_example_loss, logits
+      (total_loss, per_example_loss, hidden_states
           ) = function_builder.get_regression_loss(FLAGS, features, is_training)
     else:
-      (total_loss, per_example_loss, logits
+      (total_loss, per_example_loss, hidden_states
           ) = function_builder.get_classification_loss(
           FLAGS, features, n_class, is_training)
 
@@ -546,7 +546,7 @@ def get_model_fn(n_class):
     grads = tf.gradients(total_loss, all_vars)
     grads_and_vars = list(zip(grads, all_vars))
 
-    return total_loss, grads_and_vars, features, logits
+    return total_loss, grads_and_vars, features, hidden_states
 
   return model_fn
 
@@ -587,7 +587,9 @@ def main(_):
   pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
 
   from torch.optim import Adam
-  optimizer = Adam(pt_model.parameters(), lr=0.001, betas=(0.9, 0.999), eps=1e-06, weight_decay=0, amsgrad=False)
+  optimizer = Adam(pt_model.parameters(), lr=0.001, betas=(0.9, 0.999),
+                    eps=FLAGS.adam_epsilon, weight_decay=FLAGS.weight_decay,
+                    amsgrad=False)
   ########################### LOAD PT model
   ########################### LOAD PT model
 
@@ -685,14 +687,14 @@ def main(_):
       examples = [example]
 
     ##### Create computational graph
-    tower_losses, tower_grads_and_vars, tower_inputs, tower_logits = [], [], [], []
+    tower_losses, tower_grads_and_vars, tower_inputs, tower_hidden_states = [], [], [], []
 
     for i in range(FLAGS.num_core_per_host):
       reuse = True if i > 0 else None
       with tf.device(assign_to_gpu(i, "/gpu:0")), \
           tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
 
-        loss_i, grads_and_vars_i, inputs_i, logits_i = single_core_graph(
+        loss_i, grads_and_vars_i, inputs_i, hidden_states_i = single_core_graph(
             is_training=True,
             features=examples[i],
             label_list=label_list)
@@ -700,19 +702,19 @@ def main(_):
         tower_losses.append(loss_i)
         tower_grads_and_vars.append(grads_and_vars_i)
         tower_inputs.append(inputs_i)
-        tower_logits.append(logits_i)
+        tower_hidden_states.append(hidden_states_i)
 
     ## average losses and gradients across towers
     if len(tower_losses) > 1:
       loss = tf.add_n(tower_losses) / len(tower_losses)
       grads_and_vars = average_grads_and_vars(tower_grads_and_vars)
       inputs = dict((n, tf.concat([t[n] for t in tower_inputs], 0)) for n in tower_inputs[0])
-      logits = tf.concat(tower_logits, 0)
+      hidden_states = list(tf.concat(t, 0) for t in zip(*tower_hidden_states))
     else:
       loss = tower_losses[0]
       grads_and_vars = tower_grads_and_vars[0]
       inputs = tower_inputs[0]
-      logits = tower_logits[0]
+      hidden_states = tower_hidden_states[0]
 
     # Summaries
     merged = tf.summary.merge_all()
@@ -750,9 +752,12 @@ def main(_):
       pt_model = XLNetForSequenceClassification.from_pretrained(FLAGS.model_dir, from_tf=True, num_labels=1)
       pt_model.to(device)
       pt_model = torch.nn.DataParallel(pt_model, device_ids=[4, 5, 6, 7])
-      optimizer = 
+      from torch.optim import Adam
+      optimizer = Adam(pt_model.parameters(), lr=0.001, betas=(0.9, 0.999),
+                       eps=FLAGS.adam_epsilon, weight_decay=FLAGS.weight_decay,
+                       amsgrad=False)
 
-      fetches = [loss, global_step, gnorm, learning_rate, train_op, merged, inputs, logits]
+      fetches = [loss, global_step, gnorm, learning_rate, train_op, merged, inputs, hidden_states]
 
       total_loss, prev_step = 0., -1
       while True:
@@ -764,17 +769,28 @@ def main(_):
 
         fetched = sess.run(fetches)
 
-        loss_np, curr_step, gnorm_np, learning_rate_np, _, summary_np, inputs_np, logits_np = fetched
+        loss_np, curr_step, gnorm_np, learning_rate_np, _, summary_np, inputs_np, hidden_states_np = fetched
+        total_loss += loss_np
 
         f_inp = torch.tensor(inputs_np["input_ids"], dtype=torch.long, device=device)
         f_seg_id = torch.tensor(inputs_np["segment_ids"], dtype=torch.long, device=device)
         f_inp_mask = torch.tensor(inputs_np["input_mask"], dtype=torch.float, device=device)
         f_label = torch.tensor(inputs_np["label_ids"], dtype=torch.float, device=device)
-        logits_pt, _ = pt_model(f_inp, token_type_ids=f_seg_id, input_mask=f_inp_mask)
+
+        with torch.no_grad():
+          _, hidden_states_pt, _ = pt_model.transformer(f_inp, f_seg_id, f_inp_mask)
+        # logits_pt, _ = pt_model(f_inp, token_type_ids=f_seg_id, input_mask=f_inp_mask)
+
         loss_pt, _ = pt_model(f_inp, token_type_ids=f_seg_id, input_mask=f_inp_mask, labels=f_label)
         loss_pt = loss_pt.mean()
 
-        total_loss += loss_np
+        # Optimizer pt
+        pt_model.zero_grad()
+        loss_pt.backward()
+        torch.nn.utils.clip_grad_norm_(pt_model.parameters(), FLAGS.clip)
+        for param_group in optimizer.param_groups:
+            param_group['lr'] = learning_rate_np
+        optimizer.step()
 
         if curr_step > 0 and curr_step % FLAGS.iterations == 0:
           curr_loss = total_loss / (curr_step - prev_step)
