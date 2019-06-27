@@ -533,7 +533,8 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
     output_h = tf.layers.dropout(word_emb_k, dropout, training=is_training)
     if inp_q is not None:
       output_g = tf.layers.dropout(word_emb_q, dropout, training=is_training)
-
+    else:
+      output_g = None
     ##### Segment embedding
     if seg_id is not None:
       if untie_r:
@@ -572,7 +573,7 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
     hidden_states = []
 
     for i in range(n_layer):
-      hidden_states.append(output_h)
+      hidden_states.append((output_h, output_g))
       # cache new mems
       new_mems.append(_cache_mem(output_h, mems[i], mem_len, reuse_len))
 
@@ -649,11 +650,11 @@ def transformer_xl(inp_k, n_token, n_layer, d_model, n_head,
             is_training=is_training,
             reuse=reuse)
 
+    hidden_states.append((output_h, output_g))
     if inp_q is not None:
       output = tf.layers.dropout(output_g, dropout, training=is_training)
     else:
       output = tf.layers.dropout(output_h, dropout, training=is_training)
-    hidden_states.append(output)
     return output, new_mems, lookup_table, hidden_states
 
 
