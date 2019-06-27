@@ -14,6 +14,6 @@ The files changed are:
 - [model_utils_GPU.py](https://github.com/renatoviolin/xlnet/blob/master/model_utils_GPU.py)
 - [function_builder_GPU.py](https://github.com/renatoviolin/xlnet/blob/master/function_builder_GPU.py)
 
-With those modifications I could achieve **86,25 F1-Score** on the **Squad-2.0 dev_set**, training por 85000 steps (~ 3 epochs of the full dataset). This training took about 5-6 hours.
+With those modifications I could achieve **86,25 F1-Score** on the **Squad-2.0 dev_set**, training for 85000 steps (~ 3 epochs of the full dataset). This training took about 5-6 hours.
 
 
