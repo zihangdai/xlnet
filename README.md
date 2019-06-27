@@ -16,4 +16,7 @@ The files changed are:
 
 With those modifications I could achieve **86,25 F1-Score** on the **Squad-2.0 dev_set**, training for 85000 steps (~ 3 epochs of the full dataset). This training took about 5-6 hours.
 
+I consider a very good result, since it is trained in a very limited hardware. 
+
+For those who has TPU access, could replace the single FC Layer for a deeper FC layer and see how it improves the network.
 
