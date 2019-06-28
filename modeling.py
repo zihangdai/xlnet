@@ -232,6 +232,8 @@ def relative_positional_encoding(qlen, klen, d_model, clamp_len, attn_type,
       bwd_pos_seq = tf.clip_by_value(bwd_pos_seq, -clamp_len, clamp_len)
 
     if bsz is not None:
+      # With bi_data, the batch size should be divisible by 2.
+      assert bsz%2 == 0
       fwd_pos_emb = positional_embedding(fwd_pos_seq, inv_freq, bsz//2)
       bwd_pos_emb = positional_embedding(bwd_pos_seq, inv_freq, bsz//2)
     else:
