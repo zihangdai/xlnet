@@ -2899,7 +2899,7 @@ def _eval_on_tpu_system(ctx, model_fn_wrapper, dequeue_fn):
       outputs_from_all_shards=False,
       device_assignment=ctx.device_assignment)
 
-  loss = rte[0]
+  loss = ret[0]
   scaffold = _get_scaffold(captured_scaffold_fn)
   return compile_op, loss, host_calls, scaffold, captured_eval_hooks.get()
 
