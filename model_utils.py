@@ -122,19 +122,21 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
   learning_rate = tf.where(global_step < FLAGS.warmup_steps,
                            warmup_lr, decay_lr)
 
+  if (FLAGS.weight_decay > 0 and not FLAGS.use_tpu and
+      FLAGS.num_core_per_host > 1):
+    raise ValueError("Do not support `weight_decay > 0` with multi-gpu "
+                     "training so far.")
+
   if FLAGS.weight_decay == 0:
     optimizer = tf.train.AdamOptimizer(
         learning_rate=learning_rate,
         epsilon=FLAGS.adam_epsilon)
-  elif FLAGS.weight_decay > 0 and FLAGS.num_core_per_host == 1:
+  else:
     optimizer = AdamWeightDecayOptimizer(
         learning_rate=learning_rate,
         epsilon=FLAGS.adam_epsilon,
         exclude_from_weight_decay=["LayerNorm", "layer_norm", "bias"],
         weight_decay_rate=FLAGS.weight_decay)
-  else:
-    raise ValueError("Do not support `weight_decay > 0` with multi-gpu "
-                     "training so far.")
 
   if FLAGS.use_tpu:
     optimizer = tf.contrib.tpu.CrossShardOptimizer(optimizer)

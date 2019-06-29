@@ -39,12 +39,12 @@ flags.DEFINE_string("init_checkpoint", default=None,
       help="checkpoint path for initializing the model.")
 
 # Optimization config
-flags.DEFINE_float("learning_rate", default=2.5e-4,
+flags.DEFINE_float("learning_rate", default=1e-4,
       help="Maximum learning rate.")
-flags.DEFINE_float("clip", default=0.25,
+flags.DEFINE_float("clip", default=1.0,
       help="Gradient clipping value.")
 # for cosine decay
-flags.DEFINE_float("min_lr_ratio", default=0.004,
+flags.DEFINE_float("min_lr_ratio", default=0.001,
       help="Minimum ratio learning rate.")
 flags.DEFINE_integer("warmup_steps", default=0,
       help="Number of steps for linear lr warmup.")
@@ -56,13 +56,13 @@ flags.DEFINE_float("weight_decay", default=0.0,
       help="weight decay")
 
 # Training config
-flags.DEFINE_integer("train_batch_size", default=60,
+flags.DEFINE_integer("train_batch_size", default=16,
       help="Size of train batch.")
 flags.DEFINE_integer("train_steps", default=100000,
       help="Total number of training steps.")
-flags.DEFINE_integer("iterations", default=500,
+flags.DEFINE_integer("iterations", default=1000,
       help="Number of iterations per repeat loop.")
-flags.DEFINE_integer("save_steps", default=10000,
+flags.DEFINE_integer("save_steps", default=None,
       help="number of steps for model checkpointing.")
 
 # Data config
@@ -73,7 +73,7 @@ flags.DEFINE_integer('reuse_len', default=0,
       "Could be half of seq_len")
 flags.DEFINE_bool("bi_data", default=True,
       help="Use bidirectional data streams, i.e., forward & backward.")
-flags.DEFINE_integer("mask_alpha", default=2,
+flags.DEFINE_integer("mask_alpha", default=6,
       help="How many tokens to form a group.")
 flags.DEFINE_integer("mask_beta", default=1,
       help="How many tokens to mask within each group.")
@@ -86,7 +86,7 @@ flags.DEFINE_bool("uncased", False,
 flags.DEFINE_integer("n_token", 32000, help="Vocab size")
 
 # Model config
-flags.DEFINE_integer("mem_len", default=70,
+flags.DEFINE_integer("mem_len", default=0,
       help="Number of steps to cache")
 flags.DEFINE_bool("same_length", default=False,
       help="Same length attention")
@@ -95,23 +95,23 @@ flags.DEFINE_integer("clamp_len", default=-1,
 
 flags.DEFINE_integer("n_layer", default=6,
       help="Number of layers.")
-flags.DEFINE_integer("d_model", default=500,
+flags.DEFINE_integer("d_model", default=32,
       help="Dimension of the model.")
-flags.DEFINE_integer("d_embed", default=500,
+flags.DEFINE_integer("d_embed", default=32,
       help="Dimension of the embeddings.")
-flags.DEFINE_integer("n_head", default=10,
+flags.DEFINE_integer("n_head", default=4,
       help="Number of attention heads.")
-flags.DEFINE_integer("d_head", default=50,
+flags.DEFINE_integer("d_head", default=8,
       help="Dimension of each attention head.")
-flags.DEFINE_integer("d_inner", default=1000,
+flags.DEFINE_integer("d_inner", default=32,
       help="Dimension of inner hidden size in positionwise feed-forward.")
-flags.DEFINE_float("dropout", default=0.1,
+flags.DEFINE_float("dropout", default=0.0,
       help="Dropout rate.")
-flags.DEFINE_float("dropatt", default=0.1,
+flags.DEFINE_float("dropatt", default=0.0,
       help="Attention dropout rate.")
 flags.DEFINE_bool("untie_r", default=False,
       help="Untie r_w_bias and r_r_bias")
-flags.DEFINE_string("summary_type", default="attn",
+flags.DEFINE_string("summary_type", default="last",
       help="Method used to summarize a sequence into a compact vector.")
 flags.DEFINE_string("ff_activation", default="relu",
       help="Activation type used in position-wise feed-forward.")
