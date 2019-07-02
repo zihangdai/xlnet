@@ -763,12 +763,10 @@ def main(_):
       if filename.endswith(".index"):
         ckpt_name = filename[:-6]
         cur_filename = join(FLAGS.model_dir, ckpt_name)
-        try:
-            global_step = int(cur_filename.split("-")[-1])
-            tf.logging.info("Add {} to eval list.".format(cur_filename))
-            steps_and_files.append([global_step, cur_filename])
-        except Exception:
-            print(cur_filename+" skipped")
+        global_step = int(cur_filename.split("-")[-1])
+        tf.logging.info("Add {} to eval list.".format(cur_filename))
+        steps_and_files.append([global_step, cur_filename])
+        
     steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
 
     # Decide whether to evaluate all ckpts
