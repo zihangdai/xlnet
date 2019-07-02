@@ -4,7 +4,6 @@ from __future__ import print_function
 
 from os.path import join
 from absl import flags
-from utils import preprocess
 import os
 import sys
 import csv
@@ -71,12 +70,14 @@ flags.DEFINE_string("data_dir", default="",
       help="Directory for input data.")
 
 # TPUs and machines
+flags.DEFINE_bool("use_colab_tpu", default=False, help="whether to use Colab TPU.")
 flags.DEFINE_bool("use_tpu", default=False, help="whether to use TPU.")
 flags.DEFINE_integer("num_hosts", default=1, help="How many TPU hosts.")
 flags.DEFINE_integer("num_core_per_host", default=8,
       help="8 for TPU v2 and v3-8, 16 for larger TPU v3 pod. In the context "
       "of GPU training, it refers to the number of GPUs used.")
 flags.DEFINE_string("tpu_job_name", default=None, help="TPU worker job name.")
+flags.DEFINE_string("tpu", default=None, help="TPU name.")
 flags.DEFINE_string("tpu_address", default=None, help="TPU name.")
 flags.DEFINE_string("tpu_zone", default=None, help="TPU zone.")
 flags.DEFINE_string("gcp_project", default=None, help="gcp project.")
@@ -271,6 +272,29 @@ class GLUEProcessor(DataProcessor):
     return examples
 
 
+class Yelp5Processor(DataProcessor):
+  def get_train_examples(self, data_dir):
+    return self._create_examples(os.path.join(data_dir, "train.csv"))
+
+  def get_dev_examples(self, data_dir):
+    return self._create_examples(os.path.join(data_dir, "test.csv"))
+
+  def get_labels(self):
+    """See base class."""
+    return ["1", "2", "3", "4", "5"]
+
+  def _create_examples(self, input_file):
+    """Creates examples for the training and dev sets."""
+    examples = []
+    with tf.gfile.Open(input_file) as f:
+      reader = csv.reader(f)
+      for i, line in enumerate(reader):
+
+        label = line[0]
+        text_a = line[1].replace('""', '"').replace('\\"', '"')
+        examples.append(
+            InputExample(guid=str(i), text_a=text_a, text_b=None, label=label))
+    return examples
 
 class ImdbProcessor(DataProcessor):
   def get_labels(self):
@@ -627,7 +651,8 @@ def main(_):
       "mnli_matched": MnliMatchedProcessor,
       "mnli_mismatched": MnliMismatchedProcessor,
       'sts-b': StsbProcessor,
-      'imdb': ImdbProcessor
+      'imdb': ImdbProcessor,
+       "yelp5": Yelp5Processor
   }
 
   if not FLAGS.do_train and not FLAGS.do_eval and not FLAGS.do_predict:
@@ -652,18 +677,7 @@ def main(_):
     text = preprocess_text(text, lower=FLAGS.uncased)
     return encode_ids(sp, text)
 
-  tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(FLAGS.tpu_address)
-  is_per_host = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
-  run_config = tf.contrib.tpu.RunConfig(
-      cluster=tpu_cluster_resolver,
-      model_dir=FLAGS.output_dir,
-      save_checkpoints_steps=FLAGS.iterations,
-      keep_checkpoint_max=20,
-      tpu_config=tf.contrib.tpu.TPUConfig(
-          iterations_per_loop=FLAGS.iterations,
-          num_shards=8,
-          per_host_input_for_training=is_per_host))
-      
+  run_config = model_utils.configure_tpu(FLAGS)    
       
   model_fn = get_model_fn(len(label_list) if label_list is not None else None)
 
