@@ -41,6 +41,8 @@ def configure_tpu(FLAGS):
                     strategy.num_replicas_in_sync)
 
   per_host_input = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
+  
+  
   run_config = tf.contrib.tpu.RunConfig(
       master=master,
       model_dir=FLAGS.model_dir,
@@ -54,6 +56,20 @@ def configure_tpu(FLAGS):
       save_checkpoints_steps=FLAGS.save_steps,
       train_distribute=strategy
   )
+  
+  if FLAGS.use_colab_tpu:
+    tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(FLAGS.tpu_address)
+    is_per_host = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
+    run_config = tf.contrib.tpu.RunConfig(
+      cluster=tpu_cluster_resolver,
+      model_dir=FLAGS.output_dir,
+      save_checkpoints_steps=FLAGS.iterations,
+      keep_checkpoint_max=20,
+      tpu_config=tf.contrib.tpu.TPUConfig(
+          iterations_per_loop=FLAGS.iterations,
+          num_shards=8,
+          per_host_input_for_training=is_per_host))
+  
   return run_config
 
 
