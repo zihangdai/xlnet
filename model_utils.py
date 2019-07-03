@@ -63,8 +63,8 @@ def configure_tpu(FLAGS):
     run_config = tf.contrib.tpu.RunConfig(
       cluster=tpu_cluster_resolver,
       model_dir=FLAGS.output_dir,
-      save_checkpoints_steps=FLAGS.iterations,
-      keep_checkpoint_max=20,
+      save_checkpoints_steps=FLAGS.save_steps,
+      keep_checkpoint_max=FLAGS.max_save,
       tpu_config=tf.contrib.tpu.TPUConfig(
           iterations_per_loop=FLAGS.iterations,
           num_shards=8,
