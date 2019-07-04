@@ -762,6 +762,8 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
 def get_input_fn(
     tfrecord_dir,
     split,
+    task,
+    pass_id,
     bsz_per_host,
     seq_len,
     reuse_len,
@@ -778,7 +780,7 @@ def get_input_fn(
 
   # Merge all record infos into a single one
   record_glob_base = format_filename(
-      prefix="record_info-{}-{}-{}".format(split, FLAGS.task, FLAGS.pass_id),
+      prefix="record_info-{}-{}-{}".format(split, task, pass_id),
       bsz_per_host=bsz_per_host,
       seq_len=seq_len,
       bi_data=bi_data,
