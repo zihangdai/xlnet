@@ -1,0 +1,9 @@
+numpy>=1.15.4
+tensorflow>=1.12.0
+scipy>=1.1.0
+six>=1.11.0
+matplotlib>=3.0.2
+absl_py>=0.6.1
+absl>=0.0
+sentencepiece>=0.1.82
+scikit_learn>=0.21.2
