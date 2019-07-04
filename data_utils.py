@@ -885,7 +885,7 @@ if __name__ == "__main__":
   flags.DEFINE_integer("reuse_len", 256,
                        help="Number of token that can be reused as memory. "
                        "Could be half of `seq_len`.")
-  flags.DEFINE_bool("uncased", True, help="Use uncased inputs or not.")
+  flags.DEFINE_bool("uncased", False, help="Use uncased inputs or not.")
   flags.DEFINE_bool("bi_data", True,
                     help="whether to create bidirectional data")
   flags.DEFINE_integer("mask_alpha", default=6,
