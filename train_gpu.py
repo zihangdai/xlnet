@@ -191,8 +191,8 @@ def train(ps_device):
   train_input_fn, record_info_dict = data_utils.get_input_fn(
       tfrecord_dir=FLAGS.record_info_dir,
       split="train",
-      pass_id=FLAGS.pass_id,
       task=FLAGS.task,
+      pass_id=FLAGS.pass_id,
       bsz_per_host=FLAGS.train_batch_size,
       seq_len=FLAGS.seq_len,
       reuse_len=FLAGS.reuse_len,
