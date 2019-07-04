@@ -778,7 +778,7 @@ def get_input_fn(
 
   # Merge all record infos into a single one
   record_glob_base = format_filename(
-      prefix="record_info-{}-*".format(split),
+      prefix="record_info-{}-{}-{}".format(split, FLAGS.task, FLAGS.pass_id),
       bsz_per_host=bsz_per_host,
       seq_len=seq_len,
       bi_data=bi_data,
