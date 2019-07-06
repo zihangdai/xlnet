@@ -300,7 +300,7 @@ def train(ps_device):
       total_loss += loss_np
 
       if curr_step > 0 and curr_step % FLAGS.iterations == 0:
-        curr_loss = total_loss / (curr_step - prev_step)
+        curr_loss = total_loss / FLAGS.iterations
         tf.logging.info("[{}] | gnorm {:.2f} lr {:8.6f} "
             "| loss {:.2f} | pplx {:>7.2f}, bpc {:>7.4f}".format(
             curr_step, fetched[-3], fetched[-2],
