@@ -78,7 +78,7 @@ flags.DEFINE_integer("num_core_per_host", default=8,
       "of GPU training, it refers to the number of GPUs used.")
 flags.DEFINE_string("tpu_job_name", default=None, help="TPU worker job name.")
 flags.DEFINE_string("tpu", default=None, help="TPU name.")
-flags.DEFINE_string("tpu_address", default=None, help="TPU name.")
+flags.DEFINE_string("tpu_address", default=None, help="TPU address.")
 flags.DEFINE_string("tpu_zone", default=None, help="TPU zone.")
 flags.DEFINE_string("gcp_project", default=None, help="gcp project.")
 flags.DEFINE_string("master", default=None, help="master")
