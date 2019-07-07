@@ -407,7 +407,6 @@ def file_based_convert_examples_to_features(
 
   writer = tf.python_io.TFRecordWriter(output_file)
 
-  np.random.shuffle(examples)
   if num_passes > 1:
     examples *= num_passes
 
@@ -703,7 +702,7 @@ def main(_):
         spm_basename, FLAGS.max_seq_length)
     train_file = os.path.join(FLAGS.output_dir, train_file_base)
     tf.logging.info("Use tfrecord file {}".format(train_file))
-
+    np.random.shuffle(train_examples)
     train_examples = processor.get_train_examples(FLAGS.data_dir)
     tf.logging.info("Num of train samples: {}".format(len(train_examples)))
 
