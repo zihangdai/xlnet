@@ -702,8 +702,8 @@ def main(_):
         spm_basename, FLAGS.max_seq_length)
     train_file = os.path.join(FLAGS.output_dir, train_file_base)
     tf.logging.info("Use tfrecord file {}".format(train_file))
-    np.random.shuffle(train_examples)
     train_examples = processor.get_train_examples(FLAGS.data_dir)
+    np.random.shuffle(train_examples)
     tf.logging.info("Num of train samples: {}".format(len(train_examples)))
 
     file_based_convert_examples_to_features(
