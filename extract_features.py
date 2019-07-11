@@ -159,7 +159,8 @@ def model_fn_builder():
         tokens = tf.transpose(seq_out, [1, 0, 2])
 
         predictions = {"unique_id": unique_ids,
-                       'tokens': tokens}
+                       'tokens': tokens,
+                       'input_mask': tf.transpose(inp_mask, [1, 0])}
 
         if FLAGS.use_tpu:
             output_spec = tf.contrib.tpu.TPUEstimatorSpec(
@@ -431,14 +432,13 @@ def main(_):
                 feature = unique_id_to_feature[unique_id]
                 output_json = collections.OrderedDict()
                 output_json["linex_index"] = unique_id
-                output_json['pooled_%s' % FLAGS.summary_type] = _round_vector(
-                    result['pooled_%s' % FLAGS.summary_type].flat, 6
-                )
+                input_mask = result['input_mask'].flat
+                first_real_token_index = np.where(input_mask == 0)[0][0]
                 all_features = []
                 for (i, token) in enumerate(feature.tokens):
                     features = collections.OrderedDict()
                     features["token"] = token
-                    features["values"] = _round_vector(result['tokens'][i].flat, 6)
+                    features["values"] = _round_vector(result['tokens'][first_real_token_index + i].flat, 6)
                     all_features.append(features)
                 output_json["features"] = all_features
                 writer.write(json.dumps(output_json) + "\n")
