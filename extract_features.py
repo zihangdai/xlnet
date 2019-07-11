@@ -54,7 +54,7 @@ class InputExample(object):
     def __init__(self, unique_id, text_a, text_b=None, label=None):
         """Constructs a InputExample.
         Args:
-          guid: Unique id for the example.
+          unique_id: Unique id for the example.
           text_a: string. The untokenized text of the first sequence. For single
             sequence tasks, only this sequence must be specified.
           text_b: (Optional) string. The untokenized text of the second sequence.
@@ -122,17 +122,22 @@ def model_fn_builder():
     def model_fn(features, labels, mode, params):  # pylint: disable=unused-argument
         """The `model_fn` for TPUEstimator."""
 
-        # Evaluation
-        is_training = False
-
         unique_ids = features["unique_ids"]
-        bsz_per_core = tf.shape(features["input_ids"])[0]
         inp = tf.transpose(features["input_ids"], [1, 0])
         seg_id = tf.transpose(features["segment_ids"], [1, 0])
         inp_mask = tf.transpose(features["input_mask"], [1, 0])
 
         xlnet_config = xlnet.XLNetConfig(json_path=FLAGS.model_config_path)
-        run_config = xlnet.create_run_config(is_training, True, FLAGS)
+
+        # no need for dropout in prediction mode
+        xlnet_config.dropout = 0.0
+        xlnet_config.dropatt = 0.0
+
+        run_config = xlnet.create_run_config(False, True, FLAGS)
+
+        # no need for dropout in prediction mode
+        run_config.dropout = 0.0
+        run_config.dropatt = 0.0
 
         xlnet_model = xlnet.XLNetModel(
             xlnet_config=xlnet_config,
@@ -426,6 +431,9 @@ def main(_):
                 feature = unique_id_to_feature[unique_id]
                 output_json = collections.OrderedDict()
                 output_json["linex_index"] = unique_id
+                output_json['pooled_%s' % FLAGS.summary_type] = _round_vector(
+                    result['pooled_%s' % FLAGS.summary_type].flat, 6
+                )
                 all_features = []
                 for (i, token) in enumerate(feature.tokens):
                     features = collections.OrderedDict()
