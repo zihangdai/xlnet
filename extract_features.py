@@ -148,16 +148,12 @@ def model_fn_builder():
         # load pretrained models
         scaffold_fn = init_from_checkpoint(FLAGS)
 
-        # Get a summary of the sequence using the last hidden state
-        summary = xlnet_model.get_pooled_out(FLAGS.summary_type, FLAGS.use_summ_proj)
-
         # Get a sequence output
         seq_out = xlnet_model.get_sequence_output()
 
         tokens = tf.transpose(seq_out, [1, 0, 2])
 
         predictions = {"unique_id": unique_ids,
-                       'pooled_%s' % FLAGS.summary_type: summary,
                        'tokens': tokens}
 
         if FLAGS.use_tpu:
@@ -430,9 +426,6 @@ def main(_):
                 feature = unique_id_to_feature[unique_id]
                 output_json = collections.OrderedDict()
                 output_json["linex_index"] = unique_id
-                output_json['pooled_%s' % FLAGS.summary_type] = _round_vector(
-                    result['pooled_%s' % FLAGS.summary_type].flat, 6
-                )
                 all_features = []
                 for (i, token) in enumerate(feature.tokens):
                     features = collections.OrderedDict()
