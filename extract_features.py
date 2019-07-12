@@ -436,10 +436,11 @@ def main(_):
                 first_real_token_index = np.where(input_mask == 0)[0][0]
                 all_features = []
                 for (i, token) in enumerate(feature.tokens):
-                    features = collections.OrderedDict()
-                    features["token"] = token
-                    features["values"] = _round_vector(result['tokens'][first_real_token_index + i].flat, 6)
-                    all_features.append(features)
+                    if len(token) > 0:
+                        features = collections.OrderedDict()
+                        features["token"] = token
+                        features["values"] = _round_vector(result['tokens'][first_real_token_index + i].flat, 6)
+                        all_features.append(features)
                 output_json["features"] = all_features
                 writer.write(json.dumps(output_json) + "\n")
 
