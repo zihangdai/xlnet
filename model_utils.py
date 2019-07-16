@@ -166,7 +166,7 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
       zip(clipped, variables), global_step=global_step)
 
   # Manually increment `global_step` for AdamWeightDecayOptimizer
-  if isinstance(optimizer, AdamWeightDecayOptimizer):
+  if FLAGS.weight_decay > 0:
     new_global_step = global_step + 1
     train_op = tf.group(train_op, [global_step.assign(new_global_step)])
 
