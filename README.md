@@ -15,6 +15,11 @@ For a detailed description of technical details and experimental results, please
 
 
 
+## Release Notes
+
+* July 16, 2019: XLNet-Base.
+* June 19, 2019: initial release with XLNet-Large and code.
+
 ## Results
 
 As of June 19, 2019, XLNet outperforms BERT on 20 tasks and achieves state-of-the-art results on 18 tasks. Below are some comparison between XLNet-Large and BERT-Large, which have similar model sizes:
@@ -23,8 +28,9 @@ As of June 19, 2019, XLNet outperforms BERT on 20 tasks and achieves state-of-th
 
 Model | [RACE accuracy](http://www.qizhexie.com/data/RACE_leaderboard.html) | SQuAD1.1 EM | SQuAD2.0 EM
 --- | --- | --- | ---
-BERT | 72.0 | 84.1 | 78.98
-XLNet | **81.75** | **88.95** | **86.12**
+BERT-Large | 72.0 | 84.1 | 78.98
+XLNet-Base | | | 80.18
+XLNet-Large | **81.75** | **88.95** | **86.12**
 
 We use SQuAD dev results in the table to exclude other factors such as using additional training data or other data augmentation techniques. See [SQuAD leaderboard](https://rajpurkar.github.io/SQuAD-explorer/) for test numbers.
 
@@ -32,8 +38,8 @@ We use SQuAD dev results in the table to exclude other factors such as using add
 
 Model | IMDB | Yelp-2 | Yelp-5 | DBpedia | Amazon-2 | Amazon-5
 --- | --- | --- | --- | --- | --- | ---
-BERT | 4.51 | 1.89 | 29.32 | 0.64 | 2.63 | 34.17
-XLNet | **3.79** | **1.55** | **27.80** | **0.62** | **2.40** | **32.26**
+BERT-Large | 4.51 | 1.89 | 29.32 | 0.64 | 2.63 | 34.17
+XLNet-Large | **3.79** | **1.55** | **27.80** | **0.62** | **2.40** | **32.26**
 
 The above numbers are error rates.
 
@@ -41,8 +47,9 @@ The above numbers are error rates.
 
 Model | MNLI | QNLI | QQP | RTE | SST-2 | MRPC | CoLA | STS-B
 --- | --- | --- | --- | --- | --- | --- | --- | ---
-BERT | 86.6 | 92.3 | 91.3 | 70.4 | 93.2 | 88.0 | 60.6 | 90.0
-XLNet | **89.8** | **93.9** | **91.8** | **83.8** | **95.6** | **89.2** | **63.6** | **91.8**
+BERT-Large | 86.6 | 92.3 | 91.3 | 70.4 | 93.2 | 88.0 | 60.6 | 90.0
+XLNet-Base | 86.8 | 91.7 | 91.4 | 74.0 | 94.7 | 88.2 | 60.2 | 89.5
+XLNet-Large | **89.8** | **93.9** | **91.8** | **83.8** | **95.6** | **89.2** | **63.6** | **91.8**
 
 We use single-task dev results in the table to exclude other factors such as multi-task learning or using ensembles.
 
@@ -50,8 +57,11 @@ We use single-task dev results in the table to exclude other factors such as mul
 
 ### Released Models
 
-As of <u>June 19, 2019</u>, the following model has been made available:
-* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
+As of <u>July 16, 2019</u>, the following models have been made available:
+* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
+* **[`XLNet-Base, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-12_H-768_A-12.zip)**: 12-layer, 768-hidden, 12-heads. This model is trained on full data (different from the one in the paper).
+
+We only release cased models for now because on the tasks we consider, we found: (1) for the base setting, cased and uncased models have similar performance; (2) for the large setting, cased models are a bit better in some tasks.
 
 Each .zip file contains three items:
 *   A TensorFlow checkpoint (`xlnet_model.ckpt`) containing the pre-trained weights (which is actually 3 files).
@@ -62,8 +72,6 @@ Each .zip file contains three items:
 ### Future Release Plan
 
 We also plan to continuously release more pretrained models under different settings, including:
-* **Base models (very soon)**: We will release an XLNet-Base by the end of June, 2019.
-* **Uncased models (soon)** : For now, cased XLNet-Large is generally better than uncased XLNet-Large. We are still investigating this observation. When a conclusion is reached, we will release the uncased models.
 * A pretrained model that is **finetuned on Wikipedia**. This can be used for tasks with Wikipedia text such as SQuAD and HotpotQA.
 * Pretrained models with other hyperparameter configurations, targeting specific downstream tasks.
 * Pretrained models that benefit from new techniques.
@@ -268,12 +276,13 @@ To run the code:
 
 - The SOTA performance (accuracy 81.75) of RACE is produced using XLNet-Large with sequence length 512 and batch size 32, which requires a large TPU v3-32 in the pod setting. Please refer to the script `script/tpu_race_large_bsz32.sh` for this setting.
 - Using XLNet-Large with sequence length 512 and batch size 8 on a TPU v3-8 can give you an accuracy of around 80.3 (see `script/tpu_race_large_bsz8.sh`).
-### Using with Google Colab TPUs
-[An example](notebooks/colab_imdb_tpu.ipynb) of using Google Colab with TPUs has been provided.
 
-### Using Google Colab
+### Using Google Colab(TPU/GPU)
 
 [An example](notebooks/colab_imdb_gpu.ipynb) of using Google Colab with GPUs has been provided. Note that since the hardware is constrained in the example, the results are worse than the best we can get. It mainly serves as an example and should be modified accordingly to maximize performance.
+
+[An example](notebooks/colab_imdb_tpu.ipynb) of using Google Colab with TPUs has also been provided to take advantage of larger Colab TPU memory. 
+
 
 ## Custom Usage of XLNet
 
