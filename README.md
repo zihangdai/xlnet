@@ -58,7 +58,7 @@ We use single-task dev results in the table to exclude other factors such as mul
 ### Released Models
 
 As of <u>July 16, 2019</u>, the following models have been made available:
-* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
+* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
 * **[`XLNet-Base, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-12_H-768_A-12.zip)**: 12-layer, 768-hidden, 12-heads. This model is trained on full data (different from the one in the paper).
 
 We only release cased models for now because on the tasks we consider, we found: (1) for the base setting, cased and uncased models have similar performance; (2) for the large setting, cased models are a bit better in some tasks.
