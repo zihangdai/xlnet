@@ -58,7 +58,7 @@ We use single-task dev results in the table to exclude other factors such as mul
 ### Released Models
 
 As of <u>July 16, 2019</u>, the following models have been made available:
-* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
+* **[`XLNet-Large, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-24_H-1024_A-16.zip)**: 24-layer, 1024-hidden, 16-heads
 * **[`XLNet-Base, Cased`](https://storage.googleapis.com/xlnet/released_models/cased_L-12_H-768_A-12.zip)**: 12-layer, 768-hidden, 12-heads. This model is trained on full data (different from the one in the paper).
 
 We only release cased models for now because on the tasks we consider, we found: (1) for the base setting, cased and uncased models have similar performance; (2) for the large setting, cased models are a bit better in some tasks.
@@ -280,8 +280,7 @@ To run the code:
 ### Using Google Colab(TPU/GPU)
 
 [An example](notebooks/colab_imdb_gpu.ipynb) of using Google Colab with GPUs has been provided. Note that since the hardware is constrained in the example, the results are worse than the best we can get. It mainly serves as an example and should be modified accordingly to maximize performance.
-
-[An example](notebooks/colab_imdb_tpu.ipynb) of using Google Colab with TPUs has also been provided to take advantage of larger Colab TPU memory. 
+[An example](notebooks/colab_imdb_tpu.ipynb) of using Google Colab with TPUs has also been provided. The TPU's higher memory capacity allows us to achieve better perfomance.
 
 
 ## Custom Usage of XLNet
