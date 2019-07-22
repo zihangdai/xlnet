@@ -2,33 +2,21 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from os.path import join
 from absl import flags
 import os
-import csv
 import collections
 import numpy as np
-import time
-import math
 import json
 import random
-from copy import copy
-from collections import defaultdict as dd
-
-from scipy.stats import pearsonr, spearmanr
-from sklearn.metrics import matthews_corrcoef, f1_score
-
-import absl.logging as _logging  # pylint: disable=unused-import
 
 import tensorflow as tf
 import sentencepiece as spm
 
-from data_utils import SEP_ID, VOCAB_SIZE, CLS_ID
-import model_utils
-import function_builder
-from classifier_utils import PaddingInputExample
-from classifier_utils import convert_single_example
-from prepro_utils import preprocess_text, encode_ids
+from xlnet.data_utils import SEP_ID, CLS_ID
+from xlnet import model_utils
+from xlnet import function_builder
+from xlnet.classifier_utils import PaddingInputExample, convert_single_example
+from xlnet.prepro_utils import preprocess_text, encode_ids
 
 # Model
 flags.DEFINE_string("model_config_path", default=None,
