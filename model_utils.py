@@ -141,8 +141,7 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
   if FLAGS.use_tpu:
     optimizer = tf.contrib.tpu.CrossShardOptimizer(optimizer)
 
-  if os.environ.get('TF_ENABLE_AUTO_MIXED_PRECISION', default='0') == '1' or \
-     ('gpu_auto_mixed_precision' in FLAGS and FLAGS.gpu_auto_mixed_precision):
+  if 'gpu_auto_mixed_precision' in FLAGS and FLAGS.gpu_auto_mixed_precision:
       if FLAGS.use_tpu:
           raise(RuntimeError("GPU auto mixed precision cannot be used with TPU"))
       else:
