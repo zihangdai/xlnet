@@ -166,7 +166,7 @@ From here on, we assume XLNet-Large and XLNet-base has been downloaded to `$LARG
 
   # Expected performance: "eval_pearsonr 0.916+ "
   ```
-- To estimate lables of unkown instances with the learned model
+- To estimate labels of unknown instances from the learned model
    ```shell
     python run_classifier.py
 	--do_train=False
