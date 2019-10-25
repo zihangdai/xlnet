@@ -166,7 +166,31 @@ From here on, we assume XLNet-Large and XLNet-base has been downloaded to `$LARG
 
   # Expected performance: "eval_pearsonr 0.916+ "
   ```
-
+- To estimate lables of unkown instances with the learned model
+   ```shell
+    python run_classifier.py
+	--do_train=False
+	--do_eval=False
+	--do_predict=True
+	--overwrite_data=True
+	--predict_dir=${PREDICT_DIR}
+	--task_name=sts-b
+	--data_dir=${GLUE_DIR}/STS-B
+	--output_dir=proc_data/sts-b
+	--model_dir=exp/sts-b
+	--uncased=False
+	--spiece_model_file=${LARGE_DIR}/spiece.model
+	--model_config_path=${LARGE_DIR}/xlnet_config.json
+	--init_checkpoint=${LARGE_DIR}/xlnet_model.ckpt
+	--max_seq_length=128
+	--train_batch_size=8
+	--num_hosts=1
+	--num_core_per_host=4
+	--train_steps=1200
+	--warmup_steps=120
+	--save_steps=600
+	--is_regression=True
+```
 **Notes**:
 
 - In the context of GPU training, `num_core_per_host` denotes the number of GPUs to use.
