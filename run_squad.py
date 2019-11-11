@@ -102,6 +102,7 @@ flags.DEFINE_integer("max_answer_length",
 flags.DEFINE_bool("uncased", default=False, help="Use uncased data.")
 
 # TPUs and machines
+flags.DEFINE_bool("use_colab_tpu", default=False, help="whether to use Colab TPU.")
 flags.DEFINE_bool("use_tpu", default=False, help="whether to use TPU.")
 flags.DEFINE_integer("num_hosts", default=1, help="How many TPU hosts.")
 flags.DEFINE_integer("num_core_per_host", default=8,
@@ -109,6 +110,7 @@ flags.DEFINE_integer("num_core_per_host", default=8,
       "of GPU training, it refers to the number of GPUs used.")
 flags.DEFINE_string("tpu_job_name", default=None, help="TPU worker job name.")
 flags.DEFINE_string("tpu", default=None, help="TPU name.")
+flags.DEFINE_string("tpu_address", default=None, help="TPU address.")
 flags.DEFINE_string("tpu_zone", default=None, help="TPU zone.")
 flags.DEFINE_string("gcp_project", default=None, help="gcp project.")
 flags.DEFINE_string("master", default=None, help="master")
@@ -245,13 +247,16 @@ def read_squad_examples(input_file, is_training):
         question_text = qa["question"]
         start_position = None
         orig_answer_text = None
-        is_impossible = False
-
+        if "is_impossible" in qa:
+            is_impossible = qa["is_impossible"]
+        else:
+            is_impossible = False
         if is_training:
           is_impossible = qa["is_impossible"]
           if (len(qa["answers"]) != 1) and (not is_impossible):
             raise ValueError(
                 "For training, each question should have exactly 1 answer.")
+
           if not is_impossible:
             answer = qa["answers"][0]
             orig_answer_text = answer["text"]

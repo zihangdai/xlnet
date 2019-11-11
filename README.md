@@ -277,9 +277,10 @@ To run the code:
 - The SOTA performance (accuracy 81.75) of RACE is produced using XLNet-Large with sequence length 512 and batch size 32, which requires a large TPU v3-32 in the pod setting. Please refer to the script `script/tpu_race_large_bsz32.sh` for this setting.
 - Using XLNet-Large with sequence length 512 and batch size 8 on a TPU v3-8 can give you an accuracy of around 80.3 (see `script/tpu_race_large_bsz8.sh`).
 
-### Using Google Colab
+### Using Google Colab(TPU/GPU)
 
 [An example](notebooks/colab_imdb_gpu.ipynb) of using Google Colab with GPUs has been provided. Note that since the hardware is constrained in the example, the results are worse than the best we can get. It mainly serves as an example and should be modified accordingly to maximize performance.
+[An example](notebooks/colab_imdb_tpu.ipynb) of using Google Colab with TPUs has also been provided. The TPU's higher memory capacity allows us to achieve better perfomance.
 
 
 ## Custom Usage of XLNet

@@ -70,6 +70,7 @@ flags.DEFINE_string("data_dir", default="",
       help="Directory for input data.")
 
 # TPUs and machines
+flags.DEFINE_bool("use_colab_tpu", default=False, help="whether to use Colab TPU.")
 flags.DEFINE_bool("use_tpu", default=False, help="whether to use TPU.")
 flags.DEFINE_integer("num_hosts", default=1, help="How many TPU hosts.")
 flags.DEFINE_integer("num_core_per_host", default=8,
@@ -77,6 +78,7 @@ flags.DEFINE_integer("num_core_per_host", default=8,
       "of GPU training, it refers to the number of GPUs used.")
 flags.DEFINE_string("tpu_job_name", default=None, help="TPU worker job name.")
 flags.DEFINE_string("tpu", default=None, help="TPU name.")
+flags.DEFINE_string("tpu_address", default=None, help="TPU address.")
 flags.DEFINE_string("tpu_zone", default=None, help="TPU zone.")
 flags.DEFINE_string("gcp_project", default=None, help="gcp project.")
 flags.DEFINE_string("master", default=None, help="master")
@@ -293,7 +295,6 @@ class Yelp5Processor(DataProcessor):
         examples.append(
             InputExample(guid=str(i), text_a=text_a, text_b=None, label=label))
     return examples
-
 
 class ImdbProcessor(DataProcessor):
   def get_labels(self):
@@ -650,7 +651,7 @@ def main(_):
       "mnli_mismatched": MnliMismatchedProcessor,
       'sts-b': StsbProcessor,
       'imdb': ImdbProcessor,
-      "yelp5": Yelp5Processor
+       "yelp5": Yelp5Processor
   }
 
   if not FLAGS.do_train and not FLAGS.do_eval and not FLAGS.do_predict:
@@ -675,8 +676,8 @@ def main(_):
     text = preprocess_text(text, lower=FLAGS.uncased)
     return encode_ids(sp, text)
 
-  run_config = model_utils.configure_tpu(FLAGS)
-
+  run_config = model_utils.configure_tpu(FLAGS)    
+      
   model_fn = get_model_fn(len(label_list) if label_list is not None else None)
 
   spm_basename = os.path.basename(FLAGS.spiece_model_file)
@@ -701,7 +702,6 @@ def main(_):
         spm_basename, FLAGS.max_seq_length)
     train_file = os.path.join(FLAGS.output_dir, train_file_base)
     tf.logging.info("Use tfrecord file {}".format(train_file))
-
     train_examples = processor.get_train_examples(FLAGS.data_dir)
     np.random.shuffle(train_examples)
     tf.logging.info("Num of train samples: {}".format(len(train_examples)))
@@ -765,6 +765,7 @@ def main(_):
         global_step = int(cur_filename.split("-")[-1])
         tf.logging.info("Add {} to eval list.".format(cur_filename))
         steps_and_files.append([global_step, cur_filename])
+        
     steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
 
     # Decide whether to evaluate all ckpts
