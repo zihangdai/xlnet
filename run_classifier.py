@@ -21,7 +21,7 @@ import tensorflow as tf
 
 import sentencepiece as spm
 
-from data_utils import SEP_ID, VOCAB_SIZE, CLS_ID
+from data_utils import SEP_ID, CLS_ID
 import model_utils
 import function_builder
 from classifier_utils import PaddingInputExample

@@ -259,7 +259,6 @@ def main(unused_argv):
   assert FLAGS.seq_len > 0
   assert FLAGS.perm_size > 0
 
-  FLAGS.n_token = data_utils.VOCAB_SIZE
   tf.logging.info("n_token {}".format(FLAGS.n_token))
 
   if not tf.gfile.Exists(FLAGS.model_dir):
