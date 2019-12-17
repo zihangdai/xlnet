@@ -137,6 +137,8 @@ flags.DEFINE_string("cls_scope", default=None,
       help="Classifier layer scope.")
 flags.DEFINE_bool("is_regression", default=False,
       help="Whether it's a regression task.")
+flags.DEFINE_bool("gpu_auto_mixed_precision", default=False,
+      help="Enabling GPU automatic mixed precision training.")
 
 FLAGS = flags.FLAGS
 
