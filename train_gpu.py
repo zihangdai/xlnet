@@ -127,6 +127,11 @@ flags.DEFINE_float("init_std", default=0.02,
 flags.DEFINE_float("init_range", default=0.1,
       help="Initialization std when init is uniform.")
 
+# TFRecord Path
+flags.DEFINE_integer("pass_id", 0, help="ID of the current pass."
+                                        "Different passes sample different negative segment.")
+flags.DEFINE_integer("task", 0, help="The Task ID. This value is used when "
+                                     "using multiple workers to identify each worker.")
 
 FLAGS = flags.FLAGS
 
@@ -186,6 +191,8 @@ def train(ps_device):
   train_input_fn, record_info_dict = data_utils.get_input_fn(
       tfrecord_dir=FLAGS.record_info_dir,
       split="train",
+      task=FLAGS.task,
+      pass_id=FLAGS.pass_id,
       bsz_per_host=FLAGS.train_batch_size,
       seq_len=FLAGS.seq_len,
       reuse_len=FLAGS.reuse_len,
@@ -293,7 +300,7 @@ def train(ps_device):
       total_loss += loss_np
 
       if curr_step > 0 and curr_step % FLAGS.iterations == 0:
-        curr_loss = total_loss / (curr_step - prev_step)
+        curr_loss = total_loss / FLAGS.iterations
         tf.logging.info("[{}] | gnorm {:.2f} lr {:8.6f} "
             "| loss {:.2f} | pplx {:>7.2f}, bpc {:>7.4f}".format(
             curr_step, fetched[-3], fetched[-2],
