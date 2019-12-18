@@ -32,7 +32,6 @@ special_symbols = {
     "<eop>"  : 8,
 }
 
-VOCAB_SIZE = 32000
 UNK_ID = special_symbols["<unk>"]
 CLS_ID = special_symbols["<cls>"]
 SEP_ID = special_symbols["<sep>"]
@@ -188,7 +187,7 @@ def create_data(_):
   # Create and dump corpus_info from task 0
   if FLAGS.task == 0:
     corpus_info = {
-        "vocab_size": VOCAB_SIZE,
+        "vocab_size": FLAGS.n_token,
         "bsz_per_host": FLAGS.bsz_per_host,
         "num_core_per_host": FLAGS.num_core_per_host,
         "seq_len": FLAGS.seq_len,
@@ -762,6 +761,8 @@ def get_dataset(params, num_hosts, num_core_per_host, split, file_names,
 def get_input_fn(
     tfrecord_dir,
     split,
+    task,
+    pass_id,
     bsz_per_host,
     seq_len,
     reuse_len,
@@ -778,7 +779,7 @@ def get_input_fn(
 
   # Merge all record infos into a single one
   record_glob_base = format_filename(
-      prefix="record_info-{}-*".format(split),
+      prefix="record_info-{}-{}-{}".format(split, task, pass_id),
       bsz_per_host=bsz_per_host,
       seq_len=seq_len,
       bi_data=bi_data,
@@ -883,7 +884,8 @@ if __name__ == "__main__":
   flags.DEFINE_integer("reuse_len", 256,
                        help="Number of token that can be reused as memory. "
                        "Could be half of `seq_len`.")
-  flags.DEFINE_bool("uncased", True, help="Use uncased inputs or not.")
+  flags.DEFINE_bool("uncased", False, help="Use uncased inputs or not.")
+  flags.DEFINE_integer("n_token", 32000, help="Vocab size")
   flags.DEFINE_bool("bi_data", True,
                     help="whether to create bidirectional data")
   flags.DEFINE_integer("mask_alpha", default=6,

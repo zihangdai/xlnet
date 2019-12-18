@@ -140,6 +140,12 @@ flags.DEFINE_float("init_std", default=0.02,
 flags.DEFINE_float("init_range", default=0.1,
       help="Initialization std when init is uniform.")
 
+# TFRecord Path
+flags.DEFINE_integer("pass_id", 0, help="ID of the current pass."
+                                        "Different passes sample different negative segment.")
+flags.DEFINE_integer("task", 0, help="The Task ID. This value is used when "
+                                     "using multiple workers to identify each worker.")
+
 FLAGS = flags.FLAGS
 
 
@@ -226,6 +232,8 @@ def get_input_fn(split):
   input_fn, record_info_dict = data_utils.get_input_fn(
       tfrecord_dir=FLAGS.record_info_dir,
       split=split,
+      task=FLAGS.task,
+      pass_id=FLAGS.pass_id,
       bsz_per_host=batch_size // FLAGS.num_hosts,
       seq_len=FLAGS.seq_len,
       reuse_len=FLAGS.reuse_len,
@@ -251,7 +259,6 @@ def main(unused_argv):
   assert FLAGS.seq_len > 0
   assert FLAGS.perm_size > 0
 
-  FLAGS.n_token = data_utils.VOCAB_SIZE
   tf.logging.info("n_token {}".format(FLAGS.n_token))
 
   if not tf.gfile.Exists(FLAGS.model_dir):

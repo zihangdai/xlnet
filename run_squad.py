@@ -28,7 +28,7 @@ from prepro_utils import preprocess_text, encode_ids, encode_pieces, printable_t
 import function_builder
 import model_utils
 import squad_utils
-from data_utils import SEP_ID, CLS_ID, VOCAB_SIZE
+from data_utils import SEP_ID, CLS_ID
 
 SPIECE_UNDERLINE = u'▁'
 
