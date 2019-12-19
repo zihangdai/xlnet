@@ -147,6 +147,11 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
   clipped, gnorm = tf.clip_by_global_norm(gradients, FLAGS.clip)
 
   if getattr(FLAGS, "lr_layer_decay_rate", 1.0) != 1.0:
+    base_layers = ['model/transformer/r_w_bias:0',
+                   'model/transformer/r_r_bias:0',
+                   'model/transformer/word_embedding/lookup_table:0',
+                   'model/transformer/r_s_bias:0',
+                   'model/transformer/seg_embed:0']
     n_layer = 0
     for i in range(len(clipped)):
       m = re.search(r"model/transformer/layer_(\d+?)/", variables[i].name)
@@ -161,6 +166,11 @@ def get_train_op(FLAGS, total_loss, grads_and_vars=None):
           tf.logging.info("Apply mult {:.4f} to layer-{} grad of {}".format(
               abs_rate, l, variables[i].name))
           break
+      if variables[i].name in base_layers:
+        abs_rate = FLAGS.lr_layer_decay_rate ** n_layer
+        clipped[i] *= tf.constant(abs_rate)
+        tf.logging.info("Apply mult {:.4f} to base layer grad of {}".format(
+            abs_rate, variables[i].name))
 
   train_op = optimizer.apply_gradients(
       zip(clipped, variables), global_step=global_step)
