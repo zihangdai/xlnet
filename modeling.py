@@ -696,7 +696,7 @@ def summarize_sequence(summary_type, hidden, d_model, n_head, d_head, dropout,
       Otherwise, one should specify a different `scope` for each task.
   """
 
-  with tf.variable_scope(scope, 'sequnece_summary', reuse=reuse):
+  with tf.variable_scope(scope, 'sequence_summary', reuse=reuse):
     if summary_type == 'last':
       summary = hidden[-1]
     elif summary_type == 'first':
