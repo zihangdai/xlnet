@@ -19,7 +19,7 @@ def configure_tpu(FLAGS):
   if FLAGS.use_tpu:
     tpu_cluster = tf.contrib.cluster_resolver.TPUClusterResolver(
         FLAGS.tpu, zone=FLAGS.tpu_zone, project=FLAGS.gcp_project)
-    master = tpu_cluster.get_master()
+    master = None
   else:
     tpu_cluster = None
     master = FLAGS.master
@@ -42,6 +42,7 @@ def configure_tpu(FLAGS):
 
   per_host_input = tf.contrib.tpu.InputPipelineConfig.PER_HOST_V2
   run_config = tf.contrib.tpu.RunConfig(
+      cluster=tpu_cluster,
       master=master,
       model_dir=FLAGS.model_dir,
       session_config=session_config,
