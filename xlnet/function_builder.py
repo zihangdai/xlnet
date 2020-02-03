@@ -3,10 +3,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import functools
 import os
 import tensorflow as tf
-import modeling
+from xlnet import modeling
 import xlnet
 
 

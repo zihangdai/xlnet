@@ -5,7 +5,7 @@ from __future__ import print_function
 import json
 import os
 import tensorflow as tf
-import modeling
+from xlnet import modeling
 
 
 def _get_initializer(FLAGS):
@@ -28,7 +28,6 @@ class XLNetConfig(object):
   """XLNetConfig contains hyperparameters that are specific to a model checkpoint;
   i.e., these hyperparameters should be the same between
   pretraining and finetuning.
-
   The following hyperparameters are defined:
     n_layer: int, the number of layers.
     d_model: int, the hidden size.
@@ -232,7 +231,6 @@ class XLNetModel(object):
       summary_type: str, "last", "first", "mean", or "attn". The method
         to pool the input to get a vector representation.
       use_summ_proj: bool, whether to use a linear projection during pooling.
-
     Returns:
       float32 Tensor in shape [bsz, d_model], the pooled representation.
     """
@@ -289,4 +287,3 @@ class XLNetModel(object):
       A tf initializer. Used to initialize variables in layers on top of XLNet.
     """
     return self.initializer
-
