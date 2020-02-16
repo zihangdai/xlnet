@@ -187,7 +187,7 @@ def get_model_fn():
         reduce_fn=tf.reduce_mean)
 
     #### Constucting training TPUEstimatorSpec with new cache.
-    train_spec = tf.contrib.tpu.TPUEstimatorSpec(
+    train_spec = tf.estimator.tpu.TPUEstimatorSpec(
         mode=mode, loss=total_loss, train_op=train_op, host_call=host_call,
         scaffold_fn=scaffold_fn)
 
