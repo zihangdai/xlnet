@@ -1,0 +1,8137 @@
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NNS tracks))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ green)
+      (CC and)
+      (JJ white) (NNS trains))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ green)
+      (CC and)
+      (JJ white) (NNS trains))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (NP (NN street)))
+
+(ROOT
+  (S
+    (VP (VBG driving))))
+
+(ROOT
+  (S
+    (VP (VBG driving)
+      (PRT (RP down)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN bus))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN dinner) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (NN table))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN woman))))
+
+(ROOT
+  (NP (NNP Woman)))
+
+(ROOT
+  (S
+    (VP (VBG writing))))
+
+(ROOT
+  (ADJP (JJ busy)))
+
+(ROOT
+  (PP (IN on)
+    (NP (PRP$ her) (NN notebook))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN something))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN horse))))
+
+(ROOT
+  (NP (POS 's) (NN head)))
+
+(ROOT
+  (NP (POS 's) (NN head)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (NP (DT A) (NN side) (NN view)))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG riding)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG riding)))))
+
+(ROOT
+  (ADVP (IN down)
+    (NP (DT the) (NN road))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN road))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN motorcycle))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ red) (NN motorcycle))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NNS steps))))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NNS ruins))))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN moped))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN moped))))
+
+(ROOT
+  (ADJP (VBG having)))
+
+(ROOT
+  (S
+    (VP (VBG eating))))
+
+(ROOT
+  (NP (NN cake)))
+
+(ROOT
+  (NP (NN dessert)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (X
+    (NP (CD Four) (NNS people))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN dinner))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PRT (RP up)))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN close))
+    (PP (RP up)
+      (NP (NN view)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN water))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN water))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN bottle))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN bottle))))
+
+(ROOT
+  (ADJP (VBN closed)))
+
+(ROOT
+  (ADJP (VBN closed)))
+
+(ROOT
+  (SBAR (IN with)
+    (S
+      (NP (PRP it))
+      (VP (VBZ 's)
+        (NP (NNS eyes))))))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ its) (NNS eyes))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ longed-haired) (NN cat))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cat))))
+
+(ROOT
+  (NP (NN feed)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG eating)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN trough))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN trough))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS cows))))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ brown))
+    (CC and)
+    (NP (JJ white) (NNS cows))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP
+        (NP (DT A) (JJ black))
+        (CC and)
+        (NP (NN wood)))
+      (VP (VBN colored)
+        (S
+          (VP (VBG dining)
+            (NP (NN room))))))))
+
+(ROOT
+  (PP (IN in)
+    (NP (VBG living) (NN room) (NN setting))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ small) (NN apartment))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ brown) (NN table))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN hay))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pen))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ green) (NN grass))))
+
+(ROOT
+  (NP (NN Camouflage) (NN airplane)))
+
+(ROOT
+  (X
+    (NP (DT A) (VBN camouflaged) (NN plane))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN computer) (NN monitor))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD two) (NNS monitors))))
+
+(ROOT
+  (VP
+    (ADVP (RB Very))
+    (VBN crowded)
+    (NP (NN office) (NN desk))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Messy) (NN computer) (NN desk))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN bicycle))))
+
+(ROOT
+  (NP (NN bicycle)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN coffee) (NN house))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN coffee) (NN shop))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ red) (CD two) (NN story))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (PP (IN along)
+    (NP (DT the) (NN street))))
+
+(ROOT
+  (S
+    (VP (VBG driving)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG driving))))
+
+(ROOT
+  (S
+    (VP (VBG holding)
+      (PP (IN on)))))
+
+(ROOT
+  (NP (NNS clings)))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT a) (NN metal) (NN gate))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT a) (NN wire) (NN fence))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ multi-colored) (NN bird))))
+
+(ROOT
+  (NP (DT A) (NN cruise) (NN liner)))
+
+(ROOT
+  (NP (DT A) (NN cruise) (NN ship)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN shoreline))))
+
+(ROOT
+  (PP (IN at)
+    (NP (NN shore))))
+
+(ROOT
+  (S
+    (VP (VBN docked))))
+
+(ROOT
+  (S
+    (VP (VBN docked))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ crowded) (NN street))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ rear) (NN view))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ rear) (NN view))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NNP Chevrolet) (NNS sports) (NN car))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ red) (NNP Chevrolet) (NN concept) (NN car))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (X
+    (NP (DT A) (VBG smiling) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN baby))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN table))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS men))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS men))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)
+        (PRT (RP down))))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (NNS drinks)))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN beer)
+      (CC and)
+      (NN food))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN branch))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN branch))))
+
+(ROOT
+  (S
+    (VP (VBN perched))))
+
+(ROOT
+  (S
+    (VP (VBN perched))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (NNPS Eagles))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ bald) (NNS eagles))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (CD three) (NN computer) (NNS monitors))
+      (CC and)
+      (NP (JJ other) (NN equipment)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ several) (NN computer) (NNS monitors))))
+
+(ROOT
+  (NP (DT A) (NN home) (NN office)))
+
+(ROOT
+  (NP (NN Room)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ black) (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN blackbird))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (PP (IN in)
+    (S
+      (VP (VBG riding)
+        (NP (NN gear))))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ white)
+        (CC and)
+        (JJ gray))
+      (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ gray)
+      (CC and)
+      (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (JJ blonde) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN seagull))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ little) (NN bird))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG floating)))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN snow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN snow))))
+
+(ROOT
+  (S
+    (VP (VBG posing))))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT an) (NN apartment) (NN building))))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN building))))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN lamb))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (NN bird))))
+
+(ROOT
+  (NP (NN look)))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN shed))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN shed))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ curious) (NNS boys))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ small) (NNS boys))))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ black))
+    (CC and)
+    (NP (JJ white) (NNS cows))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ black) (NN cow))
+    (CC and)
+    (NP (DT a) (JJ brown) (NN cow))))
+
+(ROOT
+  (NP (NN pause)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (PP (IN of)
+    (NP
+      (NP (DT a) (JJ brown))
+      (VP (VBN faced)
+        (NP (NN cat))))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT an) (JJ ostrich) (NN face))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT A) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT A) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (PP (IN while)
+    (NP (DT the) (NN woman))))
+
+(ROOT
+  (X
+    (NP (DT a) (VBG smiling) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS cows))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NNS mountains))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NNS trees))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN bike))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (JJ blue) (NN motorcycle)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ skinny) (NNS cows))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN hillside))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN grass))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN close-up))
+    (, ,)
+    (NP (JJ distorted) (NN photo))))
+
+(ROOT
+  (NP (DT A) (NN close-up) (NN picture)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN grass))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS horses))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ skinny) (NNS cows))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ white) (NNS ducks))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG standing)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN grass))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (NP (JJ Brown) (NN cow)))
+
+(ROOT
+  (NP (JJ Brown) (NN horse)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP up)))))
+
+(ROOT
+  (S
+    (VP (VBG smiling))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG standing)))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG standing)))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN water))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN boat))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Large) (JJ green) (NN boat))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sleeping)))))
+
+(ROOT
+  (S
+    (VP (VBG sleeping))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ gray)
+      (CC and)
+      (JJ white) (NN tabby))
+    (NP (NN cat))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ purple) (NN fabric))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ brown) (NN tarp))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN living) (NN room))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN room))))
+
+(ROOT
+  (NP
+    (NP (NNP Blue))
+    (NP
+      (NP (NN couch))
+      (CC and)
+      (NP (JJ twin) (NN bed)))))
+
+(ROOT
+  (NP
+    (NP (NNP Blue))
+    (NP (NN couch))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN dairy) (NN cow))))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ black))
+    (CC and)
+    (NP (JJ brown) (NN cow))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pasture))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ green) (NN grass))))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN train)))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN train)))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN sheep))))
+
+(ROOT
+  (NP
+    (NP (JJ Little) (JJ black))
+    (CC and)
+    (NP (JJ white) (NN calf))))
+
+(ROOT
+  (NP
+    (NP (DT The) (NN dining))
+    (NP (NN room) (NN table))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ wooden) (NN dining) (NN table))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN building))))))
+
+(ROOT
+  (PP (IN outside)
+    (NP (DT a) (JJ decrepit) (NN building))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ black) (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ bald) (NN eagle))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ bald) (NNS eagles))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN perched)))))
+
+(ROOT
+  (S
+    (VP (VBN perched))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ African) (NN man))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT an) (JJ orange) (NN SUV))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a)
+      (ADJP (RB very) (JJ full))
+      (JJ yellow) (NN van))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (PP (IN onto)
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ concrete) (NN slab))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (JJ white) (NN wall)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (JJ Black) (NN bird)))
+
+(ROOT
+  (NP (JJ Small) (NN dog)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG floating)))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ potted) (NN plant))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ potted) (NN plant))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN tan))
+    (CC and)
+    (NP (JJ white) (NN dog))))
+
+(ROOT
+  (PP (IN down)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (NP (DT A) (NN coal) (NN train)))
+
+(ROOT
+  (FRAG
+    (NP (DT An) (JJ old) (NN train))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN airport))))
+
+(ROOT
+  (NP (NNS flies)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN jet))))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN jet)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (PP (IN through)
+    (NP (DT the) (NN air))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN pony))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pen))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS horses))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN restaurant))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN porch))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (S
+    (VP (VBG jumping))))
+
+(ROOT
+  (NP (DT a) (NN dirt) (NN bike)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN motorbike))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (NP (NNP Table)))
+
+(ROOT
+  (NP (JJ Wooden) (NNS cabinets)))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN kitchen))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN kitchen))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN placed)))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN center))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN center))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN pot))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN pot))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (UCP
+    (PP (IN in)
+      (NP (DT a) (NN den)))
+    (CC or)
+    (S
+      (VP (VBG living)
+        (NP (NN room))))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN living) (NN chair))))
+
+(ROOT
+  (NP
+    (NP (CD Four))
+    (NP (JJ Asian) (JJ young) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN wine)
+      (CC and)
+      (NNS dishes))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (NNS candles))
+      (, ,)
+      (NP (NN wine))
+      (, ,)
+      (CC and)
+      (NP (DT a) (JJ purple) (NN plastic) (NN bowl)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN table))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ wooden) (NN table))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN set)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN set)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NNS trees))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN moped))))
+
+(ROOT
+  (NP
+    (NP (NNP White))
+    (NP (NN bus))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NNS ruins))))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NN building))))))
+
+(ROOT
+  (NP (NNS moves)))
+
+(ROOT
+  (ADJP (JJ idle)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN train))))
+
+(ROOT
+  (NP (JJ Black) (NN train)))
+
+(ROOT
+  (PP (IN down)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (S
+    (VP (VBG driving))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN bicycle))))
+
+(ROOT
+  (S
+    (NP (DT a) (CD three))
+    (VP (VBD wheeled)
+      (NP (NN bicycle)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN child))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ wooden) (NN deck))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ wooden) (NN floor))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG lying)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG laying)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ white) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ white) (NN dog))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ black)
+      (CC and)
+      (JJ white) (NN cat))
+    (CC and)
+    (NP (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (S
+    (VP (VBG smiling))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP up)))))
+
+(ROOT
+  (S
+    (VP (VBG driving))))
+
+(ROOT
+  (S
+    (VP (VBG pulling))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ red) (NNS buses))))
+
+(ROOT
+  (NP (NN Train)))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NN countryside))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN plain))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ large) (NN city))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ large) (NN tree))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (DT a) (JJ black) (NN bikini) (NN top))
+      (CC and)
+      (NP (NNS jeans)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ black) (NN hat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS men))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS men))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (JJ large) (NN fountain))))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN fountain))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ poses))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN cow))))
+
+(ROOT
+  (NP (NNS Children)))
+
+(ROOT
+  (NP (NN Child)))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ gray) (NN cat))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (S
+    (VP (VB stand))))
+
+(ROOT
+  (S
+    (VP (VB stand))))
+
+(ROOT
+  (NP (CD Two) (NN sheep)))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS rams))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN track))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (RB mostly) (JJ black))
+      (NN train))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NNS cows))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ black)
+      (CC and)
+      (JJ white) (NNS cows))))
+
+(ROOT
+  (PP (IN behind)
+    (NP (DT a) (NN fence))))
+
+(ROOT
+  (PP (IN behind)
+    (NP (DT a) (NN metal) (NN gate))))
+
+(ROOT
+  (ADJP (VBG running)))
+
+(ROOT
+  (NP (NNS runs)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN animal))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN dog))))
+
+(ROOT
+  (SINV
+    (PP (IN through)
+      (NP (NN snow)))
+    (VP (VBD covered))
+    (NP (NNS woods))))
+
+(ROOT
+  (SINV
+    (PP (IN through)
+      (NP (DT a) (NN snow)))
+    (VP (VBD covered))
+    (NP (NN wood))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ black))
+    (, ,)
+    (NP (JJ flat) (NN screen) (NN television))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ flat) (NN screen))
+    (NP (NN TV))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG resting)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ brown) (NN dog))))
+
+(ROOT
+  (NP (DT A) (NN tan) (NN dog)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN pillow))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN pillow))))
+
+(ROOT
+  (FRAG
+    (NP (PRP$ his) (NN head))))
+
+(ROOT
+  (FRAG
+    (NP (PRP$ its) (NN head))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN train) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN train) (NNS tracks))))
+
+(ROOT
+  (NP (JJ Black) (NN train)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (PP (IN on)
+    (NP
+      (NP (JJ red))
+      (VP (VBN patterned)
+        (NP (NN couch))))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN couch))))
+
+(ROOT
+  (NP (JJ Elderly) (NN woman)))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN window))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN window))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP out)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG looking)))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG looking)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG looking)))))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ black))
+    (CC and)
+    (NP (JJ brown) (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN bull))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (X
+    (NP (DT A) (JJ white) (NNP Apple) (NN computer))))
+
+(ROOT
+  (FRAG
+    (NP (DT An) (NNP Apple) (NN computer))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ beige) (NN carpeting))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (NP
+    (NP (NNP Red))
+    (CC and)
+    (NP (JJ white) (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN bus))))
+
+(ROOT
+  (NP (NN road)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ busy) (NN road))))
+
+(ROOT
+  (S
+    (VP (VBG driving)
+      (PRT (RP down)))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNS drives))
+      (ADVP (IN down)))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (NNS sports))
+    (NP (NN car))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ red) (NNS sports))
+    (NP (NN car))))
+
+(ROOT
+  (S
+    (VP (VBG racing))))
+
+(ROOT
+  (S
+    (VP (VBG driving))))
+
+(ROOT
+  (FRAG
+    (ADVP (RB down))
+    (NP (NN track))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN track))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ red)
+      (CC and)
+      (JJ gold) (NNS stripes))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ red) (, ,) (JJ orange)
+      (CC and)
+      (JJ yellow) (NNS stripes))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NNP Victory) (NNP Liner))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ white) (NN tour))
+    (NP (NN bus))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN car)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (CD two) (NNS cars))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN motorcycle))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNP BMW) (NN motorcycle))))
+
+(ROOT
+  (PP (IN under)
+    (NP (DT a) (NN tree))))
+
+(ROOT
+  (PP (IN under)
+    (NP (DT a) (NN tree))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cow))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (NP
+    (NP (DT An) (NNP Amtrak) (NN passenger))
+    (NP (NN train))))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN train)))
+
+(ROOT
+  (S
+    (VP (VBG waiting))))
+
+(ROOT
+  (S
+    (VP (VBG waiting))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (CD Two))
+    (S
+      (VP (VBG smiling)
+        (NP (NNS women))))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (PP (IN on)
+    (PP (IN on)
+      (NP (DT the) (NNS tracks)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN track))))
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ red) (NN train))
+    (CC and)
+    (NP (DT the) (JJ yellow) (NN train))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS trains))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT an) (NN ostrich))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT an) (JJ ostrich) (NN face))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT a) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT A) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (NP (NN sailing)))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ blue) (NN water))))
+
+(ROOT
+  (S
+    (VP (VB Sail)
+      (NP (NN boat)))))
+
+(ROOT
+  (S
+    (VP (VB Sail)
+      (NP (NN boat)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ top) (NN hat))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ top) (NN hat))))
+
+(ROOT
+  (NP (NNS rides)))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (VP (VBN Parked)
+    (NP (JJ white) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ red))
+    (CC and)
+    (NP (JJ white) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS birds))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ small) (NNS birds))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN perched)))))
+
+(ROOT
+  (S
+    (VP (VBN perched))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN metal) (NN band))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN metal) (NN bar))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ yawning) (NN baby))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ newborn) (NN baby))))
+
+(ROOT
+  (S
+    (VP (VB pose))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ poses))))
+
+(ROOT
+  (FRAG
+    (NP (DT An)
+      (ADJP (JJ elderly) (JJ Asian))
+      (NN couple))))
+
+(ROOT
+  (FRAG
+    (NP (DT An)
+      (ADJP (JJR older) (JJ Asian))
+      (NN couple))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN dinner) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN dinner) (NN table))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ brown) (NN horse))))
+
+(ROOT
+  (NP (JJ Brown) (NN horse)))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ green) (NN grass))))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN Train)))
+
+(ROOT
+  (NP (NN Train)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NNS tracks))))
+
+(ROOT
+  (S
+    (VP (VBG going)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG gliding))))
+
+(ROOT
+  (PP (IN at)
+    (NP (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (NP (NNP Group)))
+
+(ROOT
+  (X
+    (NP (CD four) (NNS people))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Yellow) (JJ striped) (NN cat))))
+
+(ROOT
+  (NP
+    (NP (DT An) (JJ orange) (NN tabby))
+    (NP (NN cat))))
+
+(ROOT
+  (ADJP (VBG resting)))
+
+(ROOT
+  (S
+    (VP (VBG sleeping))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ blue) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN sofa))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN jeep))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN Jeep))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN store))))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (VP (VBN parked)
+    (PRT (RP up))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN parked)))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ red) (NNS buses))))
+
+(ROOT
+  (NP (NNP Red) (NNS buses)))
+
+(ROOT
+  (PP (IN with)
+    (NP (NNS gardens))))
+
+(ROOT
+  (PP (IN beside)
+    (NP (DT a) (JJ formal) (NN garden))))
+
+(ROOT
+  (S
+    (VP (VBG sniffing))))
+
+(ROOT
+  (S
+    (VP (VBG sniffing))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN door))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (JJ closed) (NN door))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN dog))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN silver))
+    (CC and)
+    (NP (JJ blue) (NN motorcycle))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN motorcycle))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN car)))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN car)))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NN silver) (NN train))))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN silver) (NN rail) (NN car))))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN field))))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ black)
+      (CC and)
+      (JJ white))
+    (VP (VBN horned)
+      (NP (NN cow)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ white) (NN show))
+    (NP (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG riding)))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (NP
+    (NP (JJ black))
+    (NP
+      (NP (JJ formal) (NN wear))
+      (CC &)
+      (NP (DT a) (JJ black) (JJ top) (NN hat)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ top) (NN hat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ small))
+    (NP (JJ brown) (NNS birds))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (NN bird))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT a) (NN tree))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT the) (NN tree))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT a) (NN bird) (NN feeder))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN bird) (NN feeder))))
+
+(ROOT
+  (S
+    (VP (VBG hanging))))
+
+(ROOT
+  (S
+    (VP (VBG hanging))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (PP (IN atop)
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (PP (IN in)
+    (S
+      (VP (VBG riding)
+        (NP (NN gear))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG riding)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS trees))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS trees))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN field))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (NN grazing))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (NN grazing))))
+
+(ROOT
+  (PP (IN near)
+    (NP (DT a) (NN stand))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (NN line))))))
+
+(ROOT
+  (NP (NNP Sheep)))
+
+(ROOT
+  (NP (NNP Sheep)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ gray) (NN jacket))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pet) (NN jacket))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN into)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG laughing)))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black-and-white) (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN lawn) (NNS chairs))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN cafe))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VBG lying)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG laying)
+      (PRT (RP down)))))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN train)))
+
+(ROOT
+  (NP (DT A) (NN passenger) (NN train)))
+
+(ROOT
+  (PP (IN into)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN station))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG looking)))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN bull))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN sky))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN formation))
+      (VP (VBG trailing)
+        (NP (NN smoke))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG flying)))))
+
+(ROOT
+  (S
+    (VP (VBG flying))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ yellow)
+        (CC and)
+        (JJ blue))
+      (NN airplane))))
+
+(ROOT
+  (NP
+    (NP (CD Nine))
+    (NP
+      (NP (JJ red))
+      (CC and)
+      (NP (JJ white) (NN aircraft)))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS guys))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (S
+    (VP (VBG galloping))))
+
+(ROOT
+  (S
+    (VP (VBG galloping))))
+
+(ROOT
+  (NP (DT A) (NN race) (NN horse)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN horse))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN road))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN road))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT a) (NN passenger) (NN vehicle))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT a) (NN car))))
+
+(ROOT
+  (S
+    (VP (VBN viewed))))
+
+(ROOT
+  (NP (NN shot)))
+
+(ROOT
+  (NP (CD Three) (NN sheep)))
+
+(ROOT
+  (NP (CD Three) (NN sheep)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS bottles))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Old) (JJ green) (NN bottle))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ white) (NNS dogs))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS birds))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG swimming)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG swimming)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ large) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cows))))
+
+(ROOT
+  (NP (NN Horse)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ black)
+      (CC and)
+      (JJ white) (NNS cows))))
+
+(ROOT
+  (PP (IN against)
+    (NP (DT a)
+      (ADJP (RB partly) (JJ cloudy))
+      (JJ blue) (NN sky))))
+
+(ROOT
+  (PP (IN against)
+    (NP (DT a)
+      (ADJP (RB partly) (JJ cloudy))
+      (JJ blue) (NN sky))))
+
+(ROOT
+  (FRAG
+    (NP (JJ several) (JJ sheared) (NN sheep))))
+
+(ROOT
+  (NP
+    (NP (CD Three))
+    (NP (JJ white) (NN sheep))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pen))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (NN enclosure))))
+
+(ROOT
+  (NP (CD Ten) (NN sheep)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN cat))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN track))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (NN train) (NNS tracks))))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (RB mostly) (JJ black))
+      (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN car))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ several) (NNS computers)
+      (CC and)
+      (NNS pictures))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (CD three) (NN computer) (NNS monitors))
+      (CC and)
+      (NP (JJ other) (NN equipment)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN room))))
+
+(ROOT
+  (NP (DT A) (NN home) (NN office)))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN dog))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN parked)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN parked)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN cement))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN sidewalk))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN airplane))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ blue) (NN motorcycle))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS cows))))
+
+(ROOT
+  (NP (JJ Several) (NN sheep)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN field))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (FRAG
+    (NP (JJ Black) (JJ domestic) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ gray) (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ brown) (NN table))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dining) (NN table))))
+
+(ROOT
+  (S
+    (VP (VBG lying))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ black)
+      (CC and)
+      (JJ white) (NNS dogs))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN bottom))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN bottom))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS stairs))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN staircase))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN track))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN track))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ multi-colored) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (RB mostly) (JJ black))
+      (NN train))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN ocean))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN pier))))
+
+(ROOT
+  (SINV
+    (NP (DT An) (JJ old))
+    (VP (VBN fashioned)
+      (NP (JJ wooden) (NN sailing) (NN ship)))))
+
+(ROOT
+  (SINV
+    (NP (DT An) (JJ old))
+    (VP (VBN fashioned)
+      (NP (JJ wooden) (NN sailing) (NN ship)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG jumping)))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN bicycle))))
+
+(ROOT
+  (NP (DT a) (NN dirt) (NN bike)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN window))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN window))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP out)))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP out)))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN bicycle))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bike))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG doing)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS men))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN kitchen))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (X
+    (NP (CD Four) (NNS people))))
+
+(ROOT
+  (NP (NN food)))
+
+(ROOT
+  (FRAG
+    (PP (IN with))
+    (. .)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT a) (NN living) (NN room))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (JJ long) (NN table))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN restaurant))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN restaurant))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN man))
+    (CC and)
+    (NP (NN woman))))
+
+(ROOT
+  (NP
+    (NP (CD Four) (NNS women))
+    (CC and)
+    (NP (CD two) (NNS men))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (JJ front) (NN end))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NN rear))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT A) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PRT (RP up)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ purple)
+      (CC and)
+      (JJ white) (NN motor) (NN cycle))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ red) (NNS sports) (NN car))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN field))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (JJ yellow) (NN corvette))))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (JJ yellow) (NNS sports) (NN car)))))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN train) (NN station))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN train) (NN station))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN train))))
+
+(ROOT
+  (NP
+    (NP (CD Three))
+    (NP (JJ young) (NNS women))))
+
+(ROOT
+  (NP
+    (NP (CD Three))
+    (NP (JJ dark) (JJ haired) (JJ young) (NNS women))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ white) (NNS horses))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS horses))))
+
+(ROOT
+  (PP (IN over)
+    (NP (DT a) (NN fence))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN pen))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ black)
+      (CC and)
+      (JJ white))
+    (VP (VBN horned)
+      (NP (NN cow)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN image))))
+
+(ROOT
+  (S
+    (VP (VBG lying)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cat))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN leather) (NN chair))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT an) (NN office) (NN chair))))
+
+(ROOT
+  (ADJP (RB asleep)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN orange))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (NP (DT A) (NN ginger) (NN cat)))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN bikini) (NN top))
+    (CC and)
+    (NP (NNS jeans))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNS jeans))
+      (, ,)
+      (NP (DT a) (JJ dark) (NN bikini) (NN top))
+      (, ,)
+      (CC and)
+      (NP (DT a) (NN bracelet)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG wearing)))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN TV))))
+
+(ROOT
+  (ADVP
+    (ADVP (RB very) (RB close))
+    (PP (TO to)
+      (NP (DT a) (JJ small) (NN television)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bed))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bed))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ blue) (NN car))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ blue) (NN car))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS headlights))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS headlights))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS bicyclists))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS bicyclists))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN bridge))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN bridge))))
+
+(ROOT
+  (S
+    (VP (VBG crossing))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG crossing)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (X
+    (NP (DT The) (CD two) (NNS dogs))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS dogs))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN stuff) (NNS animals))))
+
+(ROOT
+  (SINV
+    (PP (IN with)
+      (ADJP (JJ many)))
+    (VP (VBD stuffed))
+    (NP (NNS animals))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (ADVP (IN down)
+    (NP (DT the) (NN track))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG running)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG running)))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN plane))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN plane))))
+
+(ROOT
+  (NP (NN Someone)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ snowy) (NN mountain))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN mountain))))
+
+(ROOT
+  (S
+    (VP (VBG watching))))
+
+(ROOT
+  (S
+    (VP (VBG watching))))
+
+(ROOT
+  (S
+    (VP (VBN docked))))
+
+(ROOT
+  (S
+    (VP (VBN docked))))
+
+(ROOT
+  (NP (DT A) (NN cruise) (NN liner)))
+
+(ROOT
+  (NP (DT A) (NN cruise) (NN ship)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN port))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN coast))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (NN incline))))
+
+(ROOT
+  (PP (IN over)
+    (NP (NNS rocks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN mountain) (NN bike))))
+
+(ROOT
+  (NP (DT a) (NN mountain) (NN bike)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN man))))
+
+(ROOT
+  (S
+    (VP (VBG going)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (NP (CD Three) (NN sheep)))
+
+(ROOT
+  (NP (CD Three) (NN sheep)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN road))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN gravel) (NN road))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (S
+    (VP (VBG taking)
+      (PRT (RP on)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG picking)
+        (PRT (RP up))))))
+
+(ROOT
+  (NP (NNS passengers)))
+
+(ROOT
+  (NP
+    (NP (RBR more))
+    (NP (NNS passengers))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (JJ black)
+          (CC and)
+          (JJ white))
+        (NN picture)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN glass) (NN bottle))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ short) (JJ squat) (NN Coca-cola) (NN bottle))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN market) (NN square))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (NP (JJ Several) (NNS people)))
+
+(ROOT
+  (NP (NNS People)))
+
+(ROOT
+  (PP (IN on)
+    (NP (NNS motorcycles))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NNS motorbikes))))
+
+(ROOT
+  (NP (NNP Group)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (S
+    (VP (VBN dressed))))
+
+(ROOT
+  (S
+    (VP (VBN dressed))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (S
+    (VP (VBG posing))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (PP (IN as)
+    (NP (NNP Elvis))))
+
+(ROOT
+  (PP (IN as)
+    (NP (NNP Elvis))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD two) (NNS men))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD two) (JJ other) (NNS people))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (X
+    (NP (DT A) (VBG smiling) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (NP
+    (NP (CD one))
+    (NP (DT another))))
+
+(ROOT
+  (FRAG
+    (ADVP (DT each))
+    (ADVP (JJ other))))
+
+(ROOT
+  (NP (NNS points)))
+
+(ROOT
+  (NP (NNS points)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (S
+    (VP (VBG facing))))
+
+(ROOT
+  (S
+    (VP (VBG facing))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS boys))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (CD one))))
+
+(ROOT
+  (PP (IN as)
+    (NP (CD one))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (JJ other))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (JJ other))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ small) (NN shopping))
+    (NP (NN cart))))
+
+(ROOT
+  (NP (DT a) (NN shopping) (NN cart)))
+
+(ROOT
+  (S
+    (VP (VBG pushing))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG steering)))))
+
+(ROOT
+  (NP (NN Parrot)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN bird))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS birds))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS birds))))
+
+(ROOT
+  (PP (IN towards)
+    (NP (NN water) (NN feeder))))
+
+(ROOT
+  (PP (IN near)
+    (NP (NN bird) (NNS feeders))))
+
+(ROOT
+  (S
+    (VP (VBG flying))))
+
+(ROOT
+  (S
+    (VP (VBG flying))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN hill))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN hill))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN sheep))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN sheep))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN woman))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ holds))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ gray) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP
+        (ADJP (JJ gray))
+        (, ,)
+        (ADJP (JJ black))
+        (, ,)
+        (CC and)
+        (ADJP (JJ white)))
+      (NN cat))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (PP (IN into)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN guy))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN snow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN field))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP
+    (NP (NNP Home))
+    (NP (NN office) (NN space))))
+
+(ROOT
+  (FRAG
+    (NP (DT An) (NN office))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (JJ bright) (JJ green) (NNS walls))
+      (CC and)
+      (NP (NN artwork)))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (JJ multiple) (NNS desks))
+      (CC and)
+      (NP (JJ green) (NNS walls)))))
+
+(ROOT
+  (S
+    (VP (VBG pointing))))
+
+(ROOT
+  (NP (NNS points)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD one) (NN person))))
+
+(ROOT
+  (PP (IN as)
+    (NP (CD one))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ young) (NNS people))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (JJ other))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (JJ other))))
+
+(ROOT
+  (NP (NN sailing)))
+
+(ROOT
+  (NP (NN sailing)))
+
+(ROOT
+  (S
+    (VP (VB Sail)
+      (NP (NN boat)))))
+
+(ROOT
+  (NP (NNP Sailboat)))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS people))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS people))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ yellow) (NNS canoes))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB canoe))))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN branch))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN branch))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ bald) (NNS eagles))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS eagles))))
+
+(ROOT
+  (S
+    (VP (VBN perched))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN perched)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG riding)))))
+
+(ROOT
+  (S
+    (VP (VBG leading))))
+
+(ROOT
+  (NP (DT A) (NN horse) (NN rider)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN train) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN train) (NNS tracks))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ long) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN silver))
+    (NP (NNP AreoMexico) (NNP Jet) (NNP Liner))))
+
+(ROOT
+  (NP
+    (NP (DT An) (NN aeromexico))
+    (NP (NN silver) (NN plane))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN tarmac))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN runway))))
+
+(ROOT
+  (NP (NN sailing)))
+
+(ROOT
+  (NP (NN sailing)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (JJ white) (NN sail) (NN boat))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ small) (NN sailboat))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (NP (NN Couple)))
+
+(ROOT
+  (NP (DT A) (NN dining) (NN table)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ wooden) (NN table))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (NNS candles))
+      (, ,)
+      (NP (NN wine))
+      (, ,)
+      (CC and)
+      (NP (DT a) (NN teapot)))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (NNS candles))
+      (, ,)
+      (NP (NN wine))
+      (, ,)
+      (CC and)
+      (NP (DT a) (JJ purple) (NN plastic) (NN bowl)))))
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (DT the) (RB still)))
+    (NP (NN water))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ clear) (NN lake))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ red) (NN canoe))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ red) (NN canoe))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN cloak))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN cloth))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN man))))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (NP (NN cross))
+    (VP (VBD legged))))
+
+(ROOT
+  (S
+    (NP (NN cross))
+    (VP (VBD legged))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN stick))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ wooden) (NN stick))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG wearing)))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN creek))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN river))))
+
+(ROOT
+  (NP (JJ Small) (NN boat)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN boat))))
+
+(ROOT
+  (S
+    (VP (VBG going)
+      (PRT (RP down)))))
+
+(ROOT
+  (S
+    (VP (VBG moving))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN scene))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN living) (NN room))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a)
+      (ADJP (RB well) (JJ furnished))
+      (NN room))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ siamese) (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN cream) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ yellow) (NN chair))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ yellow) (NN chair))))
+
+(ROOT
+  (NP (DT A) (NN pug) (NN dog)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN bulldog))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (JJ green) (NN dumpster)))))
+
+(ROOT
+  (PP (IN beside)
+    (NP (DT a) (JJ large) (NN waste) (NN receptacle))))
+
+(ROOT
+  (ADJP (RB asleep)))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN orange))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN orange))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN leather) (NN chair))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ black) (NN leather) (NN chair))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN cow))))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ black)
+      (CC and)
+      (JJ white))
+    (VP (VBN horned)
+      (NP (NN cow)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN dog))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN dog))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS goats))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS goats))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBD rounded)
+          (PRT (RP up)))))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN chased)))))
+
+(ROOT
+  (NP (NNS moves)))
+
+(ROOT
+  (S
+    (VP (VBG traveling))))
+
+(ROOT
+  (PP (IN down)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (PP (IN down)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN area))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (JJ wooded) (NN area))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ long-haired) (NN dog))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN parked)))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN sidewalk))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN sidewalk))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ blue) (NN motorcycle))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ blue) (NN moped))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (NP
+    (NP (DT An) (JJ empty) (NN office))
+    (NP (NN cubicle))))
+
+(ROOT
+  (NP
+    (NP (DT An) (JJ empty) (NN office))
+    (NP (NN chair))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Young) (JJ redheaded) (NN man))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG holding)))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (X
+    (NP (CD two) (NNS bicycles))))
+
+(ROOT
+  (X
+    (NP (CD two) (NNS bicycles))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN plane))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (JJ Swiss) (NN airplane))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN runway))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN runway))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN median))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN patch))))
+
+(ROOT
+  (NP (JJ Several) (NNS cows)))
+
+(ROOT
+  (X
+    (NP (CD Five) (NNS cows))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN road))))
+
+(ROOT
+  (PP (IN between)
+    (NP (CD two) (NNS roadways))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP (NN street)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN clothing) (NN store))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN clothing) (NN store))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (JJ brown) (NN cow)))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN cow)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN truck))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN van))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ peaks)
+      (PRT (RP out)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG peeking)
+        (PRT (RP out))))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG looking)
+        (PRT (RP up))))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP
+        (ADJP (JJ gray))
+        (, ,)
+        (ADJP (JJ black))
+        (, ,)
+        (CC and)
+        (ADJP (JJ white)))
+      (NN cat))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ white) (NN cat))))
+
+(ROOT
+  (NP
+    (NP (NNP Grey))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN sink))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN bathroom) (NN sink))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ looks)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG wearing)))))
+
+(ROOT
+  (S
+    (VP (VBG wearing))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ small) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ white) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN sweater))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN jacket))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN near)
+    (NP
+      (NP (NN water))
+      (CC and)
+      (NP (DT a) (JJ big) (NN ship)))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (NN water))
+      (CC and)
+      (NP (DT a) (NN barge)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ green) (NN car))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ green) (NN car))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN saloon))))
+
+(ROOT
+  (PP (IN outside)
+    (NP (DT the) (NN saloon))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (NP (NNP Group)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT a) (NN restaurant) (NN dining) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN restaurant) (NN table))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (PP (IN inside)
+    (NP (DT an) (JJ indoor) (NN station))))
+
+(ROOT
+  (NP (NN Train)))
+
+(ROOT
+  (NP (NNS Trains)))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS cows))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS cows))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (NN grazing))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ red))
+    (, ,)
+    (NP (JJ double-decker) (NN bus))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT An) (JJ elderly) (NN man))))
+
+(ROOT
+  (X
+    (NP (JJR Older) (NN gentleman))))
+
+(ROOT
+  (PP (IN on)
+    (NP (PRP$ his) (NN laptop))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN laptop))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ mountainous) (NN area))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN hill))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN sheep))))
+
+(ROOT
+  (NP (DT A) (NN tan) (NN puppy)))
+
+(ROOT
+  (NP (DT A) (NN tan) (NN puppy)))
+
+(ROOT
+  (S
+    (VP (VBG being)
+      (VP (VBN petted)))))
+
+(ROOT
+  (S
+    (VP (VBG being)
+      (VP (VBN held)
+        (CC and)
+        (VBN petted)))))
+
+(ROOT
+  (X
+    (NP (CD two) (NNS motorbikes))))
+
+(ROOT
+  (NP
+    (NP (CD Two) (NN dirt))
+    (NP (NNS bikers))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN track))))
+
+(ROOT
+  (PP (IN over)
+    (NP (NN dirt) (NN hill))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN pile))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN pile))))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ wooden) (NNS items))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN scrap) (NN wood))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN girl))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (S
+    (VP (VBG riding))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (S
+    (NP (DT A) (JJ black)
+      (CC and)
+      (JJ white))
+    (VP (VBN horned)
+      (NP (NN cow)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ large) (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ little) (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN duck))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (S
+    (VP (VBG floating))))
+
+(ROOT
+  (NP
+    (NP (NNP Old))
+    (NP
+      (NP (JJ blue))
+      (CC and)
+      (NP (JJ white) (NN train)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ blue) (NN train))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS ducks))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS birds))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG swimming)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN railroad) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NNS tracks))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ brown) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ white) (NN train))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ tiny) (JJ blonde) (NN child))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (JJ blonde) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (PP (IN across)
+    (NP (CD two) (NNS men))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ grassy) (NN hill))))
+
+(ROOT
+  (PP (IN over)
+    (NP (NN dirt) (NN hill))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (UCP
+    (ADJP (JJ Large) (JJ black))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ white) (NN cat))))
+
+(ROOT
+  (ADJP (VBG resting)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT a) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT a) (NN close))
+      (ADVP (RP up)))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (NP (NN bike) (NNS helmets)))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ their) (NNS bicycles))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN man))
+    (CC and)
+    (NP (NN boy))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN girl))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ green) (NN field))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cows))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ brown) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG standing)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ walks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN city) (NN street))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN street))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ red) (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (NP (NNS drives)))
+
+(ROOT
+  (S
+    (VP (VBG driving)
+      (PRT (RP down)))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN construction) (NN site))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN construction) (NN site))))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN hat))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN cap)
+      (CC and)
+      (NN jacket))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (S
+    (VP (VBG walking))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ long-haired) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN between)
+    (NP (CD two)
+      (ADJP (JJ large) (, ,) (JJ half-empty))
+      (NNP Coke) (NNS bottles))))
+
+(ROOT
+  (PP (IN between)
+    (NP (CD two) (JJ large) (NNS bottles))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN shop))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN cafe))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (NP (NN Man)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN store))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN store))))
+
+(ROOT
+  (S
+    (VP (VBG playing))))
+
+(ROOT
+  (S
+    (VP (VBG playing))))
+
+(ROOT
+  (NP (DT a) (NN video) (NN game)))
+
+(ROOT
+  (NP (NN game)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN back))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN stop) (NN sign))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NN stop) (NN sign))))
+
+(ROOT
+  (PP (IN on)
+    (NP (PRP it))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN adorned)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ many) (NNS stickers))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NNS stickers))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ ferris) (NN wheel))))
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (NN front))
+      (PP (IN of)
+        (NP (DT a) (JJ ferris) (NN wheel))))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ brown) (JJ double) (NN decker) (NN tour))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ double-decker) (NN bus))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ black) (NN uniform))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN tux))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN course))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN dirt) (NN track))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS motorbikes))))
+
+(ROOT
+  (X
+    (NP (CD two) (NNS motorbikes))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NNS headlights))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NNS headlights))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ blue) (JJ old-fashioned) (NN car))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ blue) (NN car))))
+
+(ROOT
+  (NP (DT A) (NN close-up) (NN view)))
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN blanket))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ purple) (NN blanket))))
+
+(ROOT
+  (S
+    (VP (VBG lying))))
+
+(ROOT
+  (NP (NNS sleeps)))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN baby))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN man))
+    (CC and)
+    (NP (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN woman))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN dining) (NN table))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN dining) (NN room))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN background))))
+
+(ROOT
+  (NP (DT A) (NN living) (NN room)))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN living) (NN room))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN hood))))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ its) (NN hood))))
+
+(ROOT
+  (ADJP (JJ open)))
+
+(ROOT
+  (S
+    (VP (VBN raised))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (JJ double) (NN decker))
+    (NP (NN bus))))
+
+(ROOT
+  (FRAG
+    (NP (DT An) (JJ old) (NNP Red) (NNP London))
+    (NP (JJ double) (NN decker) (NN bus))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sheering)))))
+
+(ROOT
+  (S
+    (VP (VBG shearing))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN sheep))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (PP (IN inside)
+    (PP (IN of)
+      (NP (DT a) (JJ wooden) (NN building)))))
+
+(ROOT
+  (SBAR (IN in)
+    (S
+      (NP (DT a) (JJ wooden))
+      (VP (VBP stall)))))
+
+(ROOT
+  (PP (IN into)
+    (NP (DT the) (NN station))))
+
+(ROOT
+  (PP (IN into)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (NP (DT A) (NN subway) (NN train)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN train))))
+
+(ROOT
+  (S
+    (VP (VBG pulling))))
+
+(ROOT
+  (S
+    (VP (VBG pulling))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (NNS glasses))
+      (CC and)
+      (NP (CD two) (JJ plastic) (NNS bottles)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD two) (NN water) (NNS bottles))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN water))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN water))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN goose))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN swan))))
+
+(ROOT
+  (NP
+    (NP (PRP$ its))
+    (NP (NNS wings))))
+
+(ROOT
+  (NP
+    (NP (PRP$ its))
+    (NP (NNS wings))))
+
+(ROOT
+  (S
+    (VP (VBG flapping))))
+
+(ROOT
+  (S
+    (VP (VBG flapping))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN car)))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (NN car)))))
+
+(ROOT
+  (NP (NNP Motorcycle)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN motorcycle))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (NP (NN Boy)))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN boy))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN dog))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN puppy))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN couch))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN couch))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG lying)))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN airport))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN airport))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN jet))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ large) (NN airplane))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNP Harp) (NN lager))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNP Harp) (NN beer))))
+
+(ROOT
+  (X
+    (NP (CD Eight) (NNS bottles))))
+
+(ROOT
+  (X
+    (NP (CD Eight) (NNS bottles))))
+
+(ROOT
+  (FRAG
+    (VP (VBD lined)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD lined)
+      (PRT (RP up)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ wooden) (NN floor))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN movie))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN movie))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN television) (NN screen))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ wall-mounted) (JJ flat-screen) (NN TV))))
+
+(ROOT
+  (S
+    (VP (VBG showing))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG showing)))))
+
+(ROOT
+  (PP (IN inside)
+    (PP (IN of)
+      (NP (DT a) (NN sink)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN bathroom) (NN sink))))
+
+(ROOT
+  (NP
+    (NP (NNP White))
+    (NP (NN cat))))
+
+(ROOT
+  (NP
+    (NP (NNP Grey))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS people))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ small) (NN boat))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN sailboat))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN couch))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN couch))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN back))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN window))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN window))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP out)))))
+
+(ROOT
+  (S
+    (VP (VBG looking)
+      (PRT (RP out)))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (NP (NN shear)))
+
+(ROOT
+  (S
+    (VP (VBG sheering))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ young) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN seated)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (X
+    (NP (CD Six) (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN restaurant) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN restaurant) (NN table))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NNP Philips))
+    (NP (JJ flat-screen) (NN TV))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NNP Phillips))
+    (NP (JJ flat) (NN screen) (NN TV))))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ its) (CD two) (JJ remote) (NNS controls))))
+
+(ROOT
+  (PP (IN with)
+    (NP (CD two) (JJ remote) (NNS controls))))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ black) (NN dog))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN construction) (NN site))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN room))))
+
+(ROOT
+  (S
+    (VP (VBG lying))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN blanket))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN cat) (NN bed))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN plane))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ small) (NN turboprop))
+    (NP (NN plane))))
+
+(ROOT
+  (S
+    (VP (VBG being)
+      (VP (VBN readied)))))
+
+(ROOT
+  (S
+    (VP (VBG being)
+      (VP (VBN loaded)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ dark) (JJ brown) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ brown) (NN horse))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ green) (NN field))))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN bicycle))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Old) (NN style) (NN bicycle))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN floor))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN floor))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ concrete) (NN slab))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN concrete))))
+
+(ROOT
+  (NP (JJ Black) (NN bird)))
+
+(ROOT
+  (NP (JJ Black) (NN bird)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (S
+    (NP (JJ Dark))
+    (VP (VBN colored)
+      (NP (NN dog)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ gray) (NN dog))))
+
+(ROOT
+  (NP
+    (NP (CD one))
+    (NP (JJ brown))))
+
+(ROOT
+  (NP (CD one) (NN ginger)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bed))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bed))))
+
+(ROOT
+  (X
+    (NP (CD two) (NNS cats))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cats))))
+
+(ROOT
+  (ADJP
+    (NP (CD one))
+    (JJ white)))
+
+(ROOT
+  (X (DT the)
+    (ADJP (JJ other) (JJ white))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN couple))))
+
+(ROOT
+  (NP (NN Couple)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (PP (IN with)
+    (NP (JJ newborn) (NN baby))))
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PRT (RP up)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ white) (NN sheep))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN sheep))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ black) (NN head))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ black) (NN head))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (S
+    (VP (VBG laying))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ young) (NN boy))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (NN boy))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN dog))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN dog))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN railroad) (NNS tracks))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN train) (NNS tracks))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (NP
+    (NP (JJ Large) (NN silver))
+    (NP (NN locomotive) (NN engine))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN silver) (NN train) (NN engine))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ semi) (NN truck))))
+
+(ROOT
+  (PP (IN of)
+    (NP (JJ white) (NN semi) (NN truck))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN top))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN top))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ red) (NN car))))
+
+(ROOT
+  (NP
+    (NP (JJ Red) (NNS sports))
+    (NP (NN car))))
+
+(ROOT
+  (PP (IN in)
+    (ADJP (JJ black))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ black)
+      (CC and)
+      (JJ white) (NN lira))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN bicyclist))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN cyclist))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ messy) (NN room))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN room))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN television))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN television) (, ,) (NN stereo)
+      (CC and)
+      (NN bookshelf))))
+
+(ROOT
+  (NP (NNS touches)))
+
+(ROOT
+  (NP (NNS pets)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ bald) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ bald) (NN man))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ black) (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ black)
+      (CC and)
+      (JJ white) (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN fence))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN fence))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN nose))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN nose))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ gray) (NN house))))
+
+(ROOT
+  (NP (NNP House)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ red) (NN door))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ red) (NN door))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ their) (NNS stalls))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN trough))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS cows))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS cattle))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NNP London) (NNP Eye) (JJ ferris) (NN wheel))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ ferris) (NN wheel))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN background))))
+
+(ROOT
+  (PP (IN behind)
+    (NP (PRP it))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Double) (NN decker) (NN bus))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ brown) (JJ double) (NN decker) (NN tour))
+    (NP (NN bus))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (S
+    (VP (VBN parked))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT an) (NN airfield))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (NN airport))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (JJ cloudy) (NN sky) (NN overhead))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ cloudy) (NN day))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (NN plane))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ small) (JJ white) (NN plane))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN floor))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNP Macintosh) (NN computer))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN computer))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NN photo))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN love) (NN seat))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NN couch))))
+
+(ROOT
+  (S
+    (VP (VBG walking))))
+
+(ROOT
+  (S
+    (VP (VBG walking))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (CD four) (NNS people))))
+
+(ROOT
+  (NP (NN Crowd)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (PP (IN past)
+    (NP (DT a) (JJ giant) (NN mushroom))))
+
+(ROOT
+  (PP (IN past)
+    (NP (DT a) (JJ giant) (NN mushroom))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (NP (NNS stands)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN motorcycle))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN motorcycle))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN person))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (PP (IN while)
+    (NP (DT a) (NN man))))
+
+(ROOT
+  (ADVP (IN next)
+    (PP (TO to)
+      (NP (DT a) (JJ helmeted) (NN man)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN sheep))))
+
+(ROOT
+  (PP (IN beside)
+    (NP
+      (NP (DT a) (NN road))
+      (CC and)
+      (NP (DT a) (NN lake)))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN road))))
+
+(ROOT
+  (ADVP (IN outside)))
+
+(ROOT
+  (ADVP (IN outside)))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (ADJP (VBG having)))
+
+(ROOT
+  (S
+    (VP (VB eat))))
+
+(ROOT
+  (NP (DT A) (NN close-up) (NN view)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN horse))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ brown) (NN horse))))
+
+(ROOT
+  (NP (POS 's) (NN head)))
+
+(ROOT
+  (NP (POS 's) (NN head)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN train) (NN station))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN station))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN train))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN train))))
+
+(ROOT
+  (PP (IN of)
+    (NP (NNS people))))
+
+(ROOT
+  (PP (IN of)
+    (NP (CD six) (NNS people))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ Italian) (NN restaurant))))
+
+(ROOT
+  (PP (IN with)
+    (NP (NN salad))))
+
+(ROOT
+  (S
+    (VP (VB sit))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN group))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (S
+    (VP (VBG holding))))
+
+(ROOT
+  (NP (JJ newborn) (NN baby)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN baby))))
+
+(ROOT
+  (X
+    (NP (JJR Older) (NN woman))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN woman))))
+
+(ROOT
+  (ADVP (RB down)))
+
+(ROOT
+  (ADVP (RB down)))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ its) (NN landing) (NN gear))))
+
+(ROOT
+  (PP (IN with)
+    (NP (PRP$ its) (NN landing) (NNS gears))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ blue)
+        (CC and)
+        (JJ orange))
+      (NN airplane))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ red)
+        (CC and)
+        (JJ blue))
+      (NN plane))))
+
+(ROOT
+  (S
+    (VP (VBG flying))))
+
+(ROOT
+  (S
+    (VP (VBG flying))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ white) (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN photo))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ laptop) (NN computer))
+    (CC and)
+    (NP (DT a) (NN computer) (NN monitor))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN laptop))
+    (CC and)
+    (NP (DT a) (NN PC))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN leather) (NN couch))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ black) (NN couch))))
+
+(ROOT
+  (FRAG
+    (VP (VBD lay))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ sits))))
+
+(ROOT
+  (FRAG
+    (NP (JJ Long-haired) (JJ black) (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ blue) (NN jay))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ grassy) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ grassy) (NN field))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS men))))
+
+(ROOT
+  (S
+    (VP (VBG smiling))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN rock))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ long) (NN branch))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS animals))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS eagles))))
+
+(ROOT
+  (VP (VBN Left)
+    (NP (NN side))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN silver) (NN train) (NN engine))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (JJ black) (NN train) (NN engine))))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN hay))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN grass))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN sheep))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN cat))))
+
+(ROOT
+  (NP
+    (NP (NNP Grey))
+    (CC and)
+    (NP (JJ white) (NN cat))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NN camera))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN dog))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP
+        (ADJP (JJ gray))
+        (, ,)
+        (ADJP (JJ black))
+        (, ,)
+        (CC and)
+        (ADJP (JJ white)))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN woman))))
+
+(ROOT
+  (NP (NN drinking)))
+
+(ROOT
+  (NP (NNS drinks)))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT a) (NN table))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG sitting)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN dog))))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (ADJP (VBG looking)))
+
+(ROOT
+  (NP (NN standing)))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (NN grazing))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cows))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN cow))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ large) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (NP (JJ Depressed) (NN woman)))
+
+(ROOT
+  (X
+    (NP (JJR Older) (NN woman))))
+
+(ROOT
+  (NP
+    (NP (JJ Black))
+    (CC and)
+    (NP (JJ white) (NNS cows))))
+
+(ROOT
+  (NP
+    (NP (CD Two))
+    (NP (JJ black)
+      (CC and)
+      (JJ white) (NNS cows))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (NP (NN drinking)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ white) (NN horse))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ domestic) (NN animal))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN dog))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ brown) (NN chair))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ yellow) (NN chair))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBG smiling)))))
+
+(ROOT
+  (S
+    (VP (VBG smiling))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS women))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS women))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cow))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ black)
+        (CC and)
+        (JJ white))
+      (NN cat))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN close-up))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN sheep))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT a) (NN lamb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN grass))))
+
+(ROOT
+  (PP (IN on)
+    (NP (NN grass))))
+
+(ROOT
+  (NP (NN grazing)))
+
+(ROOT
+  (S
+    (VP (VB graze))))
+
+(ROOT
+  (X
+    (NP (CD Three) (NNS cows))))
+
+(ROOT
+  (X
+    (NP (CD Two) (NNS cows))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN field))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN man))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NNS women))))
+
+(ROOT
+  (S
+    (VP (VBG sitting))))
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (VP (VBG sitting)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN bench))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (NN sofa))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN ground))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (NN branch))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBG sitting)))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ black) (NN bird))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN bird))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT a) (NN tree))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN tree))))
+
+(ROOT
+  (NP
+    (NP (DT A) (JJ small))
+    (NP (JJ brown) (NNS birds))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ small) (JJ red)
+        (CC and)
+        (JJ gray))
+      (NN bird))))
+

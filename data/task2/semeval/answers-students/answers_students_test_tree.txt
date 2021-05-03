@@ -1,0 +1,8663 @@
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (VP (VB have)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT a)
+      (CC and)
+      (NN c))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (UCP
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 1)))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (ADJP
+      (ADJP (JJ positive) (NN battery))
+      (PP (IN from)))
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 2)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 2))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN difference))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN state))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (CD two) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS terminals))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN contained))))))))
+
+(ROOT
+  (VP (VB have)
+    (S
+      (VP (TO to)
+        (VP (VB be))))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (NP
+      (NP (DT the) (NN bulb))
+      (CC and)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (NP
+    (NP (DT The) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ terminal) (CD 1))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 2)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB create))))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB maintain))))))
+
+(ROOT
+  (NP (DT the) (NN chemical) (NN reation)))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB create))))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB maintain))))))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN batter))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (ADVP (RB alone)))
+
+(ROOT
+  (SINV
+    (VP (VBZ does) (RB not)
+      (VP (VB contain)))
+    (NP (DT any) (JJ other) (NNS components))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (WHNP (WDT which))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN within)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP (NN bulb) (NN C)))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (NP
+    (NP (CD two))
+    (NP (JJ negative) (NNS connections))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (FRAG
+    (NP (DT A))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ other) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ open) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the)
+      (ADJP (JJ positive) (JJ terminal)
+        (CC and)
+        (JJ terminal))
+      (CD 4))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (NN Bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 6))
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ open) (NN path))))
+
+(ROOT
+  (PP (IN around)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (WHNP (WDT which))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP (EX There)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN B))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN pathway))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP (NN bulb) (NN b)))
+
+(ROOT
+  (NP (NN Bulb) (NN B)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN involved)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (X
+    (NP
+      (QP (RB Only) (CD one))
+      (NN terminal))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (SINV
+    (VP (VBD closed))
+    (NP (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ separates))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 2)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 2))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ differentclosed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP
+      (NP (DT a) (NN bulb) (NN b))
+      (CC and)
+      (NP (NN bulb) (NN c)))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (DT any) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT each) (NN bulb))))
+
+(ROOT
+  (ADVP (IN out)))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (JJ own) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN gap))
+    (PP (IN in)
+      (NP (DT the) (NN path)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT a)
+      (CC and)
+      (NN c))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD one))
+    (PP (TO to)
+      (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN A))
+    (CC and)
+    (NP (NN switch) (NN Z))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (PP (IN with)
+      (NP (DT the) (NN battery)
+        (CC and)
+        (NN switch) (NN Z)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (PP (TO to)
+      (NP (DT the) (JJ postitive) (NN battery) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (PP (TO to)
+      (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (UCP
+    (NP (DT neither) (NN B))
+    (CC nor)
+    (ADJP (NN C))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (UCP
+    (NP (DT neither) (NN B))
+    (CC nor)
+    (ADJP (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT the) (JJ electrical) (NN state))
+    (NP (NN nonzero))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ nonzero) (NN voltage))))
+
+(ROOT
+  (FRAG
+    (VP (MD can)
+      (VP (VB find)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (SINV (VBZ does)
+    (NP (RB not))
+    (VP (VB contain))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (NN pathway))))
+
+(ROOT
+  (FRAG
+    (WHNP (WDT which))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN nothing)))
+
+(ROOT
+  (FRAG
+    (NP (DT any) (JJ other) (NNS components))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN battery))))
+      (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (NP
+    (NP (DT the) (JJ positive) (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 5)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB when))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (PP (IN with)
+      (NP (DT the) (NN bulb)))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN b))
+    (CC and)
+    (NP (NN c))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (S
+    (NP (DT The) (NN path))
+    (VP (VBZ does) (RB not)
+      (VP (VB close)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ open) (NN path))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (JJ electrical) (NNS states))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X
+    (NP (DT a) (VBN lost) (NN connection))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ nonzero) (NN voltage))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (X (DT the)
+      (ADJP
+        (ADJP (JJ positive) (JJ terminal))
+        (CC and)
+        (ADJP (JJ terminal))))
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (X (DT the)
+      (ADJP
+        (ADJP (JJ positive) (JJ terminal))
+        (PP (TO to)
+          (ADJP (JJ terminal)))))
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN at)
+    (NP (JJ terminal) (CD 1))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 6))
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN conncted)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN papth))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ separate) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN bulb))
+    (NP (NN b))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN B))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was) (RB not)
+      (VP (VBN separted)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (X (DT The)
+      (ADJP
+        (ADJP (JJ positive) (JJ terminal))
+        (PP (TO to)
+          (ADJP (JJ terminal)))))
+    (NP (CD 4))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NN inthe))
+    (NP (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (VP (RB not) (VBN contained)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN gap))
+    (PP (IN in)
+      (NP (DT the) (NN path)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN bulb) (NN c)))
+
+(ROOT
+  (NP (NN C)))
+
+(ROOT
+  (PP (IN for)
+    (NP
+      (NP (NN bulb) (NN b))
+      (CC and)
+      (NP (DT a)))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (NP
+    (NP (DT the) (JJ other) (NNS terminals))
+    (PP (TO to)
+      (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals) (CD 4))
+    (NP
+      (NP (CD 5)
+        (CC and)
+        (CD 6))
+      (PP (TO to)
+        (NP (DT the) (JJ positive) (NN battery) (NN terminal))))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (UCP
+    (ADJP (JJ terminal)
+      (NP-TMP (CD one)))
+    (CC and)
+    (NP
+      (NP (DT the) (JJ positive) (NN battery))
+      (NP (NN terminal)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (PP (IN on)
+        (NP (DT a) (JJ closed) (NN path))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP (NN Battery)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT the) (JJ positive) (NN battery))
+      (ADJP (JJ terminal) (TO to) (JJ terminal)))
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 4))
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (SINV
+    (VP (VBP are)
+      (PP (IN in)))
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (NP (NN bulb) (NN c)))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (JJ own) (NN pathway))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (PP (IN nearest)
+    (NP (DT the)
+      (ADJP (VBN burnt)
+        (PRT (RP out)))
+      (NN bulb))))
+
+(ROOT
+  (X
+    (NP (DT a) (VBN damaged) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN voltage))))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN battery))
+    (CC and)
+    (NP (DT a) (NN blub))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN bulb))
+    (CC and)
+    (NP (DT a) (NN battery))))
+
+(ROOT
+  (S
+    (NP (DT the) (NN path))
+    (VP (VBD closed))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ incomplete) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN circut))))
+
+(ROOT
+  (FRAG
+    (NP (DT no)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 1)))
+    (ADJP
+      (ADJP
+        (ADJP (JJ terminal))
+        (NP (CD 2)))
+      (CC and)
+      (ADJP
+        (ADJP (JJ terminal))
+        (NP (CD 3))))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1) (CD 2))
+      (CC and)
+      (NP (CD 3)))))
+
+(ROOT
+  (NP
+    (NP (NN o))
+    (NP (DT the) (JJ negative) (NN battery))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (NP (EX There)))
+
+(ROOT
+  (FRAG
+    (PP (IN between)
+      (ADJP (JJ terminal)))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (JJ terminal) (CD 6)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (NNS terminals) (CD 1)
+      (CC and)
+      (CD 6))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN Bulb) (NN C))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ determines))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ affects))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (FRAG
+    (NP (DT the)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 4)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ incomplete) (NN circuit))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (SINV
+    (VP (MD would) (RB not))
+    (NP (VB effect))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB maintain))))))
+
+(ROOT
+  (FRAG
+    (X (DT the))
+    (NP (DT the) (JJ electrical) (NN state))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NNS terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBN damaged) (NN bulb))
+      (CC and)
+      (NP (DT the) (JJ other) (NN bulb)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (MD must)
+      (VP (VB be)
+        (VP (VBN contained))))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (S
+    (VP (VBN contained))))
+
+(ROOT
+  (S
+    (VP (VBN contained))))
+
+(ROOT
+  (NP (CD one) (NN bulb)))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ open) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ open) (NN switch))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ disrupts)
+      (ADVP (IN that)))))
+
+(ROOT
+  (SINV
+    (VP (VBZ creates))
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)
+        (PP (IN by)
+          (NP (DT a) (NN gap)))))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (CD two) (NN bulb) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has)
+      (VP (VBN occured)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ creates))))
+
+(ROOT
+  (PP (IN at)
+    (NP (NN bulb) (NN b))))
+
+(ROOT
+  (NP (NN bulb) (NN B)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (UCP
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 3)))
+    (CC and)
+    (NP (DT the) (JJ positie) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 3))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 4)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was) (RB not)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (ADJP (JJ Terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN battery))))
+      (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 2)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (X (DT the)
+      (ADJP
+        (ADJP (JJ positive) (JJ terminal))
+        (CC and)
+        (ADJP (JJ terminal))))
+    (NP (CD 2))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 2))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (SINV
+    (VP (VBZ is) (RB not))
+    (NP (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (FRAG
+    (PP (IN between)
+      (NP
+        (NP (NN teh) (JJ positive) (NN battery))
+        (ADJP (JJ terminal)
+          (CC and)
+          (JJ terminal))))
+    (NP (CD 4))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (X (DT The)
+      (ADJP
+        (ADJP (JJ positive) (NN battery))
+        (PP (TO to)
+          (ADJP (JJ terminal)))))
+    (NP (CD one))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN B))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN B))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN contained))))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (X
+    (NP (DT the) (CD two) (NNS components))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (JJ terminal) (CD 4)))))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT the) (JJ positive) (NN battery))
+      (ADJP (JJ terminal)
+        (CC and)
+        (JJ terminal)))
+    (NP (CD 4))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (UCP
+    (ADVP (JJ Terminal)
+      (NP (CD 1)))
+    (CC and)
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 2)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 2)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (PP (IN on)
+        (NP (DT the) (JJ same) (NN side))))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (TO to)
+    (ADJP (JJ positive) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 2))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (ADJP (RB not) (VBN connected)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB maintain))))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB maintain))))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN voltage))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (SINV (VBZ does)
+    (NP (RB not))
+    (VP (VB have))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (PP (TO to)
+      (NP
+        (NP (JJ postive) (NN terminal))
+        (PP (IN of)
+          (NP (DT the) (NN battery)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (PP (IN from)
+      (NP (DT the) (JJ positive) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (NP (NN Battery)))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (S
+    (VP (LS i)
+      (NP (DT a) (JJ closed) (NN path)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (X
+    (NP (CD 2) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP (EX There)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (NP
+    (NP (NN switch) (NN Y))
+    (CC and)
+    (NP (NN bulb) (NN A))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ closed) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ creates))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ creates))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (VP (VBN damaged)
+    (NP (NN bulb))))
+
+(ROOT
+  (X
+    (NP (DT a) (VBN damaged) (NN bulb))))
+
+(ROOT
+  (S
+    (NP (DT the) (NN battery) (NN connection))
+    (VP (VBZ does) (RB not)
+      (VP (VB work)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ Terminal)
+      (NP-TMP (CD 5)))
+    (S
+      (VP (TO to)
+        (VP (VB teh)
+          (NP (JJ positive) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (PP (IN between)
+      (ADJP (JJ terminal)))
+    (NP
+      (NP (CD one)
+        (CC and)
+        (CD two))
+      (CC and)
+      (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 2)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT no) (JJ closed) (NN path))))
+
+(ROOT
+  (S
+    (NP (DT the) (NN path))
+    (VP (VBZ is) (RB not)
+      (VP (VBN closed)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN bath))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 5))
+        (PP (TO to)
+          (NP
+            (NP (JJ postive) (NN terminal))
+            (PP (IN of)
+              (NP (DT the) (NN battery)))))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP (NN x)
+    (CC and)
+    (SYM z)))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN C) (NN Z))
+    (CC and)
+    (NP (NN X))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ positive))
+    (ADJP (JJ terminal)
+      (PP (IN from)
+        (NP (JJ terminal) (CD 2))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 2))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN serperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN closed)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN bulb))
+    (PP (IN with)
+      (NP
+        (NP (DT a) (NN battery))
+        (CC and)
+        (NP (DT a) (NN switch))))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN Bulb) (NN C))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (JJ closed) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (NP (DT neither) (NNS components))))
+
+(ROOT
+  (NP
+    (NP (NNP Circuit))
+    (NP (CD 4))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A)
+      (CC and)
+      (NN Bulb) (NN B))
+    (CC and)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (DT A)
+      (CC and)
+      (NN B))
+    (PP (IN with)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB still))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (NP (NN Voltage)))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (PP (IN between)
+    (NP
+      (NP (DT a)
+        (ADJP (JJ positive)
+          (CC and)
+          (JJ negative))
+        (NN end))
+      (PP (IN on)
+        (NP (DT a) (NN battery))))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (IN through)
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN energy))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT the) (NN bulb))
+      (ADJP (JJ terminal)
+        (CC and)
+        (NN battery)))
+    (NP (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS terminals))))
+
+(ROOT
+  (PP (IN on)
+    (NP
+      (NP (DT the) (JJ same) (NN side))
+      (PP (IN of)
+        (NP (DT a) (VBN disconnected) (NN circut))))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN state))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (NP
+    (NP (NN switch) (NN x))
+    (PP (IN with)
+      (NP (NN bulb) (DT a)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (PP (IN with)
+      (NP (DT the) (NN battery)
+        (CC and)
+        (NN switch) (NN X)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP
+    (NP
+      (NP (NN switch))
+      (X (SYM z)))
+    (IN in)
+    (NP (NN bulb) (NNS cs))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (SINV
+    (VP (VBD closed))
+    (NP (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (PP
+    (NP
+      (NP (NN switch))
+      (X (SYM z)))
+    (IN in)
+    (NP (NN bulb) (NNS cs))))
+
+(ROOT
+  (NP (NN Z)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT The)
+      (ADJP (NN battery)
+        (CC and)
+        (JJ light))
+      (NN bulb))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ close) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN circut))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN on)
+    (NP (PRP$ its) (JJ own) (NN pathway))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (NP (NN bulb) (NN C)))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (UCP
+    (NP (DT neither) (NN B))
+    (CC nor)
+    (ADJP (NN C))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNS burns))
+      (ADVP (IN out)))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNS burns))
+      (ADVP (IN out)))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (PP (IN If)))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (ADVP (RB no) (RB longer))
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (PP (TO to)
+      (NP (DT the) (JJ positive) (NN terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (JJ terminal))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (PRP it))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ closed) (NN path))
+    (CC and)
+    (NP (DT a) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ closed) (NN path))
+    (S
+      (VP (VBG containing)
+        (NP (CC both)
+          (NP (DT the) (NN bulb))
+          (CC and)
+          (NP (DT a) (NN battery)))))))
+
+(ROOT
+  (NP (EX There)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (VP (MD must)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ terminal) (TO to))
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery)
+      (CC and)
+      (NN switch) (NN x))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery)
+      (CC and)
+      (NN switch) (NN X))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN If)))
+
+(ROOT
+  (PP (IN If)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bbulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (MD will) (RB not)
+      (VP (VB affect)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ affects))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN b))
+    (CC and)
+    (NP (NN c))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (FRAG
+    (X (DT a))
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN voltage))
+    (PP (IN of)
+      (NP (DT a) (NN battery)))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ light) (NN bulb))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBN damaged) (NN bulb))
+      (CC and)
+      (NP (DT the) (JJ other) (NN bulb)))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT the) (JJ positive) (NN batter))
+      (ADJP (JJ terminal)
+        (CC and)
+        (JJ terminal)))
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (X (DT the))
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (ADJP (JJ complete)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN closed)))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN on)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN bulb))
+    (CC and)
+    (NP (DT a) (NN switch))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (S
+    (VP (VB ARE))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN ON)
+    (NP (DT THE) (JJ SAME) (NN PATH))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (S
+    (NP (NN Bulb))
+    (VP
+      (ADVP (DT a)
+        (CC and))
+      (VBP switch)
+      (NP (NN Y)))))
+
+(ROOT
+  (S
+    (VP (VB Switch)
+      (NP (NN Y)
+        (CC and)
+        (NN bulb) (NN A)))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (X (DT the)
+    (ADJP
+      (NP (JJ electrical) (NNS states))
+      (JJ different))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (JJ positive)
+      (CC and)
+      (JJ negative) (NNS terminals))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (PP (IN inside)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ chemical) (NN reaction))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (NP
+    (NP (DT the) (NNS terminals))
+    (NP
+      (NP (CD 45))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (TO to)
+    (NP
+      (NP (DT the) (JJ positive) (NN terminal))
+      (PP (IN of)
+        (NP (DT the) (NN battery))))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ does)
+      (NP (RB not) (NN effect)))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (NP (NN switch) (NN Y) (NN bulb) (NN A))))
+
+(ROOT
+  (S
+    (VP (VB Switch)
+      (NP (NN Y)
+        (CC and)
+        (NN bulb) (NN A)))))
+
+(ROOT
+  (NP (NN bulb) (NN c)))
+
+(ROOT
+  (NP (NN C)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNS burns))
+      (ADVP (IN out)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (ADVP (RB no) (RB longer)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN pathway))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN C))
+    (CC and)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN C))
+    (PP (IN with)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS terminals))))
+
+(ROOT
+  (X
+    (NP (DT the) (CD two) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (CD 0))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN state))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (NP (NN bulb) (NN b)))
+
+(ROOT
+  (NP (NN Bulb) (NN B)))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ electrical) (NN state))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (JJ nonzero) (NN voltage))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN battery))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN by)
+    (S
+      (VP (VBG measuring)))))
+
+(ROOT
+  (S
+    (VP (VBG Measuring))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ electrical) (NN state))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (ADJP (JJ due)
+    (PP (TO to)
+      (NP (DT a) (NN gap)))))
+
+(ROOT
+  (FRAG
+    (ADVP (RB theres))
+    (NP (DT a) (NN difference))))
+
+(ROOT
+  (NP (NNS changes)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (S
+    (VP (VB find))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ indicates))))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN contained))))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB still))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT a)
+      (CC and)
+      (NN b))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contiained)))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ electrical) (NN state))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 2)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT a) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (S
+    (VP (VB affect))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (NP (NN switch) (SYM z)))
+
+(ROOT
+  (NP (NN Z)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (NP (NN switch) (SYM z)))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN bulb))
+    (NP
+      (NP (JJ terminal))
+      (CC and)
+      (NP (DT the) (JJ negative) (NN battery) (NN terminal)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (NP (NN switch)
+    (CC and)
+    (NN bulb)))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (PP (IN between)
+    (NP
+      (NP (DT the) (JJ positive) (NN battery) (NN connection))
+      (CC and)
+      (NP (DT the) (NN bulb) (NN terminal)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ different) (NN path))))
+
+(ROOT
+  (X (IN that)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ different) (NN path))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (NP (DT A))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ different) (JJ current))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NNS batteries))
+    (NP (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (NNP Circuit))
+    (NP (CD 4))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ has)
+    (NP (DT no) (JJ closed) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN voltage))))
+
+(ROOT
+  (NP (NN voltage)))
+
+(ROOT
+  (NP (NNS means)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ indicates))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ electrical) (NN state) (NNS changes))))
+
+(ROOT
+  (S
+    (VP (VB Find))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ indicates))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB where))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (NP (NN circuit) (CD 2)))
+
+(ROOT
+  (FRAG
+    (NP (DT no)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN for)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN voltage))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (NP (EX There)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (PP (IN between)
+    (NP
+      (NP (DT a)
+        (ADJP (JJ positive)
+          (CC and)
+          (JJ negative))
+        (NN end))
+      (PP (IN on)
+        (NP (DT the) (NN battery))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ complete) (NN circuit))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN Bulb) (NN C))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP
+        (ADVP (RB still))
+        (VBN contained)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ positive) (NN battery))))
+      (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (S
+    (NP (NN isnt))
+    (VP (VBD included))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (NP (NN switch) (NN y))
+    (PP (IN in)
+      (NP (NN bulb)))
+    (PP (IN As))))
+
+(ROOT
+  (S
+    (VP (VB Switch)
+      (NP (NN Y)
+        (CC and)
+        (NN bulb) (NN A)))))
+
+(ROOT
+  (SINV
+    (VP (VBD closed))
+    (NP (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT the) (JJ negative) (NN battery))
+    (NP (NN terminal))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (IN from)
+    (NP (JJ terminal) (CD 6))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 6))))
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT the) (NN bulb))
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (CD one)))))
+    (PP (IN of)
+      (NP (DT the) (NN battery) (NNS terminals)))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ negavtive) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (ADJP (JJ terminal)))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (TO to)
+    (NP
+      (NP (JJ postive) (NN end))
+      (PP (IN of)
+        (NP (NN battery))))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (CD 15) (NN volt) (NN battery))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ positive))))
+      (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 6))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN parallel))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN series))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT a))
+    (CC and)
+    (NP (NN b))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (DT a))
+    (CC and)
+    (NP (NN c))))
+
+(ROOT
+  (NP (NN C)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ positive))))
+      (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN gap)))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (NP (JJ positive) (NN charge)))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP (JJ Seperate) (NNS paths)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (JJ closed) (NNS paths))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NNP Circuit))
+    (NP (CD 4))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (ADJP (JJ terminal)))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1) (CD 2))
+      (CC and)
+      (NP (CD 3)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN Bulb) (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN battery))
+    (CC and)
+    (NP (NN switch))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (S
+      (VP (VBP are)
+        (ADVP (RB no) (RB longer))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NNS paths))
+      (PP (IN of)
+        (NP (DT the) (NN circuit))))
+    (ADJP (JJ complete))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ incomplete) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (FRAG
+    (NP (DT no)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (NN circuit) (CD 4))))
+
+(ROOT
+  (NP
+    (NP (NNP Circuit))
+    (NP (CD 4))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN chemical))
+    (NP (NN reaction) (NN reaction))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ keeps))))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (PP (IN between)
+    (NP (CD two) (NN battery) (NNS terminals))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN difference))
+    (PP (IN in)
+      (NP (NN voltage)))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (NP
+    (NP (JJ terminal) (NNS 1is))
+    (PP (TO to)
+      (NP (JJ terminal) (CD 4)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (ADJP (VBN connected)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (VBN contained) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (JJ different) (NNS paths)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (JJ terminal))))
+
+(ROOT
+  (ADJP (JJ terminal)
+    (NP-TMP (CD 1))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN Circuit) (CD 2)))
+
+(ROOT
+  (PP (IN in)
+    (NP (CD 2))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN circut) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (DT a) (JJ positive) (NN terminal))
+    (NP (DT a) (JJ negative) (NN terminal))))
+
+(ROOT
+  (PP (IN at)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN voltage))))
+
+(ROOT
+  (NP
+    (NP (JJ different))
+    (NP (JJ electrical) (NNS states))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (NP (NNS uses)))
+
+(ROOT
+  (PP (IN between)
+    (NP
+      (NP (CD 3))
+      (CC and)
+      (NP (JJ positive) (NN battery)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 3))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP (NN gap)))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (SBAR (IN because)
+      (FRAG
+        (PP (IN of)
+          (NP (DT the) (NN gap)))))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ open) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN bulb) (NN c)))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (SINV
+    (VP (VBD was))
+    (NP (RB not))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN of)
+    (NP
+      (NP (NN bulb) (DT a))
+      (CC and)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (PP (IN with)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT A)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN battery))))
+      (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN B))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN B))
+      (CC and)
+      (NP (NN C)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (UCP
+    (ADVP (JJ terminal)
+      (NP (CD 1)))
+    (CC and)
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (WHPP (IN in)
+      (WHNP (WDT which)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN battery))
+    (CC and)
+    (NP (DT a) (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN bulb))
+    (CC and)
+    (NP (DT a) (NN battery))))
+
+(ROOT
+  (S
+    (VP (VBG including))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (NP (JJ complete) (NN path)))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN battery))
+    (CC and)
+    (NP (DT a) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP (NN Bulb) (NN B)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT the) (JJ positive) (NN battery))
+      (ADJP (JJ terminal)
+        (CC and)
+        (JJ terminal)))
+    (NP (CD 5))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 5))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (X
+    (X (DT the))
+    (NP
+      (NP (DT the) (NN bulb) (NN terminal))
+      (PP (IN from)
+        (NP (DT the) (NN battery) (NN terminal))))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (S
+    (VP (VBN disconnected))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ light) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (WHPP (IN in)
+      (WHNP (WDT which)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (S
+    (VP (VB do) (RB not)
+      (VP (VB connect)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT an) (JJ open) (NN path))))
+
+(ROOT
+  (PP (IN of)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (S
+    (NP (DT the) (NN circuit))
+    (VP (VBZ is)
+      (ADJP
+        (ADVP (RB no) (RBR longer))
+        (JJ complete)))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ incomplete) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT both) (NNS bulbs))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBN damaged) (NN bulb))
+      (CC and)
+      (NP (DT the) (JJ other) (NN bulb)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (MD must)
+      (VP (VB be)
+        (VP (VBN contained))))))
+
+(ROOT
+  (PP (IN within)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT that) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ exists))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ light) (NN bulb))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (X (DT the)
+      (ADJP (JJ closed)))
+    (NP (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT the) (JJ electrical) (NNS states))
+    (NP (DT the) (JJ same))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN state))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN b))
+    (CC and)
+    (NP (NN bulb) (NN c))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN within)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (WHPP (IN in)
+      (WHNP (WDT which)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 6))
+        (PP (TO to)
+          (NP (JJ terminal) (CD 1)))))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ complete) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (DT the) (NN battery) (NN switch))
+      (X (SYM z)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery)
+      (CC and)
+      (NN switch) (NN Z))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT those))
+    (NP (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (TO to)
+    (NP
+      (NP (DT the) (JJ positive) (NN terminal))
+      (PP (IN of)
+        (NP (DT the) (NN battery))))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (VP (RB Not) (VBN contained)))
+
+(ROOT
+  (SINV
+    (VP (VBD was))
+    (NP (RB not))))
+
+(ROOT
+  (PP (TO to)
+    (NP (JJ positive) (NN charge))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (ADJP (JJ terminal)))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (ADJP (VBN connected)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT a)
+      (CC and)
+      (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN B))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ separate) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 6))
+        (PP (TO to)
+          (NP (JJ postive) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT the) (JJ negative) (NN battery))))
+      (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (S
+    (VP (VB Switch)
+      (NP (NN Z)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery)
+      (CC and)
+      (NN switch) (NN Z))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT each) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT each) (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (PRP$ its) (JJ own) (JJ complete))
+    (NP (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (JJ own) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP (JJ separate) (NNS paths)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN within)
+    (NP (DT the) (JJ closed) (NN circuit))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (DT A) (JJ terminal)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1) (CD 2))
+      (CC and)
+      (NP (CD 3)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))
+    (PP (IN from)
+      (NP (JJ terminal) (CD 4)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 4))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN switch))
+    (CC and)
+    (NP (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB when))))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (NP
+    (NP (NN whithin))
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (NP (NN bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS circuts))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (FRAG
+    (NP (DT each) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (JJ own) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG
+    (VP (VBD was)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (ADJP (JJ Terminal)
+      (NP-TMP (CD 1)))
+    (S
+      (VP (TO to)
+        (VP (VB terminl)
+          (NP (CD 4)))))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 1))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ separate) (NN path))))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (NP (NN Bulb) (NN C)))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (NP (DT Each) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ complete) (NN circuit))))
+
+(ROOT
+  (PP (IN with)
+    (NP
+      (NP (DT a) (NN bulb))
+      (CC and)
+      (NP (DT a) (NN battery)))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN bulb))
+    (CC and)
+    (NP (DT a) (NN switch))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (S
+    (VP (VBN contained))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB affect)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ affects))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (PP (IN between)
+    (NP (DT a)
+      (ADJP (JJ positive)
+        (CC and)
+        (JJ negative) (JJ terminal)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN paty))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN B))
+    (CC and)
+    (NP (NN Bulb) (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBD were))))
+
+(ROOT
+  (FRAG
+    (VP (VBD were)
+      (VP (VBN contained)))))
+
+(ROOT
+  (X (SYM z)))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN C) (NN Z))
+    (CC and)
+    (NP (NN X))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN bulb))
+    (CC and)
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the)
+      (ADJP (JJ positive) (NN battery))
+      (NN terminal))))
+
+(ROOT
+  (FRAG
+    (PP (IN between)
+      (ADJP (JJ terminal)))
+    (NP
+      (NP (CD 6))
+      (CC and)
+      (NP (DT the) (JJ positive) (NN terminal)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (SINV
+    (VP (VBZ contains))
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (X (IN that)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN bulb) (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (PP (IN on)
+    (NP (PRP$ their) (JJ own) (VBN completed) (NNS circuts))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB be)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (JJ terminal)
+      (PP (IN from)
+        (NP (DT the) (NN battery) (NN terminal))))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (S
+    (NP (DT a)
+      (ADJP (JJ terminal)
+        (PP (TO to)
+          (NP (DT another)))))
+    (ADJP (JJ terminal))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals) (CD 4))
+    (NP
+      (NP (CD 5)
+        (CC and)
+        (CD 6))
+      (PP (TO to)
+        (NP (DT the) (JJ positive) (NN battery) (NN terminal))))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb) (NN A))
+    (S
+      (VP (TO to)
+        (VP (VB switch)
+          (NP (NN Z)))))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb) (NN A))
+    (S
+      (VP (TO to)
+        (VP (VB switch)
+          (NP (NN Z)))))))
+
+(ROOT
+  (NP
+    (NP (NN switch) (NN Y))
+    (CC and)
+    (NP (NN bulb) (NN A))))
+
+(ROOT
+  (FRAG
+    (NP (DT a)
+      (ADJP (JJ closed))
+      (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ contains))))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (FRAG
+    (PP (IN with)
+      (NP
+        (NP (NN switch))
+        (X (SYM z))))
+    (NP
+      (NP (NN bulb) (DT a))
+      (CC and)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (NP
+    (NP (DT A) (NN C) (NN Z))
+    (CC and)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (X (IN that)))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (UCP
+    (NP
+      (NP (JJ Terminal))
+      (NP
+        (NP (CD 4))
+        (ADJP (JJ terminal)
+          (NP-TMP (CD 5)))))
+    (CC and)
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 6)))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is) (RB not)
+      (ADJP (VBN connected)))))
+
+(ROOT
+  (SINV (VBZ is)
+    (NP (RB not))))
+
+(ROOT
+  (NP (NN Circuit) (CD 2)))
+
+(ROOT
+  (PP (IN in)
+    (NP (CD 2))))
+
+(ROOT
+  (X (DT the)
+    (ADJP (NN battery))))
+
+(ROOT
+  (X (DT The)
+    (ADJP (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (JJ short) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP (JJ terminal)
+        (NP-TMP (CD 1))
+        (PP (IN from)
+          (NP (DT the) (JJ positive) (NN battery) (NN terminal)))))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN bulb))
+    (NP (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN bttery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (NN bulb))
+    (NP (DT a))))
+
+(ROOT
+  (NP (NN Bulb) (NN A)))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN bulb))
+    (NP (NN c))))
+
+(ROOT
+  (NP
+    (NP (NNS Bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN C))))
+
+(ROOT
+  (FRAG
+    (NP (DT The) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (NP (DT A) (NN battery))))
+
+(ROOT
+  (FRAG
+    (SBAR (IN because)
+      (FRAG
+        (PP (IN of)
+          (NP (DT the) (NN chemical)))))))
+
+(ROOT
+  (NP (DT a) (NN chemical) (NN reaction)))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (S
+    (VP (VB need)
+      (S
+        (VP (TO to)
+          (VP (VB be)))))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (DT Both) (NNS components))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN bulb))
+    (CC and)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (NP
+    (NP (NN bulb))
+    (NP (DT a)
+      (CC and)
+      (NN bulb))
+    (NP (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN wired)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ different) (NNS paths))))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NNS terminals))
+    (NP
+      (NP (CD 3))
+      (CC and)
+      (NP (CD 4)))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (JJ other) (NN bulb))))
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (VBN damaged) (NN bulb))
+      (CC and)
+      (NP (DT the) (JJ other) (NN bulb)))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (NP
+    (NP (NN switch) (NN Y))
+    (CC and)
+    (NP (NN bulb) (NN A))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (PP (IN with)
+      (NP (DT the) (NN battery)
+        (CC and)
+        (NN bulb)))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN side))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ positive) (NN battery) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (CD 4) (CD 5))
+    (CC and)
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN connected)))))
+
+(ROOT
+  (NP
+    (NP (CD 4) (CD 5))
+    (CC and)
+    (NP (CD 6))))
+
+(ROOT
+  (NP
+    (NP (NNS Terminals))
+    (NP
+      (NP (CD 4) (CD 5))
+      (CC and)
+      (NP (CD 6)))))
+
+(ROOT
+  (PP (TO to)
+    (NP (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ negative) (NN battery) (NN terminal))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT a)
+      (CC and)
+      (NN b))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (DT a) (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT all))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (NP
+    (NP (DT a))
+    (CC and)
+    (NP (NN c))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is)
+      (VP (VBN included)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (SINV
+    (VP (VBD closed))
+    (NP (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (PP (IN If)))
+
+(ROOT
+  (FRAG
+    (VP (MD will)
+      (VP (VB affect)))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ affects))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN switch))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (PP (IN in)
+      (NP (DT the) (NNS bulbs)))))
+
+(ROOT
+  (NP
+    (NP (DT a) (NN bulb))
+    (CC and)
+    (NP (DT a) (NN switch))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (VP (RB not) (VBN seperated)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are) (RB not)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN seperated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (UCP
+    (ADJP (JJ terminal)
+      (NP-TMP (CD 1)))
+    (CC and)
+    (NP (DT the) (JJ neavtive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (FRAG
+    (NP (DT an) (JJ incomplete) (NN circuit))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (NP (PRP$ their)))
+
+(ROOT
+  (ADVP (RB there)))
+
+(ROOT
+  (NP
+    (NP (NN Bulb) (NN A))
+    (CC and)
+    (NP (NN bulb) (NN b))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (PP (IN in)
+    (NP (JJ closed) (NNS paths))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN circuit))))
+
+(ROOT
+  (PP (IN in)
+    (NP (PRP$ its) (JJ own) (NN path))))
+
+(ROOT
+  (NP (NN B)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (FRAG
+    (NP (DT each) (NN bulb))))
+
+(ROOT
+  (SINV (VBP are)
+    (NP (RB not))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ is))))
+
+(ROOT
+  (FRAG
+    (ADVP (RB there))
+    (NP (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NNS terminals))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT a) (NN gap))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP
+      (NP (DT a) (NN b))
+      (CC and)
+      (NP (NN c)))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN C))))
+
+(ROOT
+  (PP (IN on)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (NP (DT no) (NN gap))))
+
+(ROOT
+  (PP (IN by)
+    (NP (DT the) (NN gap))))
+
+(ROOT
+  (PP (IN from)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (NP
+    (NP (JJ Terminal) (CD 1))
+    (CC and)
+    (NP (DT the) (JJ positive) (NN terminal))))
+
+(ROOT
+  (X (VBD was)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN separated)))))
+
+(ROOT
+  (NP
+    (NP (NNS bulbs))
+    (NP (DT A)
+      (CC and)
+      (NN B))))
+
+(ROOT
+  (NP
+    (NP (DT A))
+    (CC and)
+    (NP (NN B))))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (ADVP (RB still)))
+
+(ROOT
+  (PP (TO to)
+    (NP (DT the) (JJ closed) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT a) (JJ closed) (NN path))))
+
+(ROOT
+  (S
+    (VP (VBG containing)
+      (NP (DT the) (NN battery)))))
+
+(ROOT
+  (PP (IN with)
+    (NP (DT the) (NN battery))))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN connected)))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (ADJP (IN if)))
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB When))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (FRAG
+    (VP (VBP are)
+      (VP (VBN contained)))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (NP
+    (NP (DT the) (NN switch))
+    (CC and)
+    (NP (DT the) (NN bulb))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (NN path))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN c))
+    (PP (CC and)
+      (NP
+        (NP (NN switch))
+        (X (SYM z))))))
+
+(ROOT
+  (FRAG
+    (NP (DT both))))
+
+(ROOT
+  (NP
+    (NP (NN bulb) (NN c))
+    (PP (CC and)
+      (NP
+        (NP (NN switch))
+        (X (SYM z))))))
+
+(ROOT
+  (NP (NN Z)
+    (CC and)
+    (NN C)))
+
+(ROOT
+  (PP (IN in)
+    (NP (DT the) (JJ same) (JJ closed) (NN path))))
+
+(ROOT
+  (FRAG
+    (NP (DT a) (NN path))))
+
+(ROOT
+  (FRAG (VBP are)))
+
+(ROOT
+  (S
+    (VP (VBG containing))))
+
+(ROOT
+  (FRAG
+    (VP (VBZ has))))
+
+(ROOT
+  (SINV (VBZ does)
+    (NP (RB not))
+    (VP (VB contain))))
+
