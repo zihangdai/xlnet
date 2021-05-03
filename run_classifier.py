@@ -391,6 +391,45 @@ class StsbProcessor(GLUEProcessor):
 
     return examples
 
+class IStsProcessor(GLUEProcessor):
+    def __init__(self):
+        super(IStsProcessor, self).__init__()
+        self.label_column = 0
+        self.text_a_column = 1
+        self.text_b_column = 2
+
+    def get_labels(self):
+        return ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-2", "OPPO-3", "OPPO-4", "SPE1-1", "SPE1-2", "SPE1-3", "SPE1-4", "SPE2-1", "SPE2-2", "SPE2-3", "SPE2-4",
+                "SIMI-1", "SIMI-2", "SIMI-3", "SIMI-4", "REL -1", "REL -2", "REL -3", "REL -4", "NOALI-0", "ALIC-0"]
+
+    def _create_examples(self, lines, set_type):
+        examples = []
+        for (i, line) in enumerate(lines):
+            if i == 0 and self.contains_header and set_type != "test":
+                continue
+            if i == 0 and self.test_contains_header and set_type == "test":
+                continue
+            guid = "%s-%s" % (set_type, i)
+
+            # there are some incomplete lines in QNLI
+            if len(line) <= self.text_a_column:
+                tf.logging.warning('Incomplete line, ignored.')
+                continue
+            text_a = line[self.text_a_column]
+
+            if len(line) <= self.text_b_column:
+                tf.logging.warning('Incomplete line, ignored.')
+                continue
+            text_b = line[self.text_b_column]
+
+            label = line[self.label_column]
+            examples.append(
+                InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
+
+        return examples
+
+
+
 
 def file_based_convert_examples_to_features(
     examples, label_list, max_seq_length, tokenize_fn, output_file,
