@@ -1,0 +1,943 @@
+x1	x2	y_type	y_score
+on the tracks	on tracks	5	5
+Two green and white trains	Two green and white trains	5	5
+in a street	street	5	5
+driving	driving down	4	3
+a bus	Red double decker bus	3	3
+at a dinner table	at table	4	3
+a woman	Woman	5	5
+writing	busy	3	1
+on her notebook	with something	4	3
+of a brown horse	of a horse	4	3
+'s head	's head	5	5
+A close-up	A side view	3	2
+The man	A man	5	5
+is riding	is riding	5	5
+down the road	on the road	4	3
+a motorcycle	a red motorcycle	4	3
+in front of steps	in front of ruins	4	3
+A moped	A moped	5	5
+having	eating	5	5
+cake	dessert	3	3
+A group	Four people	5	5
+in a dinner	around a table	3	1
+Close up	A close up view	5	5
+of water	of water	5	5
+of a bottle	of a bottle	5	5
+closed	closed	5	5
+with it 's eyes	with its eyes	5	5
+A longed-haired cat	of a cat	4	3
+feed	are eating	5	5
+in the trough	in the trough	5	5
+The cows	The brown and white cows	4	3
+A black and wood colored dining room	in living room setting	2	2
+in a small apartment	Black and brown table	2	1
+a black and white cow	A black and white cow	5	5
+in hay	in a pen	4	3
+on grassy field	on the green grass	5	5
+Camouflage airplane	A camouflaged plane	5	5
+sitting	sitting	5	5
+with computer monitor	with two monitors	4	2
+Very crowded office desk	Messy computer desk	5	5
+with a bicycle	bicycle	5	5
+at a coffee house	of a coffee shop	4	2
+A man	Man	5	5
+Red double decker bus	A red two story bus	5	5
+a street	along the street	5	5
+driving down	driving	4	3
+holding on	clings	5	5
+to a metal gate	to a wire fence	4	2
+A bird	A multi-colored bird	4	3
+A cruise liner	A cruise ship	5	5
+at the shoreline	at shore	5	5
+docked	docked	5	5
+A red double decker bus	A double decker bus	5	5
+on a crowded street	on a city street	4	3
+a rear view	The rear view	5	5
+of a Chevrolet sports car	of a red Chevrolet concept car	4	2
+holding	holding	5	5
+A woman	A smiling woman	4	3
+a small baby	a small baby	5	5
+at a table	at the table	5	5
+Three men	Three men	5	5
+are sitting down	sitting	5	5
+drinks	with beer and food	2	3
+on a branch	on a branch	5	5
+perched	perched	5	5
+Two Eagles	Two bald eagles	4	3
+with three computer monitors and other equipment	with several computer monitors	3	3
+A home office	Room	4	3
+on the ground	on the ground	5	5
+The black bird	A blackbird	5	5
+is sitting	sitting	5	5
+riding	in riding gear	4	1
+a white and gray horse	of a gray and white horse	5	5
+A young girl	A young blonde girl	4	3
+The seagull	A little bird	4	3
+is floating	floating	5	5
+on the water	in the water	5	5
+in the snow	in the snow	5	5
+posing	stands	4	1
+in front of an apartment building	in front of a building	4	3
+A woman	A woman	5	5
+The lamb	A small bird	1	2
+look	looking	5	5
+in the shed	at a shed	5	5
+The curious boys	Two small boys	3	2
+The black and white cows	A black cow and a brown cow	3	3
+pause	stands	3	2
+of a brown faced cat	of an ostrich face	1	2
+A close up	A close up	5	5
+A woman	A woman	5	5
+while the woman	a smiling woman	4	3
+A person	A person	5	5
+a horse	of cows	2	2
+A black and white photo	a black and white photo	5	5
+in background	in the background	5	5
+with mountains	with trees	3	1
+A person	A girl	3	3
+wearing	wearing	5	5
+a bike	next to a blue motorcycle	2	2
+A white sheep	The skinny cows	1	2
+on a hillside	on the grass	3	2
+A close-up , distorted photo	A close-up picture	3	3
+in the background	in the background	5	5
+in a field	with grass	3	2
+Two horses	A black and white bird	1	2
+The skinny cows	The white ducks	1	2
+are standing	are standing	5	5
+on the grass	on the ground	3	3
+standing	standing	5	5
+in a field	of grassy field	4	3
+Brown cow	Brown horse	3	2
+at the camera	at the camera	5	5
+looking up	smiling	3	1
+while standing	while standing	5	5
+Black and white photo	a black and white photo	5	5
+on the water	on water	5	5
+floating	floating	5	5
+on boat	Large green boat	3	3
+is sleeping	sleeping	5	5
+A gray and white tabby cat	Black and white cat	4	2
+on purple fabric	on a brown tarp	3	2
+Two people	A person	3	2
+standing	is standing	5	5
+in a living room	in room	4	3
+Blue couch and twin bed	Blue couch	3	3
+of a dairy cow	The black and brown cow	4	2
+is standing	is standing	5	5
+in a pasture	on the green grass	4	2
+A passenger train	A passenger train	5	5
+A black and white sheep	Little black and white calf	3	2
+The dining room table	with wooden dining table	4	3
+in front of a building	outside a decrepit building	4	3
+A group	A group	5	5
+of black people	of people	4	3
+The bald eagle	Two bald eagles	4	2
+is perched	perched	5	5
+A close-up	A close-up	5	5
+A man	an African man	4	3
+of an orange SUV	of a very full yellow van	3	2
+on the back	onto the back	5	5
+A black and white photo	a black and white photo	5	5
+on a concrete slab	next to white wall	1	1
+sitting	sitting	4	2
+Black bird	Small dog	1	2
+is floating	floating	5	5
+on the water	on the water	5	5
+A potted plant	A potted plant	5	5
+a brown horse	A tan and white dog	2	2
+down the tracks	on the tracks	5	5
+A coal train	An old train	4	3
+at the airport	flies	3	1
+A large jet	A passenger jet	4	2
+on the ground	through the air	4	4
+wearing	wearing	5	5
+a pony	a brown horse	4	2
+riding	riding	5	5
+A young girl	A girl	4	3
+in a pen	in a field	2	1
+standing	grazing	4	3
+Two horses	A group	3	3
+at a restaurant	on a porch	2	1
+sitting	sitting	5	5
+at a table	around a table	5	5
+Two people	A group	3	3
+riding	jumping	2	2
+a dirt bike	a motorbike	3	2
+A person	A person	5	5
+A black and white photo	A black and white photo	5	5
+A woman	A woman	5	5
+Table	Wooden cabinets	3	3
+in kitchen	in kitchen	5	5
+is	is placed	5	5
+at the center	in the center	5	5
+A pot	A pot	5	5
+Two men	A woman	3	2
+in a den or living room	in a living chair	3	1
+Four Asian young people	A girl	2	3
+sitting	sitting	5	5
+with wine and dishes	with candles , wine , and a purple plastic bowl	2	3
+A table	A wooden table	4	3
+is set	is set	5	5
+A group	A group	5	5
+with trees	in a field	3	1
+A moped	White bus	2	2
+in front of ruins	in front of building	2	1
+moves	idle	4	4
+A black train	Black train	5	5
+down the tracks	on the tracks	5	5
+A person	A man	4	3
+driving	riding	2	2
+by a bicycle	a three wheeled bicycle	3	3
+A man	A child	3	2
+sitting	sitting	4	2
+on a wooden deck	on the wooden floor	4	2
+while lying	is laying	5	5
+A small white dog	The white dog	4	3
+A black and white cat and dog	A black and white cat	3	3
+at the camera	at the camera	5	5
+smiling	looking up	3	1
+driving	pulling	4	2
+Two red buses	Train	2	3
+of the countryside	in a grassy plain	3	2
+with a large city	with a large tree	2	1
+in a black bikini top and jeans	in a black hat	1	2
+A woman	A woman	5	5
+Three men	Three men	5	5
+A man	Man	5	5
+in front of a large fountain	in front of a fountain	4	3
+poses	standing	4	1
+a sheep	a cow	2	2
+Children	Child	4	2
+of a gray cat	of a cat	4	3
+A close-up	A close-up	5	5
+stand	stand	5	5
+Two sheep	Two rams	3	2
+the tracks	on a track	5	5
+A black train	A mostly black train	4	3
+Black and white cows	Two black and white cows	4	3
+behind a fence	behind a metal gate	4	3
+running	runs	5	5
+A white animal	A white dog	4	3
+through snow covered woods	through a snow covered wood	5	5
+on the floor	on the floor	5	5
+A black , flat screen television	A flat screen TV	4	3
+is resting	has	5	5
+The brown dog	A tan dog	5	5
+on a white pillow	on a white pillow	5	5
+his head	its head	5	5
+on train tracks	on the train tracks	5	5
+Black train	A train	4	3
+on red patterned couch	on couch	4	3
+Elderly woman	Two women	4	3
+sitting	sitting	5	5
+the window	at a window	5	5
+looking out	are looking	4	3
+Two cats	Two cats	5	5
+is looking	is looking	5	5
+The black and brown cow	The black and white bull	3	2
+at the camera	at the camera	5	5
+sits	sitting	5	5
+A white Apple computer	An Apple computer	4	3
+on the beige carpeting	on the floor	4	3
+Red and white bus	A bus	4	3
+road	a busy road	4	3
+driving down	drives down	5	5
+Red sports car	A red sports car	5	5
+racing	driving	5	5
+down track	on a track	4	3
+with red and gold stripes	with red , orange and yellow stripes	4	3
+A Victory Liner bus	A white tour bus	4	3
+parked	parked	5	5
+next to a car	between two cars	3	2
+A motorcycle	A BMW motorcycle	4	3
+under a tree	under a tree	5	5
+of a cow	of a cow	5	5
+a black and white photo	A black and white photo	5	5
+at a station	in a station	5	5
+An Amtrak passenger train	A passenger train	4	3
+waiting	waiting	5	5
+Two women	Two smiling women	4	3
+with a baby	a baby	5	5
+on on the tracks	on the track	5	5
+The red train and the yellow train	Two trains	4	3
+of an ostrich	of an ostrich face	4	2
+a close up	A close up	5	5
+sailing	floating	3	2
+on the water	on the blue water	4	3
+Sail boat	Sail boat	5	5
+in a top hat	with a top hat	5	5
+rides	riding	5	5
+A man	A man	5	5
+a white horse	a white horse	5	5
+Parked white double decker bus	A red and white double decker bus	4	3
+Two birds	Two small birds	4	3
+are perched	perched	5	5
+on a metal band	on a metal bar	5	5
+with a yawning baby	with a newborn baby	3	2
+pose	poses	5	5
+An elderly Asian couple	An older Asian couple	5	5
+at a dinner table	at the dinner table	5	5
+A brown horse	Brown horse	5	5
+of green grass	of grassy field	5	5
+grazing	standing	4	3
+Train	Train	5	5
+the tracks	on tracks	5	5
+going down	gliding	3	2
+at table	at a table	5	5
+Group	four people	4	3
+sitting	sitting	5	5
+Yellow striped cat	An orange tabby cat	4	2
+resting	sleeping	4	3
+on blue sofa	on the sofa	4	3
+A white jeep	A white Jeep	5	5
+parked	parked	5	5
+in front of a store	on a street	3	3
+parked up	are parked	5	5
+Two red buses	Red buses	4	3
+with gardens	beside a formal garden	3	3
+sniffing	sniffing	5	5
+of a door	at a closed door	3	3
+A dog	A black and white dog	4	3
+sitting	parked	5	5
+A silver and blue motorcycle	A motorcycle	4	3
+next to a car	next to a car	5	5
+in front of silver train	in front of a silver rail car	4	2
+standing	standing	5	5
+Man	Man	5	5
+in a field	in the field	5	5
+A black and white horned cow	a black and white cow	4	3
+standing	standing	5	5
+A man	A man	5	5
+a white horse	a white horse	5	5
+riding	riding	5	5
+a white show horse	a white horse	4	3
+is riding	riding	5	5
+black formal wear & a black top hat	with a top hat	3	3
+A man	A man	5	5
+A small brown birds	A small bird	4	3
+from a tree	from the tree	5	5
+from a bird feeder	on the bird feeder	5	5
+hanging	hanging	5	5
+A girl	A girl	5	5
+atop a brown horse	a brown horse	5	5
+in riding gear	is riding	4	1
+of trees	of trees	5	5
+in a grassy field	in the field	4	3
+are grazing	are grazing	5	5
+near a stand	in front of a line	4	2
+Sheep	Sheep	5	5
+a gray jacket	in a pet jacket	4	3
+A dog	A dog	5	5
+at the camera	into the camera	5	5
+is laughing	looking	3	3
+A black-and-white photo	A black and white photo	5	5
+Two women	Two women	5	5
+in lawn chairs	in a cafe	2	1
+sitting	are sitting	5	5
+lying down	laying down	4	2
+A passenger train	A passenger train	5	5
+into a station	in the station	5	5
+looking	is looking	5	5
+at the camera	at the camera	5	5
+A black dog	The black and white bull	2	2
+A black and white cat	A black and white cat	5	5
+in the sky	in formation trailing smoke	2	1
+is flying	flying	5	5
+A yellow and blue airplane	Nine red and white aircraft	2	2
+Two guys	Two women	3	2
+galloping	galloping	5	5
+A race horse	A horse	4	3
+on a dirt road	on a dirt road	5	5
+from a passenger vehicle	from a car	4	3
+viewed	shot	4	1
+Three sheep	Three sheep	5	5
+in the background	in the background	5	5
+on a table	on a table	5	5
+are	sitting	5	5
+Three bottles	Old green bottle	2	2
+Two white dogs	The birds	1	2
+are swimming	are swimming	5	5
+in the water	in the water	5	5
+in a large field	in a field	5	5
+Two cows	Horse	2	2
+standing	standing	5	5
+stands	is standing	5	5
+A man	A man	5	5
+Two women	Two women	5	5
+sitting	standing	2	2
+A black and white cow	Two black and white cows	4	2
+against a partly cloudy blue sky	against a partly cloudy blue sky	5	5
+several sheared sheep	Three white sheep	3	2
+in a pen	in an enclosure	5	5
+Ten sheep	A cat	1	2
+at the camera	at the camera	5	5
+looking	looking	5	5
+on a track	in front of train tracks	3	2
+A mostly black train	A car	2	2
+with several computers and pictures	with three computer monitors and other equipment	3	3
+A room	A home office	3	3
+of a cow	A black and white dog	2	2
+is parked	is parked	5	5
+on the cement	on the sidewalk	3	1
+A white airplane	A blue motorcycle	1	2
+Three cows	Several sheep	2	2
+in a field	in the field	5	5
+grazing	grazing	5	5
+Black domestic cat	A gray cat	4	3
+on brown table	on a dining table	4	2
+lying	laying	5	5
+Red double decker bus	Red double decker bus	5	5
+Two black and white dogs	A dog	3	3
+at the bottom	at the bottom	5	5
+of stairs	of a staircase	5	5
+on a track	on a track	5	5
+A multi-colored train	A mostly black train	3	2
+in the ocean	at the pier	2	1
+An old fashioned wooden sailing ship	An old fashioned wooden sailing ship	5	5
+in the background	in the background	5	5
+A person	A person	5	5
+is jumping	riding	2	2
+a bicycle	a dirt bike	4	3
+A close-up	Close up	5	5
+the window	of a window	5	5
+looking out	looking out	5	5
+Two cats	A cat	4	2
+a small bicycle	on a bike	4	3
+riding	is doing	3	1
+A man	A man	5	5
+A man	A woman	3	2
+Two women	Three men	2	2
+in the kitchen	at a table	2	1
+A group	Four people	4	3
+food	with . snacks	3	3
+sitting	are sitting	5	5
+around a table	around a living room	3	1
+A man	A woman	3	2
+a white horse	with a white horse	5	5
+sit	sit	5	5
+at a table	at a long table	4	3
+in a restaurant	in a restaurant	5	5
+A man and woman	Four women and two men	2	2
+are standing	is standing	4	2
+of the front end	of the rear	4	4
+A close up	Close up	5	5
+of a purple and white motor cycle	of a red sports car	2	2
+standing	is standing	4	2
+A black and white cow	a black and white cow	5	5
+in a grassy field	in the field	4	3
+standing	standing	5	5
+standing	is standing	5	5
+in front of yellow corvette	next to a yellow sports car	4	3
+Man	A man	5	5
+at a train station	at the train station	5	5
+is	sits	5	5
+A train	The train	5	5
+Three young women	Three dark haired young women	4	3
+Two white horses	Two horses	4	3
+over a fence	in a pen	3	2
+standing	standing	5	5
+A black and white cow	A black and white horned cow	4	3
+in a grassy field	in a field	5	3
+a black and white photo	A black and white image	4	3
+lying down	laying	5	5
+of a cat	of a cat	5	5
+on a leather chair	on an office chair	4	2
+asleep	sitting	3	3
+A orange and white cat	A ginger cat	4	2
+a bikini top and jeans	jeans , a dark bikini top , and a bracelet	4	3
+A young woman	A woman	4	3
+is wearing	wearing	5	5
+sits	sits	5	5
+a small TV	very close to a small television	4	3
+A man	A man	5	5
+on a bed	on a bed	5	5
+on a blue car	on a blue car	5	5
+The headlights	the headlights	5	5
+Three bicyclists	The bicyclists	4	3
+a bridge	a bridge	5	5
+crossing	are crossing	5	5
+a brown horse	on a brown horse	4	5
+A woman	A person	4	3
+The two dogs	Two dogs	5	5
+with the stuff animals	with many stuffed animals	4	3
+A train	A train	5	5
+on the tracks	down the track	4	3
+is running	is running	5	5
+standing	stands	5	5
+a plane	a plane	5	5
+Someone	A man	4	3
+on a snowy mountain	on a mountain	4	3
+watching	watching	5	5
+docked	docked	5	5
+A cruise liner	A cruise ship	5	5
+at a port	at a coast	4	3
+an incline	over rocks	2	2
+on a mountain bike	a mountain bike	5	5
+A man	a man	5	5
+going down	riding	3	2
+Three sheep	Three sheep	5	5
+on a dirt road	of gravel road	2	2
+Red double decker bus	A red double decker bus	5	5
+taking on	is picking up	5	5
+passengers	more passengers	4	3
+A black and white photo	This is a black and white picture	5	5
+of a glass bottle	of a short squat Coca-cola bottle	4	2
+in a market square	in a city street	3	2
+Several people	People	5	5
+on motorcycles	on motorbikes	5	5
+Group	A group	5	5
+dressed	dressed	5	5
+of people	of people	5	5
+posing	standing	4	1
+as Elvis	as Elvis	5	5
+with two men	with two other people	4	3
+holding	holding	5	5
+A smiling woman	a woman	4	3
+a small baby	a baby	4	3
+one another	each other	5	5
+points	points	5	5
+at a table	at a table	5	5
+facing	facing	5	5
+Two boys	Two people	4	3
+one	as one	5	5
+sit	sit	5	5
+at the other	at the other	5	5
+a small shopping cart	a shopping cart	4	3
+pushing	is steering	5	5
+Parrot	A white bird	4	3
+Two birds	Two birds	5	5
+towards water feeder	near bird feeders	4	2
+flying	flying	5	5
+grazing	are	4	3
+A group	A group	5	5
+on a hill	on a hill	5	5
+of sheep	of sheep	5	5
+on a sofa	on a sofa	5	5
+while sitting	sitting	5	5
+a small baby	a baby	4	3
+A women	a woman	5	5
+holds	holding	5	5
+A gray cat	A gray , black , and white cat	3	3
+looking	looking	5	5
+into the camera	at the camera	5	5
+A guy	A man	5	5
+on a white horse	a white horse	5	5
+Black and white cow	a black and white cow	5	5
+of snow	in the field	2	1
+standing	standing	5	5
+Home office space	An office	2	2
+with bright green walls and artwork	with multiple desks and green walls	2	2
+pointing	points	5	5
+are sitting	sit	5	5
+at a table	at a table	5	5
+with one person	as one	5	5
+Two young people	Two people	4	3
+at the other	at the other	5	5
+sailing	sailing	5	5
+Sail boat	Sailboat	5	5
+Three people	Three people	5	5
+with yellow canoes	to canoe	4	3
+on a branch	on a branch	5	5
+Two bald eagles	Two eagles	4	3
+perched	are perched	5	5
+a white horse	a white horse	5	5
+is riding	leading	4	2
+A horse rider	A woman	3	3
+on train tracks	on the train tracks	5	5
+A long train	A train	4	3
+A silver AreoMexico Jet Liner	An aeromexico silver plane	5	5
+sitting	is	5	5
+on the tarmac	on a runway	4	3
+sailing	sailing	5	5
+a small white sail boat	in a small sailboat	4	3
+Two people	Couple	5	5
+A dining table	A wooden table	4	2
+with candles , wine , and a teapot	with candles , wine , and a purple plastic bowl	4	2
+in the still water	on a clear lake	3	3
+Two people	Two people	5	5
+a red canoe	in a red canoe	5	5
+a cloak	a brown cloth	3	3
+The man	Man	5	5
+is sitting	sitting	5	5
+cross legged	cross legged	5	5
+a stick	a wooden stick	4	3
+wearing	while wearing	5	5
+holding	holding	5	5
+a creek	in a river	4	3
+Small boat	a boat	4	3
+going down	moving	4	3
+A black and white photo	A black and white scene	4	3
+of a living room	of a well furnished room	3	3
+of a cat	A siamese cat	4	3
+on a cream sofa	on a white sofa	4	2
+on a yellow chair	on a yellow chair	5	5
+A pug dog	A bulldog	4	2
+next to a green dumpster	beside a large waste receptacle	4	2
+asleep	laying	4	3
+A orange and white cat	A orange and white cat	5	5
+on a leather chair	in a black leather chair	4	3
+standing	standing	5	5
+Black and white cow	A black and white horned cow	4	3
+in grassy field	in a field	4	3
+by a dog	by a dog	5	5
+Three goats	Three goats	5	5
+are being rounded up	are chased	4	2
+moves	traveling	5	5
+down the tracks	down the tracks	5	5
+A black train	A train	4	3
+in a grassy area	in a grassy wooded area	4	3
+A black dog	A long-haired dog	4	2
+standing	stands	5	5
+is parked	parked	5	5
+on the sidewalk	on the sidewalk	5	5
+A blue motorcycle	A blue moped	4	2
+A red double decker bus	A red double decker bus	5	5
+on a city street	a street	4	3
+An empty office cubicle	An empty office chair	4	1
+A young man	Young redheaded man	4	3
+is holding	holding	5	5
+two bicycles	two bicycles	5	5
+A white plane	A white Swiss airplane	4	3
+on the runway	the runway	5	5
+on the median	on a patch	4	2
+Several cows	Five cows	4	3
+grazing	grazing	5	5
+by the road	between two roadways	4	2
+Red double decker bus	A double decker bus	5	5
+street	on a city street	4	3
+at a clothing store	in a clothing store	5	5
+Two women	Two women	5	5
+next to a brown cow	next to a cow	4	3
+A women	A women	5	5
+standing	stands	5	5
+A dog	A dog	5	5
+of a truck	of a van	5	5
+peaks out	is peeking out	5	5
+the back	of the back	5	5
+at the camera	at the camera	5	5
+is looking up	looking	4	3
+The black and white cat	A gray , black , and white cat	4	3
+standing	sitting	2	2
+A small white cat	Grey and white cat	4	2
+in a sink	in bathroom sink	4	3
+looking up	looks up	5	5
+is wearing	wearing	5	5
+The small dog	A small white dog	4	3
+a sweater	a jacket	4	2
+at the camera	at the camera	5	5
+near water and a big ship	with water and a barge	5	5
+A white bus	A white bus	5	5
+A green car	A green car	5	5
+at a saloon	outside the saloon	5	5
+parked	parked	5	5
+of people	of people	5	5
+Group	A group	5	5
+sitting	sitting	5	5
+around a restaurant dining table	at a restaurant table	5	5
+in a station	inside an indoor station	4	3
+Train	Trains	4	2
+Red double decker bus	A double decker bus	5	5
+a street	on a city street	4	3
+in a grassy field	in a field	4	3
+Three cows	Three cows	5	5
+are grazing	grazing	5	5
+A red , double-decker bus	of a red double decker bus	5	5
+An elderly man	Older gentleman	5	5
+on his laptop	with laptop	5	5
+in a mountainous area	on a hill	3	1
+standing	standing	5	5
+A sheep	A large sheep	4	3
+A tan puppy	A tan puppy	5	5
+being petted	being held and petted	4	3
+two motorbikes	Two dirt bikers	4	3
+on a dirt track	over dirt hill	3	3
+A large pile	A large pile	5	5
+of wooden items	of scrap wood	4	2
+A woman	A girl	4	2
+riding	riding	5	5
+a brown horse	a brown horse	5	5
+A black and white horned cow	A large black and white cow	4	3
+in a field	in a field	5	5
+Two men	Two women	3	2
+A little bird	A duck	3	2
+in the water	in the water	5	5
+floating	floating	5	5
+Old blue and white train	A blue train	3	3
+Two ducks	The birds	3	2
+by the water	in the water	5	5
+are standing	are swimming	2	2
+on the railroad tracks	on the tracks	5	5
+The brown train	The white train	4	2
+is sitting	is sitting	5	5
+sits	sits	5	5
+A tiny blonde child	A young blonde girl	3	2
+A black and white cow	A black and white cat	2	2
+sitting	standing	2	2
+A group	A group	5	5
+of people	of people	5	5
+on a sofa	on a sofa	5	5
+sitting	are sitting	5	5
+across two men	Two men	5	5
+on a grassy hill	over dirt hill	3	2
+Black and white photo	a black and white photo	5	5
+Large black and white cat	A small white cat	3	2
+resting	sitting	3	2
+a close up	a close up	5	5
+Two men	Two men	5	5
+bike helmets	with their bicycles	4	1
+in the background	in the background	5	5
+A women	A man and boy	2	2
+in the background	in the background	5	5
+A young girl	A women	3	3
+in a field	in a green field	4	3
+Two cows	A brown horse	2	2
+A person	A person	5	5
+is standing	walks	2	2
+on a city street	a street	4	3
+A double decker bus	A red double decker bus	5	5
+drives	driving down	4	3
+at a construction site	of a construction site	5	5
+stands	stands	5	5
+A black dog	A black dog	5	5
+with a hat	with a cap and jacket	3	3
+standing	walking	2	2
+A long-haired man	A man	4	3
+between two large , half-empty Coke bottles	between two large bottles	3	3
+sitting	are sitting	5	5
+in a shop	in a cafe	3	2
+Two women	Two women	5	5
+A man	Man	5	5
+in a store	in a store	5	5
+playing	playing	5	5
+a video game	game	4	3
+the back	The back	5	5
+of a stop sign	of the stop sign	5	5
+on it	is adorned	4	2
+with many stickers	with stickers	4	3
+with a ferris wheel	in front of a ferris wheel	5	5
+a brown double decker tour bus	A double-decker bus	4	3
+in a black uniform	in a tux	4	2
+on a white horse	on a white horse	5	5
+A man	A man	5	5
+on a dirt course	on a dirt track	5	5
+Two motorbikes	two motorbikes	5	5
+of the headlights	of the headlights	5	5
+of a blue old-fashioned car	on a blue car	4	3
+A close-up view	Close up	5	5
+A black and white cat	A black and white cat	5	5
+on a blanket	on a purple blanket	4	3
+lying	sleeps	4	3
+sitting	sitting	5	5
+a small baby	a baby	4	3
+holding	holding	5	5
+A man and women	a woman	3	3
+on a sofa	on a sofa	5	5
+with a dining table	with a dining room	4	1
+in the background	in the background	5	1
+A living room	of a living room	5	5
+with hood	with its hood	5	5
+open	raised	5	5
+Red double decker bus	An old Red London double decker bus	4	3
+are sheering	shearing	5	5
+a white sheep	a white sheep	5	5
+Two women	Two women	5	5
+inside of a wooden building	in a wooden stall	4	3
+into the station	into a station	5	5
+A subway train	A white train	3	2
+pulling	pulling	5	5
+A man	A man	5	5
+with glasses and two plastic bottles	with two water bottles	3	3
+of water	on the water	5	5
+A goose	A black swan	4	3
+its wings	its wings	5	5
+flapping	flapping	5	5
+next to a car	next to a car	5	5
+Motorcycle	A motorcycle	5	5
+parked	parked	5	5
+Boy	The boy	5	5
+with dog	with a puppy	4	3
+on couch	on a couch	5	5
+laying	is lying	5	5
+at the airport	at the airport	5	5
+on the ground	parked	4	2
+A large jet	A large airplane	5	5
+of Harp lager	of Harp beer	4	3
+Eight bottles	Eight bottles	5	5
+lined up	lined up	5	5
+on the floor	on a wooden floor	4	3
+a movie	a movie	5	5
+of a television screen	The wall-mounted flat-screen TV	4	3
+showing	is showing	5	5
+inside of a sink	in bathroom sink	4	3
+White cat	Grey and white cat	4	3
+sitting	sitting	5	5
+Two people	Two women	4	3
+a small boat	in a sailboat	4	2
+of a couch	of a couch	5	5
+Two cats	Two cats	5	5
+on the back	on the back	5	5
+the window	the window	5	5
+looking out	looking out	5	5
+sit	are sitting	5	5
+shear	sheering	5	5
+Two young women	Two women	4	3
+a sheep	a sheep	5	5
+are seated	sitting	5	5
+Six people	A group	4	3
+at a restaurant table	at a restaurant table	5	5
+A Philips flat-screen TV	A Phillips flat screen TV	5	5
+with its two remote controls	with two remote controls	5	5
+stands	standing	5	5
+A black dog	A black dog	5	5
+at a construction site	in a room	3	2
+lying	laying	5	5
+on a blanket	on a cat bed	3	2
+A black and white cat	A black and white cat	5	5
+A plane	A small turboprop plane	3	3
+being readied	being loaded	3	2
+A dark brown horse	A brown horse	4	3
+in a field	in a green field	4	3
+stands	parked	5	5
+A white bicycle	Old style bicycle	4	2
+on a floor	on floor	5	5
+sitting	standing	2	2
+on a concrete slab	on concrete	4	3
+Black bird	Black bird	5	5
+in grassy field	in a grassy field	5	5
+standing	standing	5	5
+Dark colored dog	A gray dog	4	2
+one brown	one ginger	4	2
+on a bed	on a bed	5	5
+two cats	Two cats	5	5
+one white	the other white	5	5
+laying	laying	5	5
+A couple	Couple	5	5
+a baby	with newborn baby	4	3
+Close up	A close-up	5	5
+of a white sheep	of a sheep	4	3
+with a black head	with a black head	5	5
+on a sofa	on a sofa	5	5
+laying	laying	5	5
+A young boy	A small boy	4	2
+with a dog	with a dog	5	5
+on the railroad tracks	on the train tracks	5	5
+A train	A train	5	5
+Large silver locomotive engine	of a silver train engine	4	3
+of a semi truck	of white semi truck	4	3
+on top	on top	5	5
+A small red car	Red sports car	4	2
+in black	in black and white lira	4	3
+A bicyclist	A cyclist	5	5
+in a messy room	A room	4	3
+A television	with a television , stereo and bookshelf	3	3
+touches	pets	5	5
+A bald man	A bald man	5	5
+of a black horse	of a black and white horse	4	3
+of a fence	at the fence	4	3
+the nose	the nose	5	5
+A gray house	House	4	3
+with a red door	with a red door	5	5
+in their stalls	at a trough	3	2
+a black and white photo	A black and white photo	5	5
+of cows	of cattle	4	3
+with the London Eye ferris wheel	with a ferris wheel	4	3
+in background	behind it	5	5
+Double decker bus	a brown double decker tour bus	4	3
+parked	parked	5	5
+at an airfield	in an airport	4	2
+with a cloudy sky overhead	on a cloudy day	5	5
+A small plane	A small white plane	4	3
+on the floor	on the floor	5	5
+A Macintosh computer	a computer	4	3
+A black and white photo	Black and white photo	5	5
+of a love seat	of couch	4	3
+walking	walking	5	5
+of people	of four people	4	3
+Crowd	A group	5	5
+past a giant mushroom	past a giant mushroom	5	5
+sitting	stands	2	2
+on a motorcycle	on a motorcycle	5	5
+A person	A man	4	3
+while a man	next to a helmeted man	4	3
+A sheep	A sheep	5	5
+beside a road and a lake	of a road	4	3
+outside	outside	5	5
+of people	of people	5	5
+A group	A group	5	5
+having	eat	5	5
+A close-up view	A close-up	5	5
+of a horse	of a brown horse	4	3
+'s head	's head	5	5
+at a train station	in a station	5	5
+A train	a train	5	5
+of people	of six people	4	3
+at a table	at a table	5	5
+in an Italian restaurant	with salad	2	1
+sit	sitting	5	5
+A group	A group	5	5
+holding	holding	5	5
+newborn baby	a baby	4	3
+Older woman	a woman	4	3
+down	down	5	5
+with its landing gear	with its landing gears	4	2
+A blue and orange airplane	A red and blue plane	4	2
+flying	flying	5	5
+A white bird	A white cat	1	2
+A black and white photo	A black and white photo	5	5
+A laptop computer and a computer monitor	A laptop and a PC	4	2
+on a leather couch	on a black couch	4	2
+lay	sitting	2	2
+sitting	sits	2	2
+Long-haired black dog	A blue jay	1	2
+standing	standing	5	5
+in grassy field	in a grassy field	5	5
+Two women	Two men	3	2
+smiling	looking	3	3
+at the camera	at the camera	5	5
+sitting	sitting	5	5
+on a rock	on a long branch	2	2
+Two animals	Two eagles	3	3
+Left side	A close-up	3	2
+of a silver train engine	of a black train engine	4	2
+standing	standing	5	5
+in hay	on the grass	3	2
+A black and white cow	a black and white sheep	3	2
+The cat	Grey and white cat	4	3
+looking	looking	5	5
+at the camera	at the camera	5	5
+A black and white dog	A gray , black , and white cat	3	2
+A women	A woman	5	5
+drinking	drinks	5	5
+at a table	at a table	5	5
+sitting	while sitting	5	5
+A black and white cow	A black and white dog	2	2
+looking	looking	5	5
+standing	is grazing	3	3
+Two cows	The cow	4	2
+in a large field	in a field	4	3
+Depressed woman	Older woman	3	2
+Black and white cows	Two black and white cows	4	3
+grazing	drinking	3	2
+a white horse	A domestic animal	3	1
+A black and white cat	A dog	3	2
+is sitting	sitting	5	5
+on a brown chair	on a yellow chair	4	2
+are smiling	smiling	5	5
+Three women	Three women	5	5
+A black and white cow	A black and white cat	2	2
+A close-up	A close-up	5	5
+of a sheep	of a lamb	4	2
+in the grass	on grass	5	5
+grazing	graze	5	5
+Three cows	Two cows	4	2
+in a field	in a field	5	5
+A man	A women	3	2
+sitting	while sitting	5	5
+on a bench	on a sofa	3	2
+on the ground	on the branch	2	2
+is sitting	is sitting	5	5
+The black bird	The bird	4	3
+from a tree	in a tree	5	5
+A small brown birds	A small red and gray bird	3	2

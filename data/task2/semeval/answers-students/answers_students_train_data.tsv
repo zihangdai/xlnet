@@ -1,0 +1,919 @@
+x1	x2	y_type	y_score
+A battery to a bulb	the bulb and the battery	5	5
+should connect	are	3	2
+in a closed path	in a closed path	5	5
+is connected	is connected	5	5
+to the battery terminal	to the negative battery terminal	4	3
+thebulb terminal	terminal 1	4	3
+in a closed path	in closed paths	4	3
+Bulb A and C	Bulbs A and C	5	5
+with the battery	with the battery	5	5
+still	still	5	5
+will be contained	are	4	2
+the voltage	different electrical states	3	1
+of the battery	A battery	5	5
+to the battery	with the battery	5	5
+a closed path	in the same closed path	4	3
+from terminal 1 and 2	Terminals 1 and 2	5	5
+between any two terminals	Terminals 1 2 and 3	2	3
+within closed paths	in a closed path	4	3
+are contained	are	5	5
+Bulb A and B	bulbs A and B	5	5
+are	are	5	5
+on a path	in the same path	4	3
+bulbs a b and c	A and C	3	3
+were	are	4	2
+on closed paths	in closed paths	5	5
+still	still	5	5
+contained	contained	5	5
+Bulbs A and C	Bulbs A and C	5	5
+with the batery	with the battery	5	5
+is connected	are connected	5	5
+Terminal five to the positive battery terminal	Terminal 5 and the positive terminal	5	5
+electricity	different electrical states	4	1
+the battery	A battery	5	5
+terminal 1 to the positive terminal	Terminal 1 and the positive terminal	5	5
+is connected	are separated	4	4
+contained	are not	4	4
+bulb As path switch Z	Switch Y and bulb A in the same closed path	2	1
+in an open path	in a closed path	4	4
+was	was not	4	4
+Bulb C	Bulb C	5	5
+will be a gap	are not connected	4	2
+between the positive battery terminal and the bulb terminal	the terminals	3	3
+is connected	is connected	5	5
+terminal 1	terminal 1	5	5
+to the negative battery terminal	to the negative battery terminal	5	5
+between the bulb terminal and the battery terminal	the terminals	3	3
+is no connection	are not connected	5	5
+is not connected	are not connected	5	5
+terminal 1 to terminal 6	Terminals 1 and 6	5	5
+for bulb a	Bulb A	5	5
+to a battery	with the battery	5	5
+within a closed path	in a closed path	5	5
+Bulb A and B	A and B	5	5
+still	still	5	5
+are contained	are	5	5
+at the negative connection	the battery	4	1
+to the positive battery terminal	to the negative battery terminal	4	4
+terminal 1	terminal 1	5	5
+is connected	is connected	5	5
+off	an incomplete circuit	4	1
+without bulb B	Bulbs A and C	3	3
+other closed path	in a closed path	5	5
+to the negative terminal of the battery	in the same electrical state	3	1
+are connected	are connected	5	5
+Terminal 1 and terminal 2	Terminals 1 and 2	5	5
+with the battery	with the battery	5	5
+bulb b and c	B and C	5	5
+are contained	are	5	5
+in the same path	in the same path	5	5
+a gap	no gap	4	4
+there	there	5	5
+is	is	5	5
+are	is	5	5
+within the same path	in its own path	3	3
+bulb A and B	each bulb	3	3
+does not affect	are not	3	2
+switch Y of bulb A	Switch Y and bulb A	5	5
+the closed circuit	in the same closed path	4	1
+in a closed circuit	in closed paths	4	1
+with the battery terminal	with the battery	5	5
+were	are contained	4	2
+still	still	5	5
+the paths	Bulbs A and C	4	1
+is	is contained	5	5
+the battery	the battery	5	5
+on a closed path	in a closed path	5	5
+Circuit 4	in 4	5	5
+in a closed path	in a closed path	5	5
+the battery	The battery	5	5
+is not contained	is not	5	5
+are connected	are	5	5
+still	still	5	5
+bulbs A and B	A and B	5	5
+to the closed circuit	in a closed path	4	1
+containing the battery	with the battery	5	5
+the voltage	different electrical states	3	1
+the terminals	at the terminals	5	5
+of the battery	A battery	5	5
+bulb b and c	bulbs B and C	5	5
+in a closed path	in closed paths	4	3
+still	still	5	5
+with the battery	with the battery	5	5
+are	are	5	5
+with the battery	with the battery	5	5
+are contained	are	5	5
+in different paths	in different paths	5	5
+bulbs a and c	A and C	5	5
+is not separated	are not separated	5	5
+positive battery terminal from terminal 4	Terminal 4 and the positive terminal	5	5
+by a gap	by the gap	5	5
+is	are	5	5
+of the two terminals	The terminals	4	3
+no difference in electrical states	in the same state	5	5
+does not effect	does not include	3	2
+bulbs B and C	with B and C	5	5
+switch X	X	5	5
+There	there	5	5
+a gap	a gap	5	5
+is	is	5	5
+in the circut	in the circuit	5	5
+The battery terminals	at the terminals	5	5
+different electrical states	different electrical states	5	5
+the terminals	Terminals 1 2 and 3	4	3
+to the negative terminal of the battery	to the negative battery terminal	5	5
+are connedted	are connected	5	5
+for bulb A	Switch Z Switch X Bulbs A and C and the battery	1	3
+switches X and Z	Switch Z Switch X Bulbs A and C and the battery	2	3
+the closed circuit	a closed path	4	1
+each bulb	each bulb	5	5
+has	is	4	2
+its own pathway	in its own path	5	5
+a gap in the circuit	in a closed path	4	1
+that	in a closed path	4	4
+C	Bulb C	5	5
+was	was not	4	4
+in different paths	in different paths	5	5
+Blub A and bulb C	A and C	5	5
+with the same battery	with the battery	4	3
+are contained	are	5	5
+bulbs a and c	A and C	5	5
+ina closed path	in the same path	4	3
+are not contained	are not	5	5
+terminal 4 to the positive terminal	Terminal 4 and the positive terminal	5	5
+is connected	are connected	5	5
+the path	in the same path	4	3
+with the battery	a bulb and a switch	3	1
+the switch	the switch	5	5
+doesnt affect	affects	4	4
+if	If	5	5
+are connected	are connected	5	5
+terminals 45 and 6	Terminals 4 5 and 6	5	5
+to the positive terminal	to the positive battery terminal	5	5
+the voltage	different electrical states	3	1
+within the battery	A battery	5	5
+the bulb	the battery	3	1
+no difference	in the same electrical state	2	2
+terminal 1 and terminal 2	Terminals 1 and 2	5	5
+is connected	are connected	5	5
+terminal 6 to postive end of battery and the voltage meter	Terminal 6 and the positive terminal	3	3
+are connected	are connected	5	5
+the two terminals	Terminal 6 and the positive terminal	4	3
+the same	in the same electrical state	2	2
+terminal 1 and terminal 4	Terminals 1 and 4	5	5
+was not	is	4	4
+Switch Y of bulb A	both	5	5
+on the path	no path	4	4
+Switch Y of bulb A	switch Y and bulb A	5	5
+is seperated	is no gap	4	4
+The positive battery terminal from the negative battery terminal	between the terminals	4	3
+was not connected	was no longer	5	5
+to the battery	with the battery	5	5
+bulb c	Bulb C	5	5
+a gap in the path	in a closed path	4	4
+Bulb A	bulb A	5	5
+is connected	are connected	5	5
+a terminal to the positive terminal of the battery	Terminal 4 and the positive terminal	4	3
+the path open	an open path	5	5
+bulb C	Bulb C	5	5
+was not contained	was	4	4
+with the battery	with the battery	5	5
+in a closed path	in a closed path	5	5
+still	no longer	4	4
+bulbs a and c	A and C	5	5
+have to be contained	must be contained	5	5
+Bulbs	The damaged bulb and the other bulb	3	3
+in closed paths	in the same path	3	3
+to the battery	with the battery	5	5
+still	still	5	5
+on a closed path	in a closed path	5	5
+bulb A	Bulb A	5	5
+will be contained	is	4	2
+a closed path	in closed paths	4	3
+still	still	5	5
+had	are contained	4	2
+Bulb A and C	Bulbs A and C	5	5
+with the battery	with the battery	5	5
+is contained	is contained	5	5
+with the battery	with the battery	5	5
+bulb a	Bulb A	5	5
+in a closed path	in a closed path	5	5
+did not effect	are not in the same closed path	2	2
+Switch Y bulb A	Switch Y and bulb A	5	5
+the path was closed	in a closed path	5	5
+creates	creates	5	5
+The damaged bulb	a damaged bulb	5	5
+a gap	a gap	5	5
+The battery	The battery	5	5
+in a closed path	in a closed path	5	5
+is not	is not	5	5
+by a gap	by the gap	5	5
+is not separated	are not separated	5	5
+the positive battery terminal from terminal 6	Terminal 6 and the positive terminal	5	5
+in the path	in a path	5	5
+of the circuit	The battery	2	1
+in the path	which	5	5
+the bulb	any other components	2	3
+is not connected	are not connected	5	5
+the terminal to the battery terminal	the terminals	4	3
+there	there	5	5
+is	is	5	5
+a gap	a gap	5	5
+a closed path	the path	5	5
+is not	is not closed	5	5
+is not anymore	was no longer	5	5
+for bulb c	Bulb C	5	5
+a closed circuit	in a closed path	4	1
+in the circuit	in a circuit	5	5
+a gap	a gap	5	5
+there	there	5	5
+would be	is	4	2
+with the battery	with the battery	5	5
+in a closed path	in closed paths	4	3
+remain	are still	5	5
+bulbs b and c	bulbs B and C	5	5
+on a closed path	in a closed path	5	5
+battery	The battery	5	5
+on a closed path	which	5	5
+is contained	is contained	5	5
+the bulb holder	in a circuit	2	1
+a gap	a gap	5	5
+There	there	5	5
+will be	is	4	2
+in a closed path	in closed paths	4	3
+bulb a and bulb c	Bulbs A and C	5	5
+with the battery	with the battery	5	5
+contained	contained	5	5
+still	still	5	5
+were	are	4	2
+in a closed circuit	in a closed path	4	1
+a and c	Bulbs A and C	4	3
+are	are	5	5
+The terminal to a negative terminal	between the terminals	4	3
+is connected	is no gap	4	1
+are	are	5	5
+Bulb A bulb B and bulb C	A and C	3	3
+in different closed paths	in different paths	5	5
+is	are contained	5	5
+when	When	5	5
+on a closed path	in the same path	4	3
+the switch with the bulb	the switch and the bulb	5	5
+the bulb with a switch	the switch and the bulb	5	5
+is contained	are contained	5	5
+in a closed path	in the same path	4	3
+if	When	3	2
+as the battery	containing the battery	5	5
+in the same closed path	in the closed path	5	5
+the blub	The bulb	5	5
+is not contained	is not	5	5
+the two terminals	at the terminals	4	3
+different electrical states	different electrical states	5	5
+the circuit path incomplete	an incomplete circuit	4	1
+the positive battery terminal	Terminal 1 and the positive terminal	4	3
+by a gap	by the gap	5	5
+is separated	are separated	5	5
+in a closed circuit	in the same closed path	4	1
+were	were	5	5
+contained	contained	5	5
+B and C	Bulb B and Bulb C	4	3
+with the battery	with the battery	5	5
+still	still	5	5
+bulbs A and C	A and C	4	3
+are not contained	are not	5	5
+in the same closed path	in the same path	5	5
+terminal 1 to terminal 4	Terminals 1 and 4	5	5
+is connected	are connected	5	5
+with the battery	with the battery	5	5
+bulb b and c	Bulb B and Bulb C	5	5
+still	still	5	5
+were	were contained	5	5
+in a closed path	in the same closed path	4	3
+B AND C	B and C	5	5
+A	A	5	5
+SHARE	containing	4	2
+IS	containing	4	2
+ON ITS ON PATH	a path	4	3
+A PATH	a different path	4	3
+the circut is not complete	an incomplete circuit	5	5
+containing	containing	5	5
+a closed circuit	a closed path	4	1
+a bulb and a battery	the bulb and a battery	5	5
+a bulb and a battery	both	5	5
+in a closed path	in a path	5	5
+The battery	The battery	5	5
+that	which	5	5
+is	is contained	5	5
+does not contain	does not contain	5	5
+any other components	any other components	5	5
+Terminal 4 to the positive battery terminal	Terminal 4 and the positive terminal	5	5
+is connected	are connected	5	5
+by a gap	by the gap	5	5
+was not separted	are not separated	5	5
+the batter termnal from terminal	Terminal 4 and the positive terminal	3	3
+Without A	If bulb A burns out	3	3
+no closed path	in a closed path	4	4
+the terminals	Terminal 1 and the positive terminal	3	3
+on a different path	in a closed path	4	3
+bulb A	Bulb A	5	5
+is	is contained	5	5
+in the same closed path	in the same path	5	5
+if	When	3	2
+are contained	are contained	5	5
+a bulb and a switch	the switch and the bulb	5	5
+is not seperated	are not separated	5	5
+The positive terminal	Terminal 4 and the positive terminal	4	3
+from the gap	by the gap	5	5
+on the path	no path	4	4
+Switch Y of bulb A	switch Y and bulb A	5	5
+Switch Y of bulb A	both	5	5
+is not	is	4	4
+in the same path	in a closed path	4	3
+of bulb a	Bulb A	5	5
+the positive battery terminak from terminal 4	Terminal 4 and the positive battery terminal	5	5
+has shorted out	is a short circuit	5	5
+a positive and negative connection	is connected to the negative battery terminal	2	3
+the positive terminal and negative terminal	at the terminals	4	3
+is no closed path	the path is not closed	5	5
+are not connected	are not connected	5	5
+The terminals	Terminals 1 and 6	4	3
+with the battery	with the battery	5	5
+in a closed circuit	in a closed path	4	1
+was	is contained	4	2
+bulb a	Bulb A	5	5
+damaged	damaged	5	5
+ae contained	are	5	5
+if	If	5	5
+the bulb A and B	A and B	5	5
+C	C	5	5
+is	is	5	5
+in a closed path	in a closed path	5	5
+are not connected	are not connected	5	5
+the positive battery terminal and terminal 1	Terminal 1 and the positive terminal	5	5
+a closed circuit	in the same closed path	3	1
+terminal one to a positive battery terminal	Terminal 1 and the positive terminal	5	5
+is connected	are separated	4	4
+was a gap in the connection	are separated by the gap	4	2
+and	and	5	5
+bulbs B and C	B and C	5	5
+Bulb A	A	5	5
+on its own closed path	a path	3	3
+is	containing	4	2
+are	containing	4	2
+on the same closed path	a different path	3	1
+still	still	5	5
+were	are contained	4	2
+with the battery	with the battery	5	5
+on closed paths	in closed paths	5	5
+Bulbs A and C	Bulbs A and C	5	5
+is not connected	are not connected	5	5
+the terminal to the positive battery terminal	Terminal 1 and the positive terminal	4	3
+the terminal to the battery	terminal 1 to the negative battery terminal	3	3
+is connected	is connected	5	5
+is	is	5	5
+The battery	the battery	5	5
+in an open path	in an open path	5	5
+a gap	a gap	5	5
+A damaged bulb	a damaged bulb	5	5
+creates	creates	5	5
+the positive battery current	to the positive battery terminal	4	1
+of the gap	by a gap	5	5
+between the two battery terminals	at the terminals	3	3
+the electrical states	different electrical states	4	3
+voltage	different electrical states	3	1
+a battery	A battery	5	5
+still	still	5	5
+to battery	with the battery	5	5
+have connection	are in a closed path	4	2
+switch Y and Z to bulb A	A C Z and X	2	3
+connected	a path	3	1
+The battery and the bulb	the bulb and the battery	5	5
+in a closed path	in a closed path	5	5
+must be	are	4	2
+was	is	4	2
+no gap	no gap	5	5
+There	There	5	5
+between terminal 6 and the positive terminal	between terminal 6 and the positive terminal	5	5
+were	are contained	4	2
+in a closed path	in closed paths	4	3
+with the battery	with the battery	5	5
+bulb a and bulb c	Bulbs A and C	5	5
+still	still	5	5
+the bulb	the bulb	5	5
+if	If	5	5
+will be off	affects	2	1
+the path	in the same path	3	3
+with itself	does not contain any other components	3	2
+is	is contained	5	5
+in a closed path	which	5	5
+the battery	The battery	5	5
+in a closed path	in a closed path	5	5
+bulb a	Bulb A	5	5
+still	still	5	5
+with the battery	with the battery	5	5
+was	was contained	5	5
+in a closed path	in the same closed path	4	3
+the terminals	the terminals	5	5
+are not connected	are not connected	5	5
+is	are contained	5	5
+if	When	3	2
+on the same path	in the same path	5	5
+the swithch the bulb	the switch and the bulb	5	5
+The ppositive battery terminal in terminal 6	Terminal 6 and the positive terminal	5	5
+is connected	are connected	5	5
+for bulb a and c	Bulbs A and C	5	5
+a gap in the path	in closed paths	4	4
+terminal one to terminal six	Terminals 1 and 6	5	5
+is not connected	are not connected	5	5
+gap	by a gap	5	5
+in the closed path	in a closed path	5	5
+is	is	5	5
+bulb a	bulb A	5	5
+the negative side of the battery	to the negative battery terminal	5	5
+the terminals	Terminals 1 2 and 3	3	3
+is connected	are connected	5	5
+Terminal 4 to the positve battery terminal	Terminal 4 and the positive terminal	5	5
+in the pathway	a path	5	5
+was	is	4	2
+there	there	5	5
+with the battery	with the battery	5	5
+are	are	5	5
+in separate closed paths	in different paths	5	5
+Bulbs a and c	A and C	5	5
+in a closed path	in a closed path	5	5
+need to be	are	3	2
+The battery and bulb	the bulb and the battery	5	5
+are connected	are connected	5	5
+terminal 1 and terminal 4	Terminals 1 and 4	5	5
+If	If	5	5
+affects	affects	5	5
+the switch	the switch	5	5
+is connected	are	3	2
+a bulb	the bulb	5	5
+the path	in the same path	4	3
+to the battery	a bulb and a switch	3	1
+the circut	the path	4	1
+is no longer closed	is not closed	5	5
+the gap	a chemical reaction	2	1
+a difference in electrical states	different electrical states	4	2
+the battery terminals	the battery	4	3
+The positive battery terminal from terminal 4	Terminal 4 and the positive battery terminal	5	5
+a gap	by a gap	5	5
+the positive battery terminal from terminal 4	Terminal 4 and the positive battery terminal	5	5
+terminal 1 and 4	Terminals 1 and 4	5	5
+connected	are connected	5	5
+the two terminals	Terminals 1 and 4	4	3
+are connected	are connected	5	5
+from bulb	Bulb A	4	3
+to battery	with the battery	5	5
+a path	in a closed path	5	5
+are	are	5	5
+in closed paths	in closed paths	5	5
+Bulb B and bulb C	bulbs B and C	5	5
+still	still	5	5
+in a closed path	which	5	5
+without another component	does not contain any other components	5	5
+The battery	The battery	5	5
+is contaied	is contained	5	5
+in a closed path	in a path	5	5
+to the battery	with the battery	5	5
+a closed path	in closed paths	4	3
+without any devices	does not contain any other components	5	5
+in a closed path	which	5	5
+is contained	is contained	5	5
+in a closed path	in a closed path	5	5
+the battery	The battery	5	5
+a closed path	in closed paths	4	3
+contains	are contained	5	5
+still	still	5	5
+the battery and bulb a and bulb c	Bulbs A and C with the battery	5	5
+that	in closed paths	4	3
+Terminal	Terminals 1 and 2	3	3
+the same electrical state	in the same electrical state	5	5
+is separated	is	4	4
+by a gap	no gap	4	4
+The positive battery terminal from terminal 4	between terminals 1 and 4	3	3
+the bulb and the switch	the switch and the bulb	5	5
+if	When	3	2
+are contained	are contained	5	5
+by a closed path	in the same path	4	3
+Terminal 1 and the positive terminal	Terminal 1 and the positive terminal	5	5
+different electrical states	by the gap	2	1
+bulb a	A and B	4	3
+with bulb C	C	5	5
+will burn out	burns out	4	2
+are connected	are connected	5	5
+terminal 1 and 2	Terminals 1 and 2	5	5
+a voltage decrease	A nonzero voltage	3	1
+a gap	by a gap	5	5
+in the closed path	in	5	5
+in the closed path	a closed path	5	5
+bulb c	C	5	5
+is not included	is not	5	5
+bulb a	bulb A	5	5
+creates a gap	burns out	3	1
+between different terminals	the electrical state	3	1
+voltage	voltage	5	5
+the burnt out bulb	a damaged bulb	4	3
+in a closed path	in a closed path	5	5
+is not contained	is not	5	5
+the battery	The battery	5	5
+between the positive and negative terminals of the battery	in the same electrical state	3	1
+terminals	Terminals 1 and 2	3	3
+no short circuit	a chemical reaction	3	1
+to the battery	A battery	5	5
+is connected	are not connected	4	4
+Terminal 6 to the positive battery terminal	Terminals 1 and 6	3	3
+a different electrical state	different electrical states	4	3
+The battery	A battery	5	5
+the circuit	at the terminals	3	1
+bulb a	each bulb	3	3
+when	When	5	5
+is connected	are contained	2	2
+the switch between the bulb and the battery	the switch and the bulb	3	3
+within the same closed path	in the same closed path	5	5
+is contained	was contained	4	2
+bulb a	Bulb A	5	5
+as the battery	with the battery	5	5
+in a dfferent path	in the same closed path	4	4
+Switch Y	Switch Y and bulb A	4	3
+was	are not	4	4
+are	were contained	4	2
+bulbs b and c	Bulb B and Bulb C	5	5
+with the battery	with the battery	5	5
+in a closed path	in the same closed path	4	3
+the gap	by the gap	5	5
+in terminal 2	Terminal 2 and the positive terminal	3	3
+of the paths	no closed path	3	1
+a closed path	which	5	5
+with nothing else	does not contain any other components	5	5
+is	is contained	5	5
+the battery	The battery	5	5
+in a closed path	in a closed path	5	5
+with the battery	with the battery	5	5
+are	are	5	5
+bulbs a and c	Bulbs A and C	5	5
+on a closed path	in closed paths	4	3
+The light bulb	no bulb	4	4
+is not	is	4	4
+in a closed path	in a path	5	5
+in a closed path	in which	5	5
+in different paths	in different paths	5	5
+bulbs a and c	A and C	5	5
+are contained	are	5	5
+with the battery	with the battery	5	5
+Bulb B and C	Bulb B and Bulb C	5	5
+were contained	were contained	5	5
+in a closed path	in the same closed path	4	3
+with the battery	with the battery	5	5
+terminal 1 to terminal 6	Terminals 1 and 6	5	5
+is connected	are separated	4	4
+the voltage	different electrical states	3	1
+in the battery	A battery	5	5
+are	are contained	5	5
+the switch and the bulb	the switch and the bulb	5	5
+in the same path	in the same path	5	5
+If	When	3	2
+between the batterys	A battery	5	5
+two terminals	at the terminals	4	3
+the electrical state difference	different electrical states	4	2
+a gap	by the gap	5	5
+between terminal 3 and the positive terminal	Terminal 3 and the positive terminal	5	5
+is	are separated	3	3
+The voltage	different electrical states	3	1
+the positive battery terminal from terminal 3	Terminal 3 and the positive terminal	5	5
+by a gap	by the gap	5	5
+is separarted	are separated	5	5
+a gap	no gap	4	4
+in the connection	between the terminals	3	1
+there	there	5	5
+is	is	5	5
+a gap	by a gap	5	5
+the voltage	voltage	5	5
+between the terminals	two terminals	4	3
+if	If	5	5
+the bulb	the bulb	5	5
+a path	in the same path	4	3
+is connected	are	3	2
+will be off	affects	2	1
+to an oen switch	a bulb and a switch	3	3
+to an oen switch	the switch	4	3
+a closed path	in a closed path	5	5
+for B and C	bulbs B and C	5	5
+still	still	5	5
+complete paths	in closed paths	5	5
+to the battery	with the battery	5	5
+still	still	5	5
+Bulbs A and C	A and B	4	2
+are contained	are	5	5
+with the battery	with the battery	5	5
+in closed paths	in a closed path	4	3
+bulb A	Bulb A	5	5
+was	was contained	5	5
+on	in the same closed path with the battery	3	1
+are not	are	4	4
+on the same path	in different paths	4	1
+bulb a and bulb c bulb B	A B and C	5	5
+the light bulb and battery	the bulb and the battery	5	5
+Both	the bulb and the battery	5	5
+in a closed path	in a closed path	5	5
+must be	are	4	2
+of the battery	the battery	5	5
+the positive path	in an open path	3	2
+a closed circuit battery	in a closed path	4	1
+voltage	A battery	4	1
+the terminals	at the terminals	5	5
+a difference in electrical states	different electrical states	4	2
+in the circuit	two terminals	4	1
+whether	whether	5	5
+electrical states	voltage	3	1
+will determine	indicates	4	2
+a gap or connection	by a gap	3	3
+no gap	by the gap	4	4
+between the positive battery terminal and terminal 6	Terminal 6 and the positive terminal	5	5
+is	are not separated	4	4
+When	When	5	5
+is	are contained	5	5
+in the path	in the same path	4	3
+the switch of the bulb	the switch and the bulb	5	5
+an open switch	the open switch	5	5
+a gap	a gap	5	5
+creates	creates	5	5
+a complete path	a closed path	5	5
+still	still	5	5
+switch z to the battery	Switch Z Switch X Bulbs A and C and the battery	2	3
+of the gap	by a gap	5	5
+with a battery and bulb	the bulb and a battery	5	5
+A closed path	a closed path	5	5
+with a battery and bulb	containing both	5	5
+Bulb B	Bulb B	5	5
+in a independent path	in a separate path	5	5
+is	is	5	5
+are connected	are connected	5	5
+bulbs	Terminals 1 2 and 3	3	1
+to the negative terminal of the battery	to the negative battery terminal	5	5
+the path	in a circuit	4	1
+will be damaged	is a gap	3	3
+is separated	are separated	5	5
+the positive terminal from terminal 3	Terminal 3 and the positive terminal	5	5
+by a gap	by the gap	5	5
+creates	creates	5	5
+a break	a gap	5	5
+A switch	the open switch	4	3
+the same voltage	in the same electrical state	3	1
+terminal 1 and 2	Terminals 1 and 2	5	5
+Switch Y Bulb A	Switch Y and bulb A	5	5
+in a different path	in the same closed path	4	1
+is	are not	4	4
+The two terminals of a battery	at the terminals	4	3
+a chemical reaction	a chemical reaction	5	5
+due to	uses	3	2
+inside the battery	A battery	5	5
+will always have	to maintain	4	2
+different electrical states	different electrical states	5	5
+by a gap	by a gap	5	5
+from terminal 4	terminal 4	5	5
+the negative batter terminal	from the negative battery terminal	5	5
+is seperated	is separated	5	5
+on the same closed path	a different path	3	1
+seperate	containing	2	1
+from bulb a	A	5	5
+bulbs b anc c	B and C	5	5
+are	containing	3	2
+the path between the battery and the light bulb	the path	3	3
+is not closed	is not closed	5	5
+are contained	are	5	5
+in the same path	in different paths	4	1
+bulb C and A	A and C	5	5
+the terminals	the terminals	5	5
+from not being connected	are not connected	4	2
+the positive batter terminal from terminal 4	Terminal 4 and the positive terminal	5	5
+a gap	by the gap	5	5
+does not have	are not separated	5	5
+on the same path	in the same path	5	5
+are	are	5	5
+as the battery	with the battery	5	5
+bulbs B and C	B and C	5	5
+terminal 1 to terminal 4	Terminals 1 and 4	5	5
+is connetced	are connected	5	5
+in their own closed paths	in closed paths	4	3
+will be	are	4	2
+b and c	bulbs B and C	5	5
+with the battery	with the battery	5	5
+all the bulbs	A and C	3	3
+on parralel paths	in different paths	3	1
+are	are	5	5
+are connected	are connected	5	5
+to the positive battery terminal	to the positive battery terminal	5	5
+terminal 4 terminal 5 and terminal 6	Terminals 4 5 and 6	5	5
+is	is	5	5
+no path	an incomplete circuit	3	1
+there	there	5	5
+from terminal 2 to terminal 6	Terminals 1 and 2	3	2
+a gap	in the same electrical state	2	1
+the same difference in electrical states	in the same electrical state	3	2
+terminal 1 and 2	Terminals 1 and 2	5	5
+to the negative battery terminal	to the negative battery terminal	5	5
+terminal one	terminal 1	5	5
+is connected	is connected	5	5
+Bulb A	bulb A	5	5
+bulbs B and C	B and C	5	5
+is not	are no longer	5	5
+in the same path	in a closed path	4	3
+the switch between the bulb and the battery	the switch and the bulb	3	3
+If	When	3	2
+a gap	in the same path	2	1
+the switch with the Bulb	the switch and the bulb	5	5
+is contained	are contained	5	5
+in the same path	in the same path	5	5
+If	When	3	2
+is	is	5	5
+no gap	no gap	5	5
+between the positive battery terminal and terminal 5	between terminal 5 and the positive terminal	5	5
+there	There	5	5
+are not connected	are not connected	5	5
+the terminals	the terminals	5	5
+between the bulb and the battery	the bulb and a battery	5	5
+Closed connection	a closed path	4	1
+between the bulb and the battery	both	5	5
+within a closed path	in the same path	4	3
+has to be	have to be	5	5
+the switch with the bulb and battery	The switch and the bulb	3	3
+terminal 6 to the positive terminal	Terminal 6 and the positive terminal	5	5
+is connected	are connected	5	5
+in a closed path	in a closed path	5	5
+with a battery	with the battery	5	5
+Bulb a	Bulb A	5	5
+was	is contained	4	2
+the positive battery terminal to terminal 4	Terminal 4 and the positive terminal	5	5
+is connected	are connected	5	5
+for bulb A	Bulb A	5	5
+the closed path	in a closed path	5	5
+existed	is contained	4	2
+still	still	5	5
+is connected	are connected	5	5
+terminal 4 to the positive batterty terminal	Terminal 4 and the positive terminal	4	5
+if	If	5	5
+the path	in the same path	4	3
+the attery	The battery	5	5
+is not	is not	5	5
+in a closed path	in a closed path	5	5
+in a closed path	in the same closed path	4	3
+bulbs B and C	Bulb B and Bulb C	5	5
+with the battery	with the battery	5	5
+were	were contained	5	5
+still	still	5	5
+When	When	5	5
+in the same path	in the same path	5	5
+the switch the bulb	the switch and the bulb	5	5
+is	are contained	5	5
+the path is not closed	is no closed path	5	5
+Terminal 5 to the postive battery terminal	Terminal 5 and the positive terminal	5	5
+is connected	are connected	5	5
+because of the gap	are not connected	4	1
+is	are	5	5
+bulb B and C	bulbs B and C	5	5
+still	still	5	5
+with the battery	with the battery	5	5
+a closed path	in closed paths	4	3
+battery	The battery	5	5
+in bulb	in a path	2	1
+is contained	is contained	5	5
+there	there	5	5
+a closed circuit	a complete circuit	5	5
+must be	is	4	2
+are	are	5	5
+to the battery	with the battery	5	5
+b and c	bulbs B and C	5	5
+of complete circuts	in closed paths	4	1
+in a closed path	a closed path	5	5
+a positive and negative connections	are not connected	3	1
+a damaged bulb	a damaged bulb	5	5
+creates	creates	5	5
+a gap	a gap	5	5
+causes	creates	5	5
+an open switch	the open switch	5	5
+a gap	a gap	5	5
+there	There	5	5
+by the switch	switch Y and bulb A	2	3
+a closed path	no path	4	4
+by the switch	both	2	3
+not effected	containing	2	2
+was	is	4	2
+is contained	must be contained	4	2
+the other bulb	The damaged bulb and the other bulb	3	3
+in a closed path	in the same path	4	3
+A closed path	in the same path	4	3
+the bulb	the bulb	4	5
+enables to be on	affects	2	2
+is	is contained	5	5
+the battery	the battery	5	5
+in a closed path	in a path	5	5
+are contained	are	5	5
+in the same path	in a closed path	4	3
+the switch and the bulb	bulbs B and C	2	3
+closed paths	in a closed path	4	3
+from the battery	the bulb and the battery	3	3
+are contained	are	5	5
+Bulb A and C	A and C	5	5
+in different paths	in different paths	5	5
+with the battery	with the battery	5	5
+between the bul and battery terminal	between the terminals	3	3
+is	is	5	5
+there	there	5	5
+a gap	no gap	4	4
+is a gap	are connected	4	4
+from the positive battery terminal	in the same electrical state	3	1
+between terminals 1 and 2	Terminals 1 and 2	5	5
+Terminal 6 to the posititve battery terminal	Terminal 6 and the positive terminal	5	5
+is connected	are connected	5	5
+in the path	in a path	5	5
+in the path	in which	5	5
+with no lightbulb	no bulb	5	5
+no gap	no gap	5	5
+there	There	5	5
+is	is	5	5
+between terminal 4 and the positive terminal	between terminal 4 and the positive terminal	5	5
+is contain	was contained	4	2
+Bulb A	Bulb A	5	5
+in a closed path	in the same closed path	4	3
+is	containing	4	2
+within its own closed path	a path	3	3
+of B and C	containing B and C	5	5
+Bulb A	A	5	5
+independent	a different path	4	2
+Terminal 1 to terminal 2	Terminals 1 and 4	4	2
+is connected	are connected	5	5
+by a gap	by the gap	5	5
+are seperated	are separated	5	5
+the positive terminal and terminal 1	Terminal 1 and the positive terminal	5	5
+is	are	5	5
+still	still	5	5
+a closed path	in closed paths	4	3
+the battery Bulb B and Bulb C	bulbs B and C with the battery	5	5
+had no gap	are separated by the gap	4	4
+terminal 1	Terminal 1 and the positive terminal	3	3
+Terminal 5 and the positive battery terminal	Terminal 5 and the positive terminal	5	5
+are in the same state	are connected	4	1
+to the negative terminal	Terminals 1 and 2	3	1
+connected	are connected	5	5
+is not	is	4	4
+a complete path	no closed path	4	4
+there	there	5	5
+both battery terminals	the battery	4	3
+involving	containing	5	5
+no gap in the circuit	in a closed path	5	5
+terminal 5 to the positive battery terminal	Terminal 5 and the positive terminal	5	5
+is connected	are connected	5	5
+its own chemical reacion	a chemical reaction	4	3
+between the positive and negative tterminals	at the terminals	3	3
+the battery	A battery	5	5
+has	uses	4	2
+are	are	5	5
+bulbs by switches	a bulb and a switch	4	3
+bulbs by switches	the switch the bulb	4	3
+will be affected	affects	4	2
+in the path	in the same path	4	3
+is contained	must be contained	4	2
+the damaged lightbulb	The damaged bulb and the other bulb	4	3
+in the closed circuit	in the same path	4	1
+The bulb and the battery	the battery	3	3
+is connected	are connected	5	5
+terminal 6 to a positive battery terminal	Terminal 6 and the positive terminal	5	5
+still	still	5	5
+a connection	in closed paths	4	1
+have	are	2	2
+A and C	Bulbs A and C	5	5
+to the battery	with the battery	5	5
+between the terminals	terminal 1 from the negative battery terminal	3	3
+is no gap	is not separated	5	5
+of the terminals	Terminal 1 and the positive terminal	3	3
+between the electrical state	by the gap	2	1
+Bulb A and Bulb C	A and C	5	5
+are contained	are	5	5
+with the battery	with the battery	5	5
+in different paths	in different paths	5	5
+between the two terminals	at the terminals	4	3
+a difference in electrial states	different electrical states	4	2
+Terminal 5 to the positive battery terminal	Terminal 5 and the positive terminal	5	5
+is connected	are connected	5	5
+the positive battery terminal from terminal 1	Terminal 1 and the positive terminal	5	5
+separates	are separated	5	5
+the gap	by the gap	5	5
+the path	in its own path	3	3
+the energy flow	the path	4	1
+on a cloosed battery	in a closed path with the battery	5	5
+A	Bulb A	5	5
+is	is contained	5	5
+a battery	A battery	5	5
+a voltage	different electrical states	3	1
+an open path	in an open path	5	5
+is	is	5	5
+on the same path	in the same path	5	5
+are	are	5	5
+the bulbs	A and C	3	3
+is contained	are	5	5
+still	still	5	5
+Through bulb A bulb B	A and B	5	5
+to the battery	with the battery	5	5
+in a closed path	in a closed path	5	5
