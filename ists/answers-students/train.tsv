@@ -1,0 +1,918 @@
+EQUI-5	A battery to a bulb	the bulb and the battery
+SIMI-3	should connect	are
+EQUI-5	in a closed path.	in a closed path
+EQUI-5	is connected	is connected
+SPE2-4	to the battery terminal.	to the negative battery terminal
+SPE2-4	thebulb terminal	terminal 1
+SPE1-4	in a closed path	in closed paths
+EQUI-5	Bulb A and C	Bulbs A and C
+EQUI-5	with the battery	with the battery
+EQUI-5	still	still
+SIMI-4	will be contained	are
+REL-3	the voltage	different electrical states
+EQUI-5	of the battery.	A battery
+EQUI-5	to the battery	with the battery.
+SPE2-4	a closed path	in the same closed path
+EQUI-5	from terminal 1 and 2	Terminals 1 and 2
+SPE2-2	between any two terminals.	Terminals 1, 2 and 3
+SPE2-4	within closed paths	in a closed path
+EQUI-5	are contained	are
+EQUI-5	Bulb A and B	bulbs A and B
+EQUI-5	are	are
+SPE2-4	on a path	in the same path
+SPE2-3	bulbs a, b, and c	A and C
+SIMI-4	were	are
+EQUI-5	on closed paths	in closed paths
+EQUI-5	still	still
+EQUI-5	contained	contained
+EQUI-5	Bulbs A and C	Bulbs A and C
+EQUI-5	with the batery	with the battery
+EQUI-5	is connected	are connected
+EQUI-5	Terminal five to the positive battery terminal.	Terminal 5 and the positive terminal
+REL-4	electricity	different electrical states
+EQUI-5	the battery	A battery
+EQUI-5	terminal 1 to the positive terminal	Terminal 1 and the positive terminal
+OPPO-4	is connected	are separated
+OPPO-4	contained	are not
+REL-2	"""bulb A""""s path switch Z"""	Switch Y and bulb A in the same closed path
+OPPO-4	in an open path,	in a closed path
+OPPO-4	was	was not
+EQUI-5	Bulb C	Bulb C
+SIMI-4	will be a gap	are not connected.
+SPE1-3	between the positive battery terminal and the bulb terminal	the terminals
+EQUI-5	is connected	is connected
+EQUI-5	terminal 1	terminal 1
+EQUI-5	to the negative battery terminal	to the negative battery terminal
+SPE1-3	between the bulb terminal and the battery terminal.	the terminals
+EQUI-5	is no connection	are not connected
+EQUI-5	is not connected	are not connected
+EQUI-5	terminal 1 to terminal 6.	Terminals 1 and 6
+EQUI-5	for bulb a	Bulb A
+EQUI-5	to a battery	with the battery.
+EQUI-5	within a closed path	in a closed path
+EQUI-5	Bulb A and B	A and B
+EQUI-5	still	still
+EQUI-5	are contained	are
+REL-4	at the negative connection.	the battery
+OPPO-4	to the positive battery terminal	to the negative battery terminal
+EQUI-5	terminal 1	terminal 1
+EQUI-5	is connected	is connected
+REL-4	off	an incomplete circuit
+SPE2-3	without bulb B	Bulbs A and C
+EQUI-5	other closed path	in a closed path
+REL-3	to the negative terminal of the battery	in the same electrical state
+EQUI-5	are connected	are connected
+EQUI-5	Terminal 1 and terminal 2	Terminals 1 and 2
+EQUI-5	with the battery.	with the battery
+EQUI-5	bulb b and c	B and C
+EQUI-5	are contained	are
+EQUI-5	in the same path	in the same path
+OPPO-4	a gap	no gap
+EQUI-5	there	there
+EQUI-5	is	is
+EQUI-5	are	is
+SPE2-3	within the same path	in its own path
+SPE1-3	bulb A and B	each bulb
+SIMI-3	does not affect	are not
+EQUI-5	switch Y of bulb A	Switch Y and bulb A
+REL-4	the closed circuit	in the same closed path
+REL-4	in a closed circuit	in closed paths
+EQUI-5	with the battery terminal	with the battery
+SIMI-4	were	are contained
+EQUI-5	still	still
+REL-4	the paths	Bulbs A and C
+EQUI-5	is	is contained
+EQUI-5	the battery	the battery
+EQUI-5	on a closed path	in a closed path
+EQUI-5	Circuit 4	in 4
+EQUI-5	in a closed path.	in a closed path
+EQUI-5	the battery	The battery
+EQUI-5	is not contained	is not
+EQUI-5	are connected	are
+EQUI-5	still	still
+EQUI-5	bulbs A and B	A and B
+REL-4	to the closed circuit	in a closed path
+EQUI-5	containing the battery	with the battery
+REL-3	the voltage	different electrical states
+EQUI-5	the terminals	at the terminals
+EQUI-5	of the battery	A battery
+EQUI-5	bulb b and c	bulbs B and C
+SPE1-4	in a closed path	in closed paths
+EQUI-5	still	still
+EQUI-5	with the battery.	with the battery
+EQUI-5	are	are
+EQUI-5	with the battery	with the battery
+EQUI-5	are contained	are
+EQUI-5	in different paths	in different paths
+EQUI-5	bulbs a and c	A and C
+EQUI-5	is not separated	are not separated
+EQUI-5	positive battery terminal from terminal 4	Terminal 4 and the positive terminal
+EQUI-5	by a gap	by the gap
+EQUI-5	is	are
+SPE1-4	of the two terminals	The terminals
+EQUI-5	no difference in electrical states	in the same state.
+SIMI-3	does not effect	does not include
+EQUI-5	bulbs B and C	with B and C
+EQUI-5	switch X	X
+EQUI-5	There	there
+EQUI-5	a gap	a gap
+EQUI-5	is	is
+EQUI-5	in the circut.	in the circuit
+EQUI-5	The battery terminals	at the terminals
+EQUI-5	different electrical states.	different electrical states
+SPE2-4	the terminals	Terminals 1, 2 and 3
+EQUI-5	to the negative terminal of the battery.	to the negative battery terminal
+EQUI-5	are connedted	are connected
+SPE1-1	for bulb A	Switch Z, Switch X, Bulbs A and C and the battery
+SPE1-2	switches X and Z	Switch Z, Switch X, Bulbs A and C and the battery
+REL-4	the closed circuit	a closed path
+EQUI-5	each bulb	each bulb
+SIMI-4	has	is
+EQUI-5	its own pathway	in its own path
+REL-4	a gap in the circuit	in a closed path
+OPPO-4	that	in a closed path
+EQUI-5	C	Bulb C
+OPPO-4	was	was not
+EQUI-5	in different paths	in different paths
+EQUI-5	Blub A and bulb C	A and C
+SPE1-4	with the same battery.	with the battery
+EQUI-5	are contained	are
+EQUI-5	bulbs a and c	A and C
+SPE2-4	ina closed path	in the same path
+EQUI-5	are not contained	are not
+EQUI-5	terminal 4 to the positive terminal	Terminal 4 and the positive terminal
+EQUI-5	is connected	are connected
+SPE2-4	the path	in the same path
+REL-3	with the battery,	a bulb and a switch
+EQUI-5	the switch	the switch
+OPPO-4	doesnt affect	affects
+EQUI-5	if	If
+EQUI-5	are connected	are connected
+EQUI-5	terminals 4,5, and 6	Terminals 4, 5 and 6
+EQUI-5	to the positive terminal	to the positive battery terminal
+REL-3	the voltage	different electrical states
+EQUI-5	within the battery	A battery
+REL-3	the bulb	the battery
+SIMI-2	no difference	in the same electrical state
+EQUI-5	terminal 1 and terminal 2	Terminals 1 and 2
+EQUI-5	is connected	are connected
+SPE2-3	terminal 6 to postive end of battery and the voltage meter	Terminal 6 and the positive terminal
+EQUI-5	are connected	are connected
+SPE2-4	the two terminals	Terminal 6 and the positive terminal
+SIMI-2	the same	in the same electrical state
+EQUI-5	terminal 1 and terminal 4	Terminals 1 and 4
+OPPO-4	was not	is
+EQUI-5	Switch Y of bulb A.	both
+OPPO-4	on the path	no path
+EQUI-5	Switch Y of bulb A.	switch Y and bulb A
+OPPO-4	is seperated	is no gap
+SPE1-4	The positive battery terminal from the negative battery terminal	between the terminals
+EQUI-5	was not connected	was no longer
+EQUI-5	to the battery.	with the battery
+EQUI-5	bulb c	Bulb C
+OPPO-4	a gap in the path	in a closed path
+EQUI-5	Bulb A	bulb A
+EQUI-5	is connected	are connected
+SPE2-4	a terminal to the positive terminal of the battery	Terminal 4 and the positive terminal
+EQUI-5	the path open	an open path
+EQUI-5	bulb C	Bulb C
+OPPO-4	was not contained	was
+EQUI-5	with the battery	with the battery
+EQUI-5	in a closed path	in a closed path
+OPPO-4	still	no longer
+EQUI-5	bulbs a and c	A and C
+EQUI-5	have to be contained	must be contained
+SPE2-3	Bulbs	The damaged bulb and the other bulb
+SPE2-3	in closed paths	in the same path
+EQUI-5	to the battery.	with the battery
+EQUI-5	still	still
+EQUI-5	on a closed path	in a closed path
+EQUI-5	bulb A	Bulb A
+SIMI-4	will be contained	is
+SPE1-4	a closed path	in closed paths
+EQUI-5	still	still
+SIMI-4	had	are contained
+EQUI-5	Bulb A and C	Bulbs A and C
+EQUI-5	with the battery.	with the battery
+EQUI-5	is contained	is contained
+EQUI-5	with the battery	with the battery.
+EQUI-5	bulb a	Bulb A
+EQUI-5	in a closed path	in a closed path
+SIMI-2	did not effect	are not in the same closed path
+EQUI-5	Switch Y bulb A	Switch Y and bulb A
+EQUI-5	the path was closed	in a closed path
+EQUI-5	creates	creates
+EQUI-5	The damaged bulb	a damaged bulb
+EQUI-5	a gap	a gap
+EQUI-5	The battery	The battery
+EQUI-5	in a closed path.	in a closed path
+EQUI-5	is not	is not
+EQUI-5	by a gap	by the gap
+EQUI-5	is not separated	are not separated
+EQUI-5	the positive battery terminal from terminal 6.	Terminal 6 and the positive terminal
+EQUI-5	in the path	in a path
+REL-2	of the circuit	The battery
+EQUI-5	in the path	which
+SPE1-2	the bulb	any other components
+EQUI-5	is not connected	are not connected
+SPE2-4	the terminal to the battery terminal	the terminals
+EQUI-5	there	there
+EQUI-5	is	is
+EQUI-5	a gap.	a gap
+EQUI-5	a closed path.	the path
+EQUI-5	is not	is not closed
+EQUI-5	is not anymore	was no longer
+EQUI-5	for bulb c	Bulb C
+REL-4	a closed circuit	in a closed path
+EQUI-5	in the circuit	in a circuit
+EQUI-5	a gap	a gap
+EQUI-5	there	there
+SIMI-4	would be	is
+EQUI-5	with the battery	with the battery
+SPE1-4	in a closed path	in closed paths
+EQUI-5	remain	are still
+EQUI-5	bulbs b and c	bulbs B and C
+EQUI-5	on a closed path	in a closed path
+EQUI-5	battery	The battery
+EQUI-5	on a closed path	which
+EQUI-5	is contained	is contained
+REL-2	the bulb holder	in a circuit
+EQUI-5	a gap	a gap
+EQUI-5	There	there
+SIMI-4	will be	is
+SPE1-4	in a closed path	in closed paths
+EQUI-5	bulb a and bulb c	Bulbs A and C
+EQUI-5	with the battery.	with the battery
+EQUI-5	contained	contained
+EQUI-5	still	still
+SIMI-4	were	are
+REL-4	in a closed circuit	in a closed path
+SPE2-4	a and c	Bulbs A and C
+EQUI-5	are	are
+SPE1-4	The terminal to a negative terminal.	between the terminals
+REL-4	is connected	is no gap
+EQUI-5	are	are
+SPE1-3	Bulb A, bulb B and bulb C	A and C
+EQUI-5	in different closed paths.	in different paths
+EQUI-5	is	are contained
+EQUI-5	when	When
+SPE2-4	on a closed path	in the same path
+EQUI-5	the switch with the bulb	the switch and the bulb
+EQUI-5	the bulb with a switch	the switch and the bulb
+EQUI-5	is contained	are contained
+SPE2-4	in a closed path	in the same path
+SIMI-3	if	When
+EQUI-5	as the battery	containing the battery
+EQUI-5	in the same closed path	in the closed path
+EQUI-5	the blub	The bulb
+EQUI-5	is not contained	is not
+SPE1-4	the two terminals	at the terminals
+EQUI-5	different electrical states.	different electrical states
+REL-4	the circuit path incomplete.	an incomplete circuit
+SPE1-4	the positive battery terminal	Terminal 1 and the positive terminal
+EQUI-5	by a gap	by the gap
+EQUI-5	is separated	are separated
+REL-4	in a closed circuit	in the same closed path
+EQUI-5	were	were
+EQUI-5	contained	contained
+SPE2-4	B and C	Bulb B and Bulb C
+EQUI-5	with the battery	with the battery.
+EQUI-5	still	still
+SPE1-4	bulbs A and C	A and C
+EQUI-5	are not contained	are not
+EQUI-5	in the same closed path.	in the same path
+EQUI-5	terminal 1 to terminal 4	Terminals 1 and 4
+EQUI-5	is connected	are connected
+EQUI-5	with the battery	with the battery.
+EQUI-5	bulb b and c	Bulb B and Bulb C
+EQUI-5	still	still
+EQUI-5	were	were contained
+SPE2-4	in a closed path	in the same closed path
+EQUI-5	B AND C	B and C
+EQUI-5	A	A
+SIMI-4	SHARE	containing
+SIMI-4	IS	containing
+SPE1-4	ON ITS ON PATH	a path
+SPE2-4	A PATH	a different path
+EQUI-5	the circut is not complete	an incomplete circuit
+EQUI-5	containing	containing
+REL-4	a closed circuit	a closed path
+EQUI-5	a bulb and a battery	the bulb and a battery
+EQUI-5	a bulb and a battery	both
+EQUI-5	in a closed path	in a path
+EQUI-5	The battery	The battery
+EQUI-5	that	which
+EQUI-5	is	is contained
+EQUI-5	does not contain	does not contain
+EQUI-5	any other components.	any other components
+EQUI-5	Terminal 4 to the positive battery terminal.	Terminal 4 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	by a gap	by the gap
+EQUI-5	was not separted	are not separated
+SPE2-3	the batter termnal from terminal	Terminal 4 and the positive terminal
+SPE2-3	"""Without A,"	If bulb A burns out,
+OPPO-4	"no closed path"""	in a closed path
+SPE2-3	the terminals	Terminal 1 and the positive terminal
+SPE1-4	on a different path	in a closed path
+EQUI-5	bulb A	Bulb A
+EQUI-5	is	is contained
+EQUI-5	in the same closed path,	in the same path
+SIMI-3	if	When
+EQUI-5	are contained	are contained
+EQUI-5	a bulb and a switch	the switch and the bulb
+EQUI-5	is not seperated	are not separated
+SPE1-4	The positive terminal	Terminal 4 and the positive terminal
+EQUI-5	from the gap	by the gap
+OPPO-4	on the path	no path
+EQUI-5	Switch Y of bulb A.	switch Y and bulb A
+EQUI-5	Switch Y of bulb A.	both
+OPPO-4	is not	is
+SPE1-4	in the same path	in a closed path
+EQUI-5	of bulb a.	Bulb A
+EQUI-5	the positive battery terminak from terminal 4	Terminal 4 and the positive battery terminal
+EQUI-5	has shorted out	is a short circuit
+SPE2-2	a positive and negative connection	is connected to the negative battery terminal
+SPE1-4	the positive terminal and negative terminal	at the terminals
+EQUI-5	is no closed path	the path is not closed
+EQUI-5	are not connected	are not connected
+SPE1-4	The terminals	Terminals 1 and 6
+EQUI-5	with the battery	with the battery.
+REL-4	in a closed circuit	in a closed path
+SIMI-4	was	is contained
+EQUI-5	bulb a	Bulb A
+EQUI-5	damaged,	damaged,
+EQUI-5	ae contained	are
+EQUI-5	if	If
+EQUI-5	the bulb A and B	A and B
+EQUI-5	C	C
+EQUI-5	is	is
+EQUI-5	in a closed path	in a closed path
+EQUI-5	are not connected	are not connected
+EQUI-5	the positive battery terminal and terminal 1	Terminal 1 and the positive terminal
+REL-3	a closed circuit	in the same closed path
+EQUI-5	terminal one to a positive battery terminal	Terminal 1 and the positive terminal
+OPPO-4	is connected	are separated
+SIMI-4	was a gap in the connection	are separated by the gap
+EQUI-5	and	and
+EQUI-5	bulbs B and C	B and C
+EQUI-5	Bulb A	A
+SPE1-3	on its own closed path	a path
+SIMI-4	is	containing
+SIMI-4	are	containing
+REL-3	on the same closed path	a different path
+EQUI-5	still	still
+SIMI-4	were	are contained
+EQUI-5	with the battery	with the battery
+EQUI-5	on closed paths	in closed paths
+EQUI-5	Bulbs A and C	Bulbs A and C
+EQUI-5	is not connected	are not connected
+SPE2-4	the terminal to the positive battery terminal	Terminal 1 and the positive terminal
+SPE2-3	the terminal to the battery	terminal 1 to the negative battery terminal
+EQUI-5	is connected	is connected
+EQUI-5	is	is
+EQUI-5	The battery	the battery
+EQUI-5	in an open path	in an open path
+EQUI-5	a gap	a gap
+EQUI-5	A damaged bulb	a damaged bulb
+EQUI-5	creates	creates
+REL-4	the positive battery current	to the positive battery terminal
+EQUI-5	of the gap	by a gap
+SPE1-3	between the two battery terminals	at the terminals
+SPE2-4	the electrical states	different electrical states
+REL-3	voltage	different electrical states
+EQUI-5	a battery	A battery
+EQUI-5	still	still
+EQUI-5	to battery	with the battery.
+SIMI-4	have connection	are in a closed path
+SPE1-2	switch Y and Z to bulb A.	A, C, Z and X
+REL-3	connected	a path
+EQUI-5	The battery and the bulb	the bulb and the battery
+EQUI-5	in a closed path	in a closed path
+SIMI-4	must be	are
+SIMI-4	was	is
+EQUI-5	no gap	no gap
+EQUI-5	There	There
+EQUI-5	between terminal 6 and the positive terminal.	between terminal 6 and the positive terminal
+SIMI-4	were	are contained
+SPE1-4	in a closed path	in closed paths
+EQUI-5	with the battery	with the battery
+EQUI-5	bulb a and bulb c	Bulbs A and C
+EQUI-5	still	still
+EQUI-5	the bulb	the bulb
+EQUI-5	if	If
+REL-2	will be off	affects
+SPE2-3	the path	in the same path
+SIMI-3	with itself.	does not contain any other components
+EQUI-5	is	is contained
+EQUI-5	in a closed path	which
+EQUI-5	the battery	The battery
+EQUI-5	in a closed path	in a closed path
+EQUI-5	bulb a	Bulb A
+EQUI-5	still	still
+EQUI-5	with the battery	with the battery.
+EQUI-5	was	was contained
+SPE2-4	in a closed path	in the same closed path
+EQUI-5	the terminals	the terminals
+EQUI-5	are not connected	are not connected
+EQUI-5	is	are contained
+SIMI-3	if	When
+EQUI-5	on the same path	in the same path
+EQUI-5	the swithch the bulb	the switch and the bulb
+EQUI-5	The ppositive battery terminal in terminal 6.	Terminal 6 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	for bulb a and c	Bulbs A and C
+OPPO-4	a gap in the path	in closed paths
+EQUI-5	terminal one to terminal six	Terminals 1 and 6
+EQUI-5	is not connected	are not connected
+EQUI-5	gap	by a gap
+EQUI-5	in the closed path	in a closed path
+EQUI-5	is	is
+EQUI-5	bulb a	bulb A
+EQUI-5	the negative side of the battery.	to the negative battery terminal
+SPE2-3	the terminals	Terminals 1, 2 and 3
+EQUI-5	is connected	are connected
+EQUI-5	Terminal 4 to the positve battery terminal	Terminal 4 and the positive terminal
+EQUI-5	in the pathway.	a path
+SIMI-4	was	is
+EQUI-5	there	there
+EQUI-5	with the battery.	with the battery
+EQUI-5	are	are
+EQUI-5	in separate closed paths	in different paths
+EQUI-5	Bulbs a and c	A and C
+EQUI-5	in a closed path	in a closed path
+SIMI-3	need to be	are
+EQUI-5	The battery and bulb	the bulb and the battery
+EQUI-5	are connected	are connected
+EQUI-5	terminal 1 and terminal 4	Terminals 1 and 4
+EQUI-5	If	If
+EQUI-5	affects	affects
+EQUI-5	the switch	the switch
+SIMI-3	is connected	are
+EQUI-5	a bulb.	the bulb
+SPE2-4	the path	in the same path
+REL-3	to the battery,	a bulb and a switch
+REL-4	the circut	the path
+EQUI-5	is no longer closed.	is not closed
+REL-2	the gap	a chemical reaction
+SIMI-4	a difference in electrical states	different electrical states
+SPE1-4	"""the battery terminals"	the battery
+EQUI-5	The positive battery terminal from terminal 4.	Terminal 4 and the positive battery terminal
+EQUI-5	a gap	by a gap
+EQUI-5	the positive battery terminal from terminal 4	Terminal 4 and the positive battery terminal
+EQUI-5	terminal 1 and 4	Terminals 1 and 4
+EQUI-5	connected	are connected
+SPE2-4	the two terminals	Terminals 1 and 4
+EQUI-5	are connected	are connected
+SPE2-4	from bulb	Bulb A
+EQUI-5	to battery	with the battery.
+EQUI-5	a path	in a closed path
+EQUI-5	are	are
+EQUI-5	in closed paths.	in closed paths
+EQUI-5	Bulb B and bulb C	bulbs B and C
+EQUI-5	still	still
+EQUI-5	in a closed path	which
+EQUI-5	without another component.	does not contain any other components
+EQUI-5	The battery	The battery
+EQUI-5	is contaied	is contained
+EQUI-5	in a closed path	in a path
+EQUI-5	to the battery	with the battery
+SPE1-4	a closed path	in closed paths
+EQUI-5	without any devices	does not contain any other components
+EQUI-5	in a closed path	which
+EQUI-5	is contained	is contained
+EQUI-5	in a closed path	in a closed path
+EQUI-5	the battery	The battery
+SPE1-4	a closed path	in closed paths
+EQUI-5	contains	are contained
+EQUI-5	still	still
+EQUI-5	the battery and bulb a and bulb c	Bulbs A and C with the battery
+SPE1-4	that	in closed paths
+SPE2-3	Terminal	Terminals 1 and 2
+EQUI-5	the same electrical state	in the same electrical state
+OPPO-4	is separated	is
+OPPO-4	by a gap	no gap
+SPE1-3	The positive battery terminal from terminal 4.	between terminals 1 and 4
+EQUI-5	the bulb and the switch	the switch and the bulb
+SIMI-3	if	When
+EQUI-5	are contained	are contained
+SPE2-4	by a closed path	in the same path
+EQUI-5	Terminal 1 and the positive terminal	Terminal 1 and the positive terminal
+REL-2	different electrical states.	by the gap
+SPE1-4	bulb a	A and B
+EQUI-5	with bulb C	C
+SIMI-4	will burn out	burns out,
+EQUI-5	are connected	are connected
+EQUI-5	terminal 1 and 2	Terminals 1 and 2
+REL-3	a voltage decrease	A non-zero voltage
+EQUI-5	a gap	by a gap.
+EQUI-5	in the closed path	in.
+EQUI-5	in the closed path	a closed path
+EQUI-5	bulb c	C
+EQUI-5	is not included	is not
+EQUI-5	bulb a	bulb A
+REL-3	creates a gap	burns out,
+REL-3	between different terminals	the electrical state
+EQUI-5	voltage	voltage
+SPE1-4	the burnt out bulb	a damaged bulb.
+EQUI-5	in a closed path	in a closed path
+EQUI-5	is not contained	is not
+EQUI-5	the battery	The battery
+REL-3	between the positive and negative terminals of the battery	in the same electrical state
+SPE2-3	terminals	Terminals 1 and 2
+REL-3	no short circuit	a chemical reaction
+EQUI-5	to the battery.	A battery
+OPPO-4	is connected	are not connected
+SPE1-3	Terminal 6 to the positive battery terminal	Terminals 1 and 6
+SPE1-4	a different electrical state	different electrical states
+EQUI-5	The battery	A battery
+REL-3	the circuit	at the terminals
+SPE1-3	bulb a	each bulb
+EQUI-5	when	When
+SIMI-2	is connected	are contained
+SPE2-3	the switch between the bulb and the battery	the switch and the bulb
+EQUI-5	within the same closed path	in the same closed path
+SIMI-4	is contained	was contained
+EQUI-5	bulb a	Bulb A
+EQUI-5	as the battery	with the battery.
+OPPO-4	in a dfferent path	in the same closed path
+SPE1-4	Switch Y	Switch Y and bulb A
+OPPO-4	was	are not
+SIMI-4	are	were contained
+EQUI-5	bulbs b and c	Bulb B and Bulb C
+EQUI-5	with the battery.	with the battery.
+SPE2-4	in a closed path	in the same closed path
+EQUI-5	the gap	by the gap
+SPE1-3	in terminal 2	Terminal 2 and the positive terminal
+REL-3	of the paths.	no closed path
+EQUI-5	a closed path	which
+EQUI-5	with nothing else	does not contain any other components
+EQUI-5	is	is contained
+EQUI-5	the battery	The battery
+EQUI-5	in a closed path	in a closed path
+EQUI-5	with the battery	with the battery
+EQUI-5	are	are
+EQUI-5	bulbs a and c	Bulbs A and C
+SPE1-4	on a closed path	in closed paths
+OPPO-4	The light bulb	no bulb
+OPPO-4	is not	is
+EQUI-5	in a closed path	in a path
+EQUI-5	in a closed path	in which
+EQUI-5	in different paths	in different paths
+EQUI-5	bulbs a and c	A and C
+EQUI-5	are contained	are
+EQUI-5	with the battery.	with the battery
+EQUI-5	Bulb B and C	Bulb B and Bulb C
+EQUI-5	were contained	were contained
+SPE2-4	in a closed path	in the same closed path
+EQUI-5	with the battery	with the battery.
+EQUI-5	terminal 1 to terminal 6	Terminals 1 and 6
+OPPO-4	is connected	are separated
+REL-3	the voltage	different electrical states
+EQUI-5	in the battery	A battery
+EQUI-5	are	are contained
+EQUI-5	the switch and the bulb	the switch and the bulb
+EQUI-5	in the same path.	in the same path
+SIMI-3	If	When
+EQUI-5	"between the battery""""s"	A battery
+SPE1-4	"two terminals"""	at the terminals
+SIMI-4	"""the electrical state difference"	different electrical states
+EQUI-5	a gap	by the gap
+EQUI-5	between terminal 3 and the positive terminal	Terminal 3 and the positive terminal
+SPE2-3	is	are separated
+REL-3	The voltage	different electrical states
+EQUI-5	the positive battery terminal from terminal 3.	Terminal 3 and the positive terminal
+EQUI-5	by a gap	by the gap
+EQUI-5	is separarted	are separated
+OPPO-4	a gap	no gap
+REL-3	in the connection.	between the terminals
+EQUI-5	there	there
+EQUI-5	is	is
+EQUI-5	a gap	by a gap.
+EQUI-5	the voltage	voltage
+SPE2-4	between the terminals,	two terminals
+EQUI-5	if	If
+EQUI-5	the bulb	the bulb
+SPE2-4	a path	in the same path
+SIMI-3	is connected	are
+REL-2	will be off.	affects
+SPE2-3	to an oen switch,	a bulb and a switch
+SPE1-4	to an oen switch,	the switch
+EQUI-5	a closed path	in a closed path
+EQUI-5	for B and C	bulbs B and C
+EQUI-5	still	still
+EQUI-5	complete paths	in closed paths
+EQUI-5	to the battery	with the battery
+EQUI-5	still	still
+SIMI-4	Bulbs A and C	A and B
+EQUI-5	are contained	are
+EQUI-5	with the battery	with the battery.
+SPE2-4	in closed paths	in a closed path
+EQUI-5	bulb A	Bulb A
+EQUI-5	was	was contained
+REL-3	on	in the same closed path with the battery.
+OPPO-4	are not	are
+REL-4	on the same path	in different paths
+EQUI-5	bulb a and bulb c bulb B	A, B and C
+EQUI-5	the light bulb and battery	the bulb and the battery
+EQUI-5	Both	the bulb and the battery
+EQUI-5	in a closed path.	in a closed path
+SIMI-4	must be	are
+EQUI-5	of the battery	the battery
+SIMI-3	the positive path	in an open path
+REL-4	a closed circuit battery.	in a closed path
+REL-4	voltage	A battery
+EQUI-5	the terminals	at the terminals
+SIMI-4	a difference in electrical states	different electrical states
+REL-4	in the circuit	two terminals
+EQUI-5	whether	whether
+REL-3	electrical states	voltage
+SIMI-4	will determine	indicates
+SPE2-3	a gap or connection	by a gap.
+OPPO-4	no gap	by the gap
+EQUI-5	between the positive battery terminal and terminal 6	Terminal 6 and the positive terminal
+OPPO-4	is	are not separated
+EQUI-5	When	When
+EQUI-5	is	are contained
+SPE2-4	in the path	in the same path
+EQUI-5	the switch of the bulb.	the switch and the bulb
+EQUI-5	an open switch	the open switch
+EQUI-5	a gap.	a gap
+EQUI-5	creates	creates
+EQUI-5	a complete path	a closed path
+EQUI-5	still	still
+SPE1-2	switch z to the battery	Switch Z, Switch X, Bulbs A and C and the battery
+EQUI-5	of the gap	by a gap
+EQUI-5	with a battery and bulb	the bulb and a battery
+EQUI-5	A closed path	a closed path
+EQUI-5	with a battery and bulb	containing both
+EQUI-5	Bulb B	Bulb B
+EQUI-5	in a independent path	in a separate path
+EQUI-5	is	is
+EQUI-5	are connected	are connected
+REL-3	bulbs	Terminals 1, 2 and 3
+EQUI-5	to the negative terminal of the battery	to the negative battery terminal
+REL-4	the path	in a circuit
+SPE2-3	will be damaged	is a gap
+EQUI-5	is separated	are separated
+EQUI-5	the positive terminal from terminal 3	Terminal 3 and the positive terminal
+EQUI-5	by a gap	by the gap
+EQUI-5	creates	creates
+EQUI-5	a break	a gap
+SPE2-4	A switch	the open switch
+REL-3	the same voltage	in the same electrical state
+EQUI-5	terminal 1 and 2	Terminals 1 and 2
+EQUI-5	Switch Y Bulb A	Switch Y and bulb A
+REL-4	in a different path	in the same closed path
+OPPO-4	is	are not
+SPE1-4	The two terminals of a battery	at the terminals
+EQUI-5	a chemical reaction	a chemical reaction
+SIMI-3	due to	uses
+EQUI-5	inside the battery	A battery
+SIMI-4	will always have	to maintain
+EQUI-5	different electrical states	different electrical states
+EQUI-5	by a gap	by a gap
+EQUI-5	from terminal 4	terminal 4
+EQUI-5	the negative batter terminal	from the negative battery terminal
+EQUI-5	is seperated	is separated
+REL-3	on the same closed path	a different path
+REL-2	seperate	containing
+EQUI-5	from bulb a	A
+EQUI-5	bulbs b anc c	B and C
+SIMI-3	are	containing
+SPE1-3	the path between the battery and the light bulb	the path
+EQUI-5	is not closed	is not closed
+EQUI-5	are contained	are
+REL-4	in the same path	in different paths
+EQUI-5	bulb C and A	A and C
+EQUI-5	the terminals	the terminals
+SIMI-4	from not being connected	are not connected
+EQUI-5	the positive batter terminal from terminal 4	Terminal 4 and the positive terminal
+EQUI-5	a gap	by the gap
+EQUI-5	does not have	are not separated
+EQUI-5	on the same path	in the same path
+EQUI-5	are	are
+EQUI-5	as the battery	with the battery
+EQUI-5	bulbs B and C	B and C
+EQUI-5	terminal 1 to terminal 4	Terminals 1 and 4
+EQUI-5	is connetced	are connected
+SPE1-4	in their own closed paths	in closed paths
+SIMI-4	will be	are
+EQUI-5	b and c	bulbs B and C
+EQUI-5	with the battery.	with the battery
+SPE2-3	all the bulbs	A and C
+REL-3	on parralel paths	in different paths
+EQUI-5	are	are
+EQUI-5	are connected	are connected
+EQUI-5	to the positive battery terminal	to the positive battery terminal
+EQUI-5	terminal 4, terminal 5, and terminal 6	Terminals 4, 5 and 6
+EQUI-5	is	is
+REL-3	no path	an incomplete circuit
+EQUI-5	there	there
+SIMI-3	from terminal 2 to terminal 6	Terminals 1 and 2
+REL-2	a gap	in the same electrical state
+SIMI-3	the same difference in electrical states	in the same electrical state
+EQUI-5	terminal 1 and 2	Terminals 1 and 2
+EQUI-5	to the negative battery terminal	to the negative battery terminal
+EQUI-5	terminal one	terminal 1
+EQUI-5	is connected	is connected
+EQUI-5	Bulb A	bulb A
+EQUI-5	bulbs B and C.	B and C
+EQUI-5	is not	are no longer
+SPE1-4	in the same path	in a closed path
+SPE2-3	the switch between the bulb and the battery.	the switch and the bulb
+SIMI-3	If	When
+REL-2	a gap	in the same path
+EQUI-5	the switch with the Bulb	the switch and the bulb
+EQUI-5	is contained	are contained
+EQUI-5	in the same path	in the same path
+SIMI-3	If	When
+EQUI-5	is	is
+EQUI-5	no gap	no gap
+EQUI-5	between the positive battery terminal and terminal 5	between terminal 5 and the positive terminal
+EQUI-5	there	There
+EQUI-5	are not connected	are not connected
+EQUI-5	the terminals	the terminals
+EQUI-5	between the bulb and the battery.	the bulb and a battery
+REL-4	Closed connection	a closed path
+EQUI-5	between the bulb and the battery.	both
+SPE2-4	within a closed path	in the same path
+EQUI-5	has to be	have to be
+SPE2-3	the switch with the bulb and battery	The switch and the bulb
+EQUI-5	terminal 6 to the positive terminal.	Terminal 6 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	in a closed path	in a closed path
+EQUI-5	with a battery.	with the battery.
+EQUI-5	Bulb a	Bulb A
+SIMI-4	was	is contained
+EQUI-5	the positive battery terminal to terminal 4.	Terminal 4 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	for bulb A	Bulb A
+EQUI-5	the closed path	in a closed path
+SIMI-4	existed	is contained
+EQUI-5	still	still
+EQUI-5	is connected	are connected
+EQUI-4	terminal 4 to the positive batterty terminal	Terminal 4 and the positive terminal
+EQUI-5	if	If
+SPE2-4	the path	in the same path
+EQUI-5	the attery	The battery
+EQUI-5	is not	is not
+EQUI-5	in a closed path	in a closed path
+SPE2-4	in a closed path	in the same closed path
+EQUI-5	bulbs B and C	Bulb B and Bulb C
+EQUI-5	with the battery.	with the battery.
+EQUI-5	were	were contained
+EQUI-5	still	still
+EQUI-5	When	When
+EQUI-5	in the same path	in the same path
+EQUI-5	the switch the bulb.	the switch and the bulb
+EQUI-5	is	are contained
+EQUI-5	the path is not closed.	is no closed path
+EQUI-5	Terminal 5 to the postive battery terminal	Terminal 5 and the positive terminal
+EQUI-5	is connected	are connected
+REL-4	because of the gap	are not connected
+EQUI-5	is	are
+EQUI-5	bulb B and C	bulbs B and C
+EQUI-5	still	still
+EQUI-5	with the battery.	with the battery
+SPE1-4	a closed path	in closed paths
+EQUI-5	battery	The battery
+REL-2	in bulb	in a path
+EQUI-5	is contained	is contained
+EQUI-5	there	there
+EQUI-5	a closed circuit.	a complete circuit
+SIMI-4	must be	is
+EQUI-5	are	are
+EQUI-5	to the battery	with the battery
+EQUI-5	b and c	bulbs B and C
+REL-4	of complete circuts	in closed paths
+EQUI-5	in a closed path	a closed path
+REL-3	a positive and negative connections	are not connected
+EQUI-5	a damaged bulb	a damaged bulb
+EQUI-5	creates	creates
+EQUI-5	a gap	a gap
+EQUI-5	causes	creates
+EQUI-5	an open switch	the open switch
+EQUI-5	a gap.	a gap
+EQUI-5	there	There
+SPE2-2	by the switch	switch Y and bulb A
+OPPO-4	a closed path	no path
+SPE2-2	by the switch	both
+SIMI-2	not effected	containing
+SIMI-4	was	is
+SIMI-4	is contained	must be contained
+SPE1-3	the other bulb	The damaged bulb and the other bulb
+SPE2-4	in a closed path	in the same path
+SPE2-4	A closed path	in the same path
+EQUI-4	the bulb	the bulb
+SIMI-2	enables to be on.	affects
+EQUI-5	is	is contained
+EQUI-5	the battery	the battery
+EQUI-5	in a closed path.	in a path
+EQUI-5	are contained	are
+SPE1-4	in the same path	in a closed path
+SPE2-2	the switch and the bulb	bulbs B and C
+SPE2-4	closed paths	in a closed path
+SPE1-3	from the battery	the bulb and the battery
+EQUI-5	are contained	are
+EQUI-5	Bulb A and C	A and C
+EQUI-5	in different paths	in different paths
+EQUI-5	with the battery.	with the battery
+SPE2-3	between the bul and battery terminal.	between the terminals
+EQUI-5	is	is
+EQUI-5	there	there
+OPPO-4	a gap	no gap
+OPPO-4	is a gap	are connected
+REL-3	from the positive battery terminal	in the same electrical state
+EQUI-5	between terminals 1 and 2	Terminals 1 and 2
+EQUI-5	Terminal 6 to the posititve battery terminal.	Terminal 6 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	in the path	in a path
+EQUI-5	in the path	in which
+EQUI-5	with no lightbulb	no bulb
+EQUI-5	no gap	no gap
+EQUI-5	there	There
+EQUI-5	is	is
+EQUI-5	between terminal 4 and the positive terminal	between terminal 4 and the positive terminal
+SIMI-4	is contain	was contained
+EQUI-5	Bulb A	Bulb A
+SPE2-4	in a closed path	in the same closed path
+SIMI-4	is	containing
+SPE1-3	within its own closed path	a path
+EQUI-5	of B and C	containing B and C
+EQUI-5	Bulb A	A
+SIMI-4	independent	a different path
+SIMI-4	Terminal 1 to terminal 2	Terminals 1 and 4
+EQUI-5	is connected	are connected
+EQUI-5	by a gap	by the gap
+EQUI-5	are seperated	are separated
+EQUI-5	the positive terminal and terminal 1	Terminal 1 and the positive terminal
+EQUI-5	is	are
+EQUI-5	still	still
+SPE1-4	a closed path	in closed paths
+EQUI-5	the battery, Bulb B, and Bulb C.	bulbs B and C with the battery
+OPPO-4	had no gap.	are separated by the gap
+SPE1-3	terminal 1	Terminal 1 and the positive terminal
+EQUI-5	Terminal 5 and the positive battery terminal	Terminal 5 and the positive terminal
+REL-4	are in the same state.	are connected
+REL-3	to the negative terminal	Terminals 1 and 2
+EQUI-5	connected	are connected
+OPPO-4	is not	is
+OPPO-4	a complete path	no closed path
+EQUI-5	there	there
+SPE1-4	both battery terminals	the battery
+EQUI-5	involving	containing
+EQUI-5	no gap in the circuit.	in a closed path
+EQUI-5	terminal 5 to the positive battery terminal.	Terminal 5 and the positive terminal
+EQUI-5	is connected	are connected
+SPE1-4	its own chemical reacion	a chemical reaction
+SPE1-3	between the positive and negative tterminals	at the terminals
+EQUI-5	the battery	A battery
+SIMI-4	has	uses
+EQUI-5	are	are
+SPE2-4	bulbs by switches	a bulb and a switch
+SPE2-4	bulbs by switches	the switch the bulb
+SIMI-4	will be affected	affects
+SPE2-4	in the path	in the same path
+SIMI-4	is contained	must be contained
+SPE1-4	the damaged lightbulb	The damaged bulb and the other bulb
+REL-4	in the closed circuit	in the same path
+SPE2-3	The bulb and the battery	the battery
+EQUI-5	is connected	are connected
+EQUI-5	terminal 6 to a positive battery terminal	Terminal 6 and the positive terminal
+EQUI-5	still	still
+REL-4	a connection	in closed paths
+SIMI-2	have	are
+EQUI-5	A and C	Bulbs A and C
+EQUI-5	to the battery	with the battery
+SPE2-3	between the terminals	terminal 1 from the negative battery terminal
+EQUI-5	is no gap	is not separated
+SPE2-3	of the terminals.	Terminal 1 and the positive terminal
+REL-2	between the electrical state	by the gap
+EQUI-5	Bulb A and Bulb C	A and C
+EQUI-5	are contained	are
+EQUI-5	with the battery.	with the battery
+EQUI-5	in different paths	in different paths
+SPE1-4	between the two terminals	at the terminals
+SIMI-4	a difference in electrial states	different electrical states
+EQUI-5	Terminal 5 to the positive battery terminal.	Terminal 5 and the positive terminal
+EQUI-5	is connected	are connected
+EQUI-5	the positive battery terminal from terminal 1	Terminal 1 and the positive terminal
+EQUI-5	separates	are separated
+EQUI-5	the gap	by the gap
+SPE2-3	the path	in its own path
+REL-4	the energy flow	the path
+EQUI-5	on a cloosed battery	in a closed path with the battery.
+EQUI-5	A	Bulb A
+EQUI-5	is	is contained
+EQUI-5	a battery	A battery
+REL-3	a voltage	different electrical states
+EQUI-5	an open path	in an open path
+EQUI-5	is	is
+EQUI-5	on the same path	in the same path
+EQUI-5	are	are
+SPE2-3	the bulbs	A and C
+EQUI-5	is contained	are
+EQUI-5	still	still
+EQUI-5	Through bulb A, bulb B	A and B
+EQUI-5	to the battery.	with the battery
+EQUI-5	in a closed path	in a closed path

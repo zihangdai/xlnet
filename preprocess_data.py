@@ -20,8 +20,8 @@ def preprocess_data(input, output):
             res = [type+"-"+score, textA, textB]
             results.append(res)
     with open(output, 'w', newline='') as myfile:
-        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
+        wr = csv.writer(myfile, delimiter='\t', lineterminator='\n')
         wr.writerows(results)
 
 
-preprocess_data("test.wa", "test.csv")
+preprocess_data("data/task2/semeval/headlines/headlines_train_gs.wa", "ists/headlines/train.tsv")
