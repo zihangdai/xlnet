@@ -585,8 +585,8 @@ def get_model_fn(n_class):
         }
         accuracy = tf.metrics.accuracy(**eval_input_dict)
         precision = tf.metrics.precision(**eval_input_dict)
-        recall = tf.metrics.precision(**eval_input_dict)
-        f1 = (2 * precision * recall) / (precision + recall)
+        recall = tf.metrics.recall(**eval_input_dict)
+        f1 = (2 * precision[0] * recall[0]) / (precision[0] + recall[0])
 
         loss = tf.metrics.mean(values=per_example_loss, weights=is_real_example)
         return {
