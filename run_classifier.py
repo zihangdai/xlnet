@@ -399,9 +399,9 @@ class IStsProcessor(GLUEProcessor):
         self.text_b_column = 2
 
     def get_labels(self):
-        return ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-2", "OPPO-3", "OPPO-4",
-                "SPE1-1", "SPE1-2", "SPE1-3", "SPE1-4", "SPE1-5",
-                "SPE2-1", "SPE2-2", "SPE2-3", "SPE2-4", "SPE2-5",
+        return ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-3", "OPPO-4",
+                "SPE1-1", "SPE1-2", "SPE1-3", "SPE1-4",
+                "SPE2-1", "SPE2-2", "SPE2-3", "SPE2-4",
                 "SIMI-1", "SIMI-2", "SIMI-3", "SIMI-4",
                 "REL-1", "REL-2", "REL-3", "REL-4",
                 "NOALI-0", "ALIC-0"]

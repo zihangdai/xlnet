@@ -1,5 +1,4 @@
 EQUI-5	at 91	aged 91
-SPE1_FACT-3	Former Nazi death camp guard Demjanjuk	John Demjanjuk convicted Nazi death camp guard
 EQUI-5	dead	dies
 EQUI-5	to compete	To Compete
 REL-3	Saudis	Saudi Women
@@ -9,9 +8,7 @@ EQUI-5	to permit	Allowed
 EQUI-5	kills	kills
 SPE1-4	US drone strike	Drone strike
 EQUI-5	in Pakistan	in Pakistan
-SIMI_FACT-4	5 militants	four suspected militants
 SPE1-2	Syria peace plan conditions	Syria peace
-EQUI_POL-5	Syrian regime	Syria
 EQUI-5	in Houla massacre	for Houla massacre
 EQUI-5	China stocks	Chinese stocks
 SPE2-4	Friday	midday Friday
@@ -51,7 +48,6 @@ EQUI-5	Family Reunions	family unions
 EQUI-5	with South	with South Korea
 EQUI-5	North Korea	North Korea
 EQUI-5	From Soccer	from football
-EQUI_FACT-5	Announces Retirement	retires
 EQUI-5	David Beckham	David Beckham
 EQUI-5	on National Mall	on National Mall
 EQUI-5	Dies	dies
@@ -78,7 +74,6 @@ EQUI-5	Jagan Reddy	Jagan
 EQUI-5	in Seemandhra	in Seemandhra
 EQUI-5	to hospital	in hospital
 EQUI-5	as Maracana re-opens	as Maracana re-opens
-REL_POL-3	tied	held
 EQUI-5	Brazil	Brazil
 EQUI-5	2-2	2-2
 EQUI-5	by England	by England
@@ -113,7 +108,6 @@ SPE2-4	of tax evasion	in Italian Tax Case
 SIMI-4	convicted	Fined
 REL-3	on Syrian chemical arms	over Syria chemical claims
 SPE1-3	UK alert	West
-EQUI_FACT-5	believed killed	dies
 EQUI-5	in plane crash	in plane crash
 EQUI-5	Mexican singer Jenni Rivera	Jenni Rivera Mexican music star
 EQUI-5	climbs	rises
@@ -241,7 +235,6 @@ EQUI-5	in Iraq	in Iraq
 EQUI-5	kill	kill
 SPE2-2	nine people	6 soldiers
 EQUI-5	in northwest Pakistan	in northwest Pakistan
-EQUI_POL-5	Gunmen	Militants
 SPE1-4	after deadly Bangladesh building collapse	after Bangladesh building collapse
 EQUI-5	Snowden	Snowden
 REL-2	against protesters	about protests
@@ -302,7 +295,6 @@ EQUI-5	Iran nuclear talks	Iran Nuclear Talks
 REL-2	roadmap	High Hopes
 SPE2-4	hopes	High Hopes
 EQUI-5	third nuclear test	Third Nuclear Test
-SIMI_FACT-3	conducts	Confirms
 EQUI-5	North Korea	North Korea
 EQUI-5	Hits	hits
 EQUI-5	in 2012	in 2012
@@ -832,7 +824,6 @@ EQUI-5	mixed	mixed
 EQUI-5	at mid-day	at mid-day
 REL-3	KLCI Futures	KL shares
 SPE2-4	Iranian exiles	At least 47 Iranian exiles
-EQUI_FACT-5	report deaths	killed
 SPE2-4	in Iraq camp	at Iraq 's Camp Ashraf
 EQUI-5	Helicopter	Helicopter
 EQUI-5	in London	in London
@@ -1038,9 +1029,7 @@ REL-2	Palestinians , Jordan	PA
 SPE1-3	5	at least ten
 EQUI-5	in Pakistan	in Pakistan
 EQUI-5	kills	kills
-EQUI_FACT-4	Suspected U.S. drone strike	US drone strike
 REL-3	to dispute	cop on
-SPE2_FACT-3	murder charge	seven attempted murder charges
 SPE1-4	` Blade Runner ' Pistorius	Pistorius
 SPE2-3	president	Former New Mexico Gov. Richardson
 REL-3	Mexico	Former New Mexico Gov. Richardson
@@ -1408,7 +1397,6 @@ EQUI-5	Egyptian court	Egypt court
 EQUI-5	Mubarak	of Mubarak
 EQUI-5	's release	release
 SPE2-3	considers	orders
-EQUI_FACT-5	to Marry	Plans To Get Married
 EQUI-5	Van der Sloot	Joran Van Der Sloots
 SPE2-4	in Prison	In Peru Prison
 EQUI-5	to plead	to Plead
@@ -1429,7 +1417,6 @@ EQUI-5	of The Netherlands	of the Netherlands
 EQUI-5	Philadelphia building	Philadelphia building
 EQUI-5	collapses	collapses
 SPE1-4	8-10 people	of people
-SIMI_FACT-4	may be trapped	trapped
 EQUI-5	sets off	set
 REL-3	gun control debate	on gun control bill
 EQUI-5	U.S. Senate	U.S. Senate
@@ -1440,7 +1427,6 @@ EQUI-5	Buys	to acquire
 SPE1-3	Cloud-Based , Networked Firewall Specialist Stonesoft	firewall Stonesoft
 EQUI-5	For $ 389M	for $ 389 million
 SPE1-4	Intel 's McAfee	McAfee
-EQUI_FACT-5	Alleged cop killer	Alleged cop killer
 EQUI-5	from shot	from gunshot
 EQUI-5	died	died
 EQUI-5	Musharraf	Musharraf
@@ -1579,7 +1565,6 @@ EQUI-5	with minister	with minister
 EQUI-5	Oil firm	Oil firm
 EQUI-5	about meeting	about meeting
 EQUI-5	South Africa	South Africa
-SIMI_FACT-4	Mistake	possible ` mistake '
 REL-3	Over ` Schizophrenic ' Mandela Signer	at Mandela memorial
 EQUI-5	Admits	admits
 SIMI-3	Over ` Schizophrenic ' Mandela Signer	over deaf signer
@@ -1591,7 +1576,6 @@ SPE2-4	in Afghanistan attack	in Afghan ` insider attack '
 EQUI-5	killed	killed
 SPE1-3	NATO 3 troops	NATO troops
 EQUI-5	to Attend	to attend
-SPE2_POL-3	Syria Regime	Syria , opposition
 EQUI-5	Agrees	agree
 EQUI-5	Peace Conference	peace conference
 EQUI-5	lands	lands
@@ -1632,7 +1616,6 @@ SIMI-3	540	600
 SIMI-4	hits	tops
 EQUI-5	Nelson Mandela	Nelson Mandela
 SIMI-2	Oct. 14	March 12
-OPPO-5	higher	lower
 EQUI-5	Hushen 300 Index	Hushen 300 Index
 EQUI-5	closes	closes
 EQUI-5	for first time	for first time
@@ -1661,7 +1644,6 @@ EQUI-5	over South Africa	over South Africa
 EQUI-5	India to big win	India Trophy win
 EQUI-5	kills	kills
 SIMI-4	3 militants	4 militants
-SPE1_FACT-4	Suspected US drone	U.S. drone
 EQUI-5	in Pakistan	in Pakistan
 REL-4	papacy	of Vatican
 EQUI-5	with prayer	for Prayers
@@ -1725,7 +1707,6 @@ EQUI-5	Fukushima disaster	Fukushima disaster
 EQUI-5	who battled	who battled
 EQUI-5	dies	dies
 SPE2-3	Man	Former plant chief
-SPE2_FACT-3	over alleged bribery	with accepting $ 3m bribe
 SIMI-4	Nigeria lawmaker	Nigerian MP
 EQUI-5	charged	charged
 EQUI-5	to speak	to deliver statement
@@ -2027,7 +2008,6 @@ EQUI-5	of icon Nelson Mandela	Mandela
 SPE2-4	mourns	mourn , celebrate
 SIMI-1	to Delhi	in Russia
 EQUI-5	arrest	arrest
-SIMI_FACT-3	announces	orders
 REL-4	of 1,004 Muslim Brotherhood supporters	of Brotherhood chief Badie
 EQUI-5	Egypt	Egypt
 EQUI-5	Syrian Opposition	Syrian opposition
@@ -2075,7 +2055,6 @@ REL-2	military modernization drive	Chinese vice premier
 SIMI-3	Pacific trade pact	to regional trade pact
 REL-2	New Japan govt	Japan , US
 EQUI-5	dies	kills
-SIMI_FACT-1	Suspected Saudi militant	6 militants
 EQUI-5	India Ink	India Ink
 SIMI-2	January 27	March 20
 EQUI-5	Image	Image
@@ -2113,7 +2092,6 @@ SIMI-4	Pictures	Picture
 REL-3	presidential elections	's interim president
 EQUI-5	Egypt	Egypt
 REL-2	before parliamentary polls	new Cabinet
-OPPO-5	new election law	new electon law
 EQUI-5	approve	approves
 SIMI-3	Afghan legislators	Afghan president
 SIMI-3	Buried	state funeral

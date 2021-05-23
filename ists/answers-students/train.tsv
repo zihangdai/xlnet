@@ -751,7 +751,6 @@ EQUI-5	the closed path	in a closed path
 SIMI-4	existed	is contained
 EQUI-5	still	still
 EQUI-5	is connected	are connected
-EQUI-4	terminal 4 to the positive batterty terminal	Terminal 4 and the positive terminal
 EQUI-5	if	If
 SPE2-4	the path	in the same path
 EQUI-5	the attery	The battery
@@ -803,7 +802,6 @@ SIMI-4	is contained	must be contained
 SPE1-3	the other bulb	The damaged bulb and the other bulb
 SPE2-4	in a closed path	in the same path
 SPE2-4	A closed path	in the same path
-EQUI-4	the bulb	the bulb
 SIMI-2	enables to be on.	affects
 EQUI-5	is	is contained
 EQUI-5	the battery	the battery
