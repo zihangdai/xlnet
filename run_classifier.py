@@ -594,7 +594,7 @@ def get_model_fn(n_class):
             'eval_loss': loss,
             'eval_precision': precision,
             'eval_recall': recall,
-            'eval_f1': f1}
+            'eval_f1': (f1, 0)}
 
       def regression_metric_fn(
           per_example_loss, label_ids, logits, is_real_example):
