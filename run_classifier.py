@@ -584,11 +584,17 @@ def get_model_fn(n_class):
             'weights': is_real_example
         }
         accuracy = tf.metrics.accuracy(**eval_input_dict)
+        precision = tf.metrics.precision(**eval_input_dict)
+        recall = tf.metrics.precision(**eval_input_dict)
+        f1 = tf.contrib.metrics.f1_score(**eval_input_dict)
 
         loss = tf.metrics.mean(values=per_example_loss, weights=is_real_example)
         return {
             'eval_accuracy': accuracy,
-            'eval_loss': loss}
+            'eval_loss': loss,
+            'eval_precision': precision,
+            'eval_recall': recall,
+            'eval_f1': f1}
 
       def regression_metric_fn(
           per_example_loss, label_ids, logits, is_real_example):
@@ -833,7 +839,7 @@ def main(_):
         log_str += "{} {} | ".format(key, val)
       tf.logging.info(log_str)
 
-    key_name = "eval_pearsonr" if FLAGS.is_regression else "eval_accuracy"
+    key_name = "eval_pearsonr" if FLAGS.is_regression else "eval_f1"
     eval_results.sort(key=lambda x: x[key_name], reverse=True)
 
     tf.logging.info("=" * 80)
