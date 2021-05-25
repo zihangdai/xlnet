@@ -397,6 +397,8 @@ class IStsProcessor(GLUEProcessor):
         self.label_column = 0
         self.text_a_column = 1
         self.text_b_column = 2
+        self.contains_header = False
+        self.test_contains_header = False
 
     def get_labels(self):
         return ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-3", "OPPO-4",
@@ -435,38 +437,6 @@ class IStsProcessor(GLUEProcessor):
         print(set_type)
         print("*" * 100)
         return examples
-
-    def get_train_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, self.train_file)), "train")
-
-    def get_dev_examples(self, data_dir):
-        """See base class."""
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, self.dev_file)), "dev")
-
-    def get_test_examples(self, data_dir):
-        """See base class."""
-        if self.test_text_a_column is None:
-            self.test_text_a_column = self.text_a_column
-        if self.test_text_b_column is None:
-            self.test_text_b_column = self.text_b_column
-
-        return self._create_examples(
-            self._read_tsv(os.path.join(data_dir, self.test_file)), "test")
-
-    @classmethod
-    def _read_tsv(cls, input_file, quotechar=None):
-        """Reads a tab separated value file."""
-        with tf.gfile.Open(input_file, "r") as f:
-            reader = csv.reader(f, delimiter="\t", quotechar=quotechar)
-            lines = []
-            for line in reader:
-                lines.append(line)
-            return lines
-
-
 
 
 def file_based_convert_examples_to_features(
