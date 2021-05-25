@@ -432,10 +432,6 @@ class IStsProcessor(GLUEProcessor):
             examples.append(
                 InputExample(guid=guid, text_a=text_a, text_b=text_b, label=label))
 
-        print("*" * 100)
-        print(len(examples))
-        print(set_type)
-        print("*" * 100)
         return examples
 
 

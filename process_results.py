@@ -1,5 +1,6 @@
 import csv
 import os
+from sklearn.metrics import f1_score, recall_score, precision_score
 
 def process_results(predictions, real, dataset_name):
 
@@ -12,12 +13,12 @@ def process_results(predictions, real, dataset_name):
     real_classes = get_classes_from_real(real_file)
     predicted_classes = get_classes_from_predicted(predictions_file)
 
+
     assert len(predicted_classes) == len(real_classes) , "Prediction file size {} is not equal real file size {}"\
        .format(len(predicted_classes), len(real_classes))
 
-    true_positive, predicted, real = get_true_predicted_real(real_classes, predicted_classes)
-    metrics = calculate_metrics(true_positive, predicted, real)
-    print(metrics)
+    metrics = calculate_metrics(real_classes, predicted_classes)
+
     save_metrics(metrics, dataset_name)
 
 def get_classes_from_real(file):
@@ -38,53 +39,40 @@ def get_classes_from_predicted(file):
 
     return predicted_classes
 
-def get_true_predicted_real(real_classes, predicted_classes):
-    true_positive = [0] * len(set(real_classes))
-    predicted = [0] * len(set(real_classes))
-    real = [0] * len(set(real_classes))
+def calculate_metrics(real_classes, predicted_classes):
+    precision_micro = precision_score(real_classes, predicted_classes, average='micro')
+    precision_macro = precision_score(real_classes, predicted_classes, average='macro')
+    precision_weighted = precision_score(real_classes, predicted_classes, average='weighted')
 
-    idx = 0
+    recall_micro = recall_score(real_classes, predicted_classes, average='micro')
+    recall_macro = recall_score(real_classes, predicted_classes, average='macro')
+    recall_weighted = recall_score(real_classes, predicted_classes, average='weighted')
 
-    for i in set(real_classes):
-        for j in range(len(predicted_classes) - 1):
-            if real_classes[j] == i and predicted_classes[j] == i:
-                true_positive[idx] = true_positive[idx] + 1
-            if real_classes[j] == i:
-                real[idx] = real[idx] + 1
-            if predicted_classes[j] == i:
-                predicted[idx] = predicted[idx] + 1
+    f1_micro = f1_score(real_classes, predicted_classes, average='micro')
+    f1_macro = f1_score(real_classes, predicted_classes, average='macro')
+    f1_weighted = f1_score(real_classes, predicted_classes, average='weighted')
 
-        idx += 1
+    metrics = {
+        "precision_micro": round(precision_micro, 5),
+        "precision_macro": round(precision_macro, 5),
+        "precision_weighted": round(precision_weighted, 5),
 
-    return true_positive, predicted, real
+        "recall_micro": round(recall_micro, 5),
+        "recall_macro": round(recall_macro, 5),
+        "recall_weighted": round(recall_weighted, 5),
 
-def calculate_metrics(true_positive, predicted, real):
-    precision = [0] * len(real)
-    recall = [0] * len(real)
-    f1_score = [0] * len(real)
+        "f1_micro": round(f1_micro, 5),
+        "f1_macro": round(f1_macro, 5),
+        "f1_weighted": round(f1_weighted, 5)
+    }
 
-    for i in range(len(real) - 1):
-        precision[i] = 0 if predicted[i] == 0 else true_positive[i] / predicted[i]
-        recall[i] = 0 if real[i] == 0 else true_positive[i] / real[i]
-        f1_score[i] = 0 if precision[i] == 0 and recall[i] == 0 else 2 * (precision[i] * recall[i]) / (precision[i] + recall[i])
-
-    precision_avg = 0
-    recall_avg = 0
-    f1_score_avg = 0
-
-    for i in range(len(real) - 1):
-        precision_avg += precision[i] / len(real)
-        recall_avg += recall[i] / len(real)
-        f1_score_avg = f1_score_avg + f1_score[i] / len(real)
-
-    return {"precision": precision_avg,
-            "recall": recall_avg,
-            "f1_score": f1_score_avg}
+    return metrics
 
 def save_metrics(metrics, dataset_name):
-    with open(dataset_name, 'w', newline='') as myfile:
+    with open(dataset_name + '.tsv', 'w', newline='') as myfile:
         wr = csv.DictWriter(myfile, delimiter='\t', lineterminator='\n', fieldnames=metrics.keys())
         wr.writeheader()
         wr.writerow(metrics)
 
-process_results("ists/headlines/test.tsv", "pred/ists/headlines/ists.tsv", "headlines")
+
+process_results("ists/images/test.tsv", "pred/ists/images-8000/ists.tsv", "images")
