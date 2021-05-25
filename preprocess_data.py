@@ -1,5 +1,6 @@
 import re
 import csv
+import os
 
 RESULTS = ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-3", "OPPO-4",
                 "SPE1-1", "SPE1-2", "SPE1-3", "SPE1-4",
@@ -8,6 +9,9 @@ RESULTS = ["EQUI-5", "OPPO-1", "OPPO-2", "OPPO-3", "OPPO-4",
                 "REL-1", "REL-2", "REL-3", "REL-4",
                 "NOALI-0", "ALIC-0"]
 def preprocess_data(input, output):
+
+    assert os.path.exists(input), "Input file: {} does not exists".format(input)
+
     file = open(input, 'r+')
     data = file.read()
     results = []
