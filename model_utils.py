@@ -291,6 +291,27 @@ def get_assignment_map_from_checkpoint(tvars, init_checkpoint):
 
   return (assignment_map, initialized_variable_names)
 
+def extract_global_step(filename):
+  """Extract global step from checkpoint name"""
+  return (int(filename.split("-")[-1]))
+
+def get_checkpoints(model_dir):
+  """Filter out all checkpoints in the directory and return list [global_step, file_path]."""
+  steps_and_files = []
+  filenames = tf.gfile.ListDirectory(model_dir)
+
+  for filename in filenames:
+    if filename.endswith(".index"):
+      ckpt_name = filename[:-6]
+      cur_filename = join(model_dir, ckpt_name)
+      global_step = extract_global_step(cur_filename)
+      tf.logging.info("Add {} to eval/pred list.".format(cur_filename))
+      steps_and_files.append([global_step, cur_filename])
+
+  steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
+
+  return steps_and_files
+
 
 class AdamWeightDecayOptimizer(tf.train.Optimizer):
   """A basic Adam optimizer that includes "correct" L2 weight decay."""

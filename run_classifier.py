@@ -120,6 +120,8 @@ flags.DEFINE_string("predict_dir", default=None,
       help="Dir for saving prediction files.")
 flags.DEFINE_bool("eval_all_ckpt", default=False,
       help="Eval all ckpts. If False, only evaluate the last one.")
+flags.DEFINE_bool("pred_all_ckpt", default=False,
+      help="Pred all ckpts. If False, only predict the last one (unless predict_ckpt is set).")
 flags.DEFINE_string("predict_ckpt", default=None,
       help="Ckpt path for do_predict. If None, use the last one.")
 
@@ -797,17 +799,7 @@ def main(_):
         drop_remainder=True)
 
     # Filter out all checkpoints in the directory
-    steps_and_files = []
-    filenames = tf.gfile.ListDirectory(FLAGS.model_dir)
-
-    for filename in filenames:
-      if filename.endswith(".index"):
-        ckpt_name = filename[:-6]
-        cur_filename = join(FLAGS.model_dir, ckpt_name)
-        global_step = int(cur_filename.split("-")[-1])
-        tf.logging.info("Add {} to eval list.".format(cur_filename))
-        steps_and_files.append([global_step, cur_filename])
-    steps_and_files = sorted(steps_and_files, key=lambda x: x[0])
+    steps_and_files = model_utils.get_checkpoints(FLAGS.model_dir)
 
     # Decide whether to evaluate all ckpts
     if not FLAGS.eval_all_ckpt:
@@ -854,43 +846,59 @@ def main(_):
         seq_length=FLAGS.max_seq_length,
         is_training=False,
         drop_remainder=False)
+    
+    
+    steps_and_files = []
+    if not FLAGS.predict_ckpt:
+      steps_and_files = steps_and_files[-1:]
 
-    predict_results = []
-    with tf.gfile.Open(os.path.join(predict_dir, "{}.tsv".format(
-        task_name)), "w") as fout:
-      fout.write("index\tprediction\n")
+      # Filter out all checkpoints in the directory
+      steps_and_files = model_utils.get_checkpoints(FLAGS.model_dir)
 
-      for pred_cnt, result in enumerate(estimator.predict(
-          input_fn=pred_input_fn,
-          yield_single_examples=True,
-          checkpoint_path=FLAGS.predict_ckpt)):
-        if pred_cnt % 1000 == 0:
-          tf.logging.info("Predicting submission for example: {}".format(
-              pred_cnt))
+      # Decide whether to predict all ckpts
+      if not FLAGS.pred_all_ckpt:
+        steps_and_files = steps_and_files[-1:]
+    else:
+      steps_and_files = [model_utils.extract_global_step(FLAGS.predict_ckpt), FLAGS.predict_ckpt]
 
-        logits = [float(x) for x in result["logits"].flat]
-        predict_results.append(logits)
+    for global_step, filename in sorted(steps_and_files, key=lambda x: x[0]):
+      predict_results = []
 
-        if len(logits) == 1:
-          label_out = logits[0]
-        elif len(logits) == 2:
-          if logits[1] - logits[0] > FLAGS.predict_threshold:
-            label_out = label_list[1]
+      with tf.gfile.Open(os.path.join(predict_dir, "{}.tsv".format(
+          task_name + "-" + global_step)), "w") as fout:
+        fout.write("index\tprediction\n")
+
+        for pred_cnt, result in enumerate(estimator.predict(
+            input_fn=pred_input_fn,
+            yield_single_examples=True,
+            checkpoint_path=filename)):
+          if pred_cnt % 1000 == 0:
+            tf.logging.info("Predicting submission for example: {}".format(
+                pred_cnt))
+
+          logits = [float(x) for x in result["logits"].flat]
+          predict_results.append(logits)
+
+          if len(logits) == 1:
+            label_out = logits[0]
+          elif len(logits) == 2:
+            if logits[1] - logits[0] > FLAGS.predict_threshold:
+              label_out = label_list[1]
+            else:
+              label_out = label_list[0]
+          elif len(logits) > 2:
+            max_index = np.argmax(np.array(logits, dtype=np.float32))
+            label_out = label_list[max_index]
           else:
-            label_out = label_list[0]
-        elif len(logits) > 2:
-          max_index = np.argmax(np.array(logits, dtype=np.float32))
-          label_out = label_list[max_index]
-        else:
-          raise NotImplementedError
+            raise NotImplementedError
 
-        fout.write("{}\t{}\n".format(pred_cnt, label_out))
+          fout.write("{}\t{}\n".format(pred_cnt, label_out))
 
-    predict_json_path = os.path.join(predict_dir, "{}.logits.json".format(
-        task_name))
+      predict_json_path = os.path.join(predict_dir, "{}.logits.json".format(
+          task_name + "-" + global_step))
 
-    with tf.gfile.Open(predict_json_path, "w") as fp:
-      json.dump(predict_results, fp, indent=4)
+      with tf.gfile.Open(predict_json_path, "w") as fp:
+        json.dump(predict_results, fp, indent=4)
 
 
 if __name__ == "__main__":
