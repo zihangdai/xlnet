@@ -865,7 +865,7 @@ def main(_):
       predict_results = []
 
       with tf.gfile.Open(os.path.join(predict_dir, "{}.tsv".format(
-          task_name + "-" + global_step)), "w") as fout:
+          task_name + "-" + str(global_step))), "w") as fout:
         fout.write("index\tprediction\n")
 
         for pred_cnt, result in enumerate(estimator.predict(
@@ -895,7 +895,7 @@ def main(_):
           fout.write("{}\t{}\n".format(pred_cnt, label_out))
 
       predict_json_path = os.path.join(predict_dir, "{}.logits.json".format(
-          task_name + "-" + global_step))
+          task_name + "-" + str(global_step)))
 
       with tf.gfile.Open(predict_json_path, "w") as fp:
         json.dump(predict_results, fp, indent=4)
