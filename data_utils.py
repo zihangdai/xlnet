@@ -569,7 +569,7 @@ def parse_files_to_dataset(parser, file_names, split, num_batch, num_hosts,
   # the same input at each time will be different. Thus, cache processed data
   # is not helpful. It will use a lot of memory and lead to contrainer OOM.
   # So, change to cache non-parsed raw data instead.
-  dataset = dataset.cache().map(parser).repeat()
+  dataset = dataset.cache().map(parser,num_parallel_calls=tf.data.experimental.AUTOTUNE).repeat()
   dataset = dataset.batch(bsz_per_core, drop_remainder=True)
   dataset = dataset.prefetch(num_core_per_host * bsz_per_core)
 
