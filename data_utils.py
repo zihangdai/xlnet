@@ -792,14 +792,14 @@ def get_input_fn(
   record_info = {"num_batch": 0, "filenames": []}
 
   tfrecord_dirs = tfrecord_dir.split(",")
-  tf.logging.info("Use the following tfrecord dirs: %s", tfrecord_dirs)
+  tf.compat.v1.logging.info("Use the following tfrecord dirs: %s", tfrecord_dirs)
 
   for idx, record_dir in enumerate(tfrecord_dirs):
     record_glob = os.path.join(record_dir, record_glob_base)
-    tf.logging.info("[%d] Record glob: %s", idx, record_glob)
+    tf.compat.v1.logging.info("[%d] Record glob: %s", idx, record_glob)
 
     record_paths = sorted(tf.gfile.Glob(record_glob))
-    tf.logging.info("[%d] Num of record info path: %d",
+    tf.compat.v1.logging.info("[%d] Num of record info path: %d",
                     idx, len(record_paths))
 
     cur_record_info = {"num_batch": 0, "filenames": []}
@@ -810,7 +810,7 @@ def get_input_fn(
         fields = record_info_name.split(".")[0].split("-")
         pass_id = int(fields[-1])
         if len(fields) == 5 and pass_id >= num_passes:
-          tf.logging.info("Skip pass %d: %s", pass_id, record_info_name)
+          tf.compat.v1.logging.info("Skip pass %d: %s", pass_id, record_info_name)
           continue
 
       with tf.gfile.Open(record_info_path, "r") as fp:
@@ -832,21 +832,21 @@ def get_input_fn(
       new_filenames.append(new_filename)
     cur_record_info["filenames"] = new_filenames
 
-    tf.logging.info("[Dir %d] Number of chosen batches: %s",
+    tf.compat.v1.logging.info("[Dir %d] Number of chosen batches: %s",
                     idx, cur_record_info["num_batch"])
-    tf.logging.info("[Dir %d] Number of chosen files: %s",
+    tf.compat.v1.logging.info("[Dir %d] Number of chosen files: %s",
                     idx, len(cur_record_info["filenames"]))
-    tf.logging.info(cur_record_info["filenames"])
+    tf.compat.v1.logging.info(cur_record_info["filenames"])
 
     # add `cur_record_info` to global `record_info`
     record_info["num_batch"] += cur_record_info["num_batch"]
     record_info["filenames"] += cur_record_info["filenames"]
 
-  tf.logging.info("Total number of batches: %d",
+  tf.compat.v1.logging.info("Total number of batches: %d",
                   record_info["num_batch"])
-  tf.logging.info("Total number of files: %d",
+  tf.compat.v1.logging.info("Total number of files: %d",
                   len(record_info["filenames"]))
-  tf.logging.info(record_info["filenames"])
+  tf.compat.v1.logging.info(record_info["filenames"])
 
   def input_fn(params):
     """docs."""
